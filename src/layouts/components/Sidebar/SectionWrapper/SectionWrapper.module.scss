@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 16px 0;
+  position: relative;
+}
+@media screen and (max-width: 1071px) {
+  .wrapper {
+    padding: 8px 0px;
+  }
+}

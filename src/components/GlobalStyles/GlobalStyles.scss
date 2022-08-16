@@ -1,0 +1,131 @@
+@import 'normalize.css';
+
+:root {
+  --primary-color: rgba(254, 44, 85, 1);
+  --black-color: #000;
+  --white-color: #fff;
+  --text-color: #161823;
+
+  --font-family: 'ProximaNova', 'Arial', sans-serif;
+  --font-family-secondary: 'Sofiapro', 'Arial', sans-serif;
+
+  // Default Layout
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1150px;
+  --sidebar-width: 356px;
+  --homepage-width: 692px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  overflow-y: overlay;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+// Fonts Ember
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/Proxima-Nova-Semibold.woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/Proxima-Nova-Bold.woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: Sofiapro;
+  src: url('/assets/fonts/sofiapro-bold.woff2');
+  font-weight: 700;
+}
+
+// Tippy override
+body {
+  .tippy-box {
+    background-color: rgba(84, 84, 84, 0.92);
+  }
+  .tippy-arrow {
+    color: rgba(84, 84, 84, 0.92);
+  }
+}
+
+// Responsive
+
+@media screen and (max-width: 1071px) {
+  :root {
+    --sidebar-width: 72px;
+  }
+  .response-hidden {
+    display: none;
+  }
+
+  .response-show {
+    display: block;
+  }
+
+  .response-center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #sidebar .tippy-box {
+    border-radius: 8px;
+    background-color: rgb(75, 75, 75);
+  }
+  #sidebar .tippy-arrow {
+    display: none;
+  }
+  #sidebar .tippy-content {
+    height: 44px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+  }
+}

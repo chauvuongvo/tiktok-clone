@@ -1,0 +1,94 @@
+.container {
+  padding-top: 52px;
+  // padding-left: 10px;
+}
+.wrapper {
+  width: 320px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.avatar-link {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.btn {
+  --btn-height: 34px;
+  --min-width: 106px;
+  font-weight: 600;
+}
+
+.title {
+  display: inline-block;
+}
+
+.nickname {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: var(--font-family-secondary);
+}
+
+.icon-check {
+  color: rgb(32, 213, 236);
+  width: 14px;
+  margin-left: 8px;
+}
+
+.full-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.status {
+  margin-top: 8px;
+}
+
+.like-count,
+.follower-count {
+  margin-right: 6px;
+  font-weight: 700;
+}
+
+.follower {
+  margin-right: 12px;
+}
+
+.like .follower {
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 1.7rem;
+  line-height: 20px;
+}
+
+.show-popper {
+  &:hover {
+    background-color: var(--white-color);
+  }
+}
+
+.signature {
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+
+@media screen and (max-width: 1071px) {
+  .response-container {
+    padding-left: 20px;
+  }
+}

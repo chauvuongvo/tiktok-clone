@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 16px 8px;
+}
+
+.link,
+.copyright {
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  color: rgba(22, 24, 35, 0.5);
+}
+
+// Render List
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  & + .container {
+    margin-top: 8px;
+  }
+}
+
+.link {
+  margin-top: 5px;
+
+  &:visited {
+    color: var(--text-color);
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,61 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  height: 48px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: ease-in-out 200ms;
+
+  &:hover {
+    color: var(--primary-color);
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+  &:active {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+
+  &.active {
+    color: var(--primary-color);
+
+    .icon-active {
+      display: flex;
+    }
+    .icon-normal {
+      display: none;
+    }
+  }
+}
+
+.icon-active {
+  display: none;
+}
+.icon-normal {
+  display: flex;
+}
+
+.title {
+  margin-left: 8px;
+}
+
+.tooltip {
+  display: none;
+}
+
+@media screen and (max-width: 1071px) {
+  .tooltip {
+    display: block;
+  }
+  .tooltip .tippy-arrow {
+    display: none;
+  }
+}

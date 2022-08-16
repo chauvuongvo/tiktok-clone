@@ -1,0 +1,59 @@
+.wrapper {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+  padding-right: 8px;
+}
+
+.list-action {
+  max-height: 448px;
+  width: 280px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+.arrow-action {
+  height: 24px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.arrow-popper {
+  position: absolute;
+  left: 36px;
+  bottom: -8px;
+  width: 24px;
+  height: 8px;
+  display: block;
+  transform: rotate(180deg);
+}
+
+// Action item component
+.share-link {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 16px;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.title {
+  margin-left: 12px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

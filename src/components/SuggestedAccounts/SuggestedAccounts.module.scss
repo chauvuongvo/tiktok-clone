@@ -1,0 +1,36 @@
+.item {
+  height: 48px;
+  border-radius: 4px;
+  padding: 8px;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+  p {
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 400;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.title {
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding: 0 8px;
+}
+
+.see-btn {
+  color: var(--primary-color);
+  padding: 0 8px;
+  margin-top: 8px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
