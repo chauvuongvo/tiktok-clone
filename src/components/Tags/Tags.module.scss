@@ -1,7 +1,5 @@
 .wrapper {
-  display: flex;
-  align-items: center;
-  height: 24px;
+  line-height: 2.4rem;
   margin-left: 8px;
 
   &:hover {
@@ -12,6 +10,7 @@
 .title {
   font-weight: 600;
   font-size: 1.6rem;
+  display: inline;
 }
 
 .outline {

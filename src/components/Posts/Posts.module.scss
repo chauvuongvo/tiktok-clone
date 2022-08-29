@@ -25,15 +25,14 @@
   //   -ms-flex: 0 0 auto;
   //   flex: 0 0 auto;
 
-  .image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-  }
-
   &:hover ~ .content .author-uniqueId {
     text-decoration: underline;
   }
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .content {
@@ -45,19 +44,13 @@
 }
 
 // Info Component
-// @media (max-width: 1070px) {
-//   .info-container {
-//     width: 410px;
-//   }
-// }
 .info-container {
   margin-right: 114px;
 }
 
 .author {
-  display: inline-flex;
-  height: 30px;
-  align-items: baseline;
+  display: flex;
+  align-items: center;
   font-size: 1.4rem;
 
   &:hover .author-uniqueId {
@@ -65,11 +58,21 @@
   }
 }
 
+.image-responsive {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
 .author-uniqueId {
   font-family: var(--font-family-secondary);
   font-size: 1.8rem;
   font-weight: 700;
   margin-right: 4px;
+  line-height: 2.5rem;
+  display: inline-block;
 }
 
 .tick-icon {
@@ -79,13 +82,15 @@
 .author-nickname {
   font-size: 1.4rem;
   font-weight: 400;
+  display: inline-block;
 }
 
 .dot {
-  margin: 0 4px;
 }
 
 .posted-day {
+  font-size: 1.4rem;
+  color: inherit;
 }
 
 .btn {
@@ -110,6 +115,14 @@
 
   .tag-music {
     margin-left: 0;
+
+    svg {
+      transform: translateY(4px);
+    }
+
+    p {
+      margin-left: 2px;
+    }
   }
 }
 
@@ -330,4 +343,52 @@
   color: rgba(22, 24, 35, 0.75);
   font-size: 1.2rem;
   line-height: 1.7rem;
+}
+
+// Responsive
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: calc(100vw - 32px - 68px);
+  }
+  .author-uniqueId {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .author-nickname {
+    display: block;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .avatar {
+    display: none;
+  }
+
+  .author {
+    margin-bottom: 12px;
+  }
+
+  .info-responsive,
+  .video-desc {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .content {
+    margin-left: 0;
+    width: 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .image-responsive {
+    display: block;
+  }
 }

@@ -67,7 +67,7 @@ function Search() {
   };
 
   return (
-    <div>
+    <div className={cx('response-hidden')}>
       <HeadlessTippy
         interactive
         visible={showResult && searchResult.length > 0}
