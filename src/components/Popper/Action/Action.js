@@ -146,7 +146,11 @@ function Action({
                 </div>
               )}
             </div>
-            <ArrowPopperIcon className={cx('arrow-popper')} />
+
+            {/* Wrap SVG Icon with div append to document Tippy */}
+            <div data-popper-arrow="">
+              <ArrowPopperIcon className={cx('arrow-popper')} />
+            </div>
           </PopperWrapper>
         </div>
       )}

@@ -24,14 +24,16 @@ function Action({ data: { likeCount, commentCount, shareCount }, className }) {
         <strong className={cx('action-text')}>{commentCount}</strong>
       </button>
 
-      <ActionPopper>
-        <button className={cx('action-btn')}>
-          <span className={cx('action-icon')}>
-            <ShareIcon />
-          </span>
-          <strong className={cx('action-text')}>{shareCount}</strong>
-        </button>
-      </ActionPopper>
+      <button className={cx('action-btn')}>
+        <ActionPopper>
+          <div>
+            <span className={cx('action-icon')}>
+              <ShareIcon />
+            </span>
+            <strong className={cx('action-text')}>{shareCount}</strong>
+          </div>
+        </ActionPopper>
+      </button>
     </div>
   );
 }
