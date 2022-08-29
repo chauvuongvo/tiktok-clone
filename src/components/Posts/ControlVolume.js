@@ -5,11 +5,26 @@ import styles from './Posts.module.scss';
 const cx = classNames.bind(styles);
 
 function ControlVolume({ data: { state, DOM, setMuted }, className }) {
-  const [scaleVolume, setScaleVolume] = useState(0);
+  const [scaleVolume, setScaleVolume] = useState(DOM.VIDEO.volume);
+  const [scaleCircle, setScaleCircle] = useState(0);
 
   const volumeControlRef = useRef('volume-control');
   const volumeProgressRef = useRef('volume-progress');
   const volumeCircleRef = useRef('volume-circle');
+
+  useEffect(() => {
+    const boundingVolumeProgress =
+      volumeProgressRef.current.getBoundingClientRect();
+
+    volumeControlRef.heightProgress = boundingVolumeProgress.height;
+    volumeControlRef.volumeY = boundingVolumeProgress.y;
+    volumeControlRef.heightCircle =
+      volumeCircleRef.current.getBoundingClientRect().height;
+
+    const { heightProgress, heightCircle } = volumeControlRef;
+    setScaleCircle(scaleVolume * (heightProgress - heightCircle));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     const handleSound = (e) => {
@@ -26,16 +41,6 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
     return () => DOM.SOUND.removeEventListener('click', handleSound);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state.muted]);
-
-  useEffect(() => {
-    const boundingVolumeProgress =
-      volumeProgressRef.current.getBoundingClientRect();
-
-    volumeControlRef.heightProgress = boundingVolumeProgress.height;
-    volumeControlRef.volumeY = boundingVolumeProgress.y;
-    volumeControlRef.heightCircle =
-      volumeCircleRef.current.getBoundingClientRect().height;
-  }, []);
 
   useEffect(() => {
     const DOM_VOLUME_CIRCLE = volumeCircleRef.current;
@@ -65,7 +70,7 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const updateScale = (e, vol) => {
+  function updateScale(e, vol) {
     const { heightProgress, volumeY, heightCircle } = volumeControlRef;
     let scale;
 
@@ -84,11 +89,10 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
       setMuted(true);
     } else setMuted(false);
 
-    volumeControlRef.scaleCircle = scale * (heightProgress - heightCircle);
     DOM.VIDEO.volume = scale;
-
+    setScaleCircle(scale * (heightProgress - heightCircle));
     setScaleVolume(scale);
-  };
+  }
 
   return (
     <div
@@ -100,7 +104,7 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
       <div
         ref={volumeCircleRef}
         style={{
-          transform: `translateY(-${volumeControlRef.scaleCircle}px)`,
+          transform: `translateY(-${scaleCircle}px)`,
         }}
         className={cx('volume-circle')}
       ></div>

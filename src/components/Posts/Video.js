@@ -14,16 +14,18 @@ function Video({ data, className }) {
   const [hideVoiceControl, setHideVoiceControl] = useState(false);
 
   const videoRef = useRef('video');
-  const voiceContainerRef = useRef('voice-container');
   const soundRef = useRef('sound-video');
 
   const videoSrc = data.src;
-
   const dataTransfer = {
     state: { muted },
     DOM: { VIDEO: videoRef.current, SOUND: soundRef.current },
     setMuted,
   };
+
+  useEffect(() => {
+    videoRef.current.volume = 0;
+  }, []);
 
   const handlePlay = () => {
     if (play) videoRef.current.pause();
@@ -31,23 +33,23 @@ function Video({ data, className }) {
     setPlay(!play);
   };
 
-  useEffect(() => {
-    const DOM_VOICE_CONTAINER = voiceContainerRef.current;
-    const handleMouseOver = () => {
-      setHideVoiceControl(true);
-    };
-    const handleMouseOut = () => {
-      setHideVoiceControl(false);
-    };
+  // useEffect(() => {
+  //   const DOM_VOICE_CONTAINER = voiceContainerRef.current;
+  //   const handleMouseOver = () => {
+  //     setHideVoiceControl(true);
+  //   };
+  //   const handleMouseOut = () => {
+  //     setHideVoiceControl(false);
+  //   };
 
-    DOM_VOICE_CONTAINER.addEventListener('mouseleave', handleMouseOut);
-    DOM_VOICE_CONTAINER.addEventListener('mouseenter', handleMouseOver);
+  //   DOM_VOICE_CONTAINER.addEventListener('mouseleave', handleMouseOut);
+  //   DOM_VOICE_CONTAINER.addEventListener('mouseenter', handleMouseOver);
 
-    return () => {
-      DOM_VOICE_CONTAINER.removeEventListener('mouseleave', handleMouseOut);
-      DOM_VOICE_CONTAINER.removeEventListener('mouseenter', handleMouseOver);
-    };
-  }, []);
+  //   return () => {
+  //     DOM_VOICE_CONTAINER.removeEventListener('mouseleave', handleMouseOut);
+  //     DOM_VOICE_CONTAINER.removeEventListener('mouseenter', handleMouseOver);
+  //   };
+  // }, []);
 
   return (
     <div className={cx('video-container', className)}>
@@ -57,7 +59,7 @@ function Video({ data, className }) {
           className={cx('video-basic')}
           src={videoSrc}
           type="video/mp4"
-          // autoPlay
+          autoPlay
           playsInline
           loop
           muted={muted}
@@ -67,7 +69,11 @@ function Video({ data, className }) {
         {play ? <PauseIcon /> : <PlayIcon />}
       </div>
 
-      <div className={cx('voice-container')} ref={voiceContainerRef}>
+      <div
+        className={cx('voice-container')}
+        onMouseEnter={() => setHideVoiceControl(true)}
+        onMouseLeave={() => setHideVoiceControl(false)}
+      >
         {hideVoiceControl && <ControlVolume data={dataTransfer} />}
         <div
           ref={soundRef}
