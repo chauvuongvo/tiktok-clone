@@ -56,6 +56,7 @@ function Video({ data, className }) {
     }, 1000);
   }, []);
 
+  // Handle play video when scroll video on viewport 60%
   const isVisible = useElementOnScreen(
     {
       root: null,
