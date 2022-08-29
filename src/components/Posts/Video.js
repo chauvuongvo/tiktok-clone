@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { useState, useEffect, useRef } from 'react';
 import classNames from 'classnames/bind';
 
+import { useElementOnScreen } from '~/hooks';
 import styles from './Posts.module.scss';
 import ControlVolume from './ControlVolume';
 import { FlagIcon, MuteIcon, PauseIcon, PlayIcon, SoundIcon } from '../Icons';
@@ -55,6 +56,24 @@ function Video({ data, className }) {
     }, 1000);
   }, []);
 
+  const isVisible = useElementOnScreen(
+    {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.6,
+    },
+    videoRef,
+  );
+  useEffect(() => {
+    if (isVisible) {
+      videoRef.current.play();
+      setPlay(true);
+    } else {
+      videoRef.current.pause();
+      setPlay(false);
+    }
+  }, [isVisible]);
+
   return (
     <div ref={feedVideoRef} className={cx('feed-video')}>
       <canvas {...canvasSize} className={cx('video-card')} />
@@ -66,8 +85,6 @@ function Video({ data, className }) {
             className={cx('video-basic')}
             src={videoSrc}
             type="video/mp4"
-            autoPlay
-            playsInline
             loop
             muted={muted}
           ></video>
