@@ -53,7 +53,7 @@ function Video({ data, className }) {
     {
       root: null,
       rootMargin: '0px',
-      threshold: 0.6,
+      threshold: 0.75,
     },
     videoRef,
   );
