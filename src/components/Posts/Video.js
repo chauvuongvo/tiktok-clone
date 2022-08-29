@@ -11,10 +11,15 @@ const cx = classNames.bind(styles);
 function Video({ data, className }) {
   const [play, setPlay] = useState(true);
   const [muted, setMuted] = useState(true);
+  const [canvasSize, setCanvasSize] = useState({
+    width: '56.25',
+    height: '100',
+  });
   const [hideVoiceControl, setHideVoiceControl] = useState(false);
 
-  const videoRef = useRef('video');
-  const soundRef = useRef('sound-video');
+  const videoRef = useRef();
+  const feedVideoRef = useRef();
+  const soundRef = useRef();
 
   const videoSrc = data.src;
   const dataTransfer = {
@@ -33,60 +38,64 @@ function Video({ data, className }) {
     setPlay(!play);
   };
 
-  // useEffect(() => {
-  //   const DOM_VOICE_CONTAINER = voiceContainerRef.current;
-  //   const handleMouseOver = () => {
-  //     setHideVoiceControl(true);
-  //   };
-  //   const handleMouseOut = () => {
-  //     setHideVoiceControl(false);
-  //   };
+  useEffect(() => {
+    setTimeout(() => {
+      const width = videoRef.current.videoWidth;
+      const height = videoRef.current.videoHeight;
 
-  //   DOM_VOICE_CONTAINER.addEventListener('mouseleave', handleMouseOut);
-  //   DOM_VOICE_CONTAINER.addEventListener('mouseenter', handleMouseOver);
+      if (width !== 0 && height !== 0) {
+        if (width > height) {
+          feedVideoRef.current.classList.add(cx('horizontal'));
+          videoRef.current.classList.add(cx('horizontal'));
+          console.log('horizontal');
+        }
 
-  //   return () => {
-  //     DOM_VOICE_CONTAINER.removeEventListener('mouseleave', handleMouseOut);
-  //     DOM_VOICE_CONTAINER.removeEventListener('mouseenter', handleMouseOver);
-  //   };
-  // }, []);
+        setCanvasSize({ width: `${(width * 100) / height}%`, height: '100%' });
+      }
+    }, 1000);
+  }, []);
 
   return (
-    <div className={cx('video-container', className)}>
-      <div className={cx('video-player')}>
-        <video
-          ref={videoRef}
-          className={cx('video-basic')}
-          src={videoSrc}
-          type="video/mp4"
-          autoPlay
-          playsInline
-          loop
-          muted={muted}
-        ></video>
-      </div>
-      <div className={cx('play-pause')} onClick={handlePlay}>
-        {play ? <PauseIcon /> : <PlayIcon />}
-      </div>
+    <div ref={feedVideoRef} className={cx('feed-video')}>
+      <canvas {...canvasSize} className={cx('video-card')} />
 
-      <div
-        className={cx('voice-container')}
-        onMouseEnter={() => setHideVoiceControl(true)}
-        onMouseLeave={() => setHideVoiceControl(false)}
-      >
-        {hideVoiceControl && <ControlVolume data={dataTransfer} />}
-        <div
-          ref={soundRef}
-          style={muted ? { opacity: 1 } : {}}
-          className={cx('sound-video')}
-        >
-          {muted ? <MuteIcon /> : <SoundIcon />}
+      <div className={cx('video-container', className)}>
+        <div className={cx('video-player')}>
+          <video
+            ref={videoRef}
+            className={cx('video-basic')}
+            src={videoSrc}
+            type="video/mp4"
+            autoPlay
+            playsInline
+            loop
+            muted={muted}
+          ></video>
         </div>
-      </div>
 
-      <div className={cx('report')}>
-        <FlagIcon />
-        <span className={cx('title')}>Report</span>
+        <div className={cx('play-pause')} onClick={handlePlay}>
+          {play ? <PauseIcon /> : <PlayIcon />}
+        </div>
+
+        <div
+          className={cx('voice-container')}
+          onMouseEnter={() => setHideVoiceControl(true)}
+          onMouseLeave={() => setHideVoiceControl(false)}
+        >
+          {hideVoiceControl && <ControlVolume data={dataTransfer} />}
+          <div
+            ref={soundRef}
+            style={muted ? { opacity: 1 } : {}}
+            className={cx('sound-video')}
+          >
+            {muted ? <MuteIcon /> : <SoundIcon />}
+          </div>
+        </div>
+
+        <div className={cx('report')}>
+          <FlagIcon />
+          <span className={cx('title')}>Report</span>
+        </div>
       </div>
     </div>
   );

@@ -210,10 +210,7 @@ function Posts({ data: { video, info, userId, id }, className }) {
         />
 
         <div className={cx('video-wrapper')}>
-          <div className={cx('feed-video')}>
-            <canvas width="56.25" height="100" className={cx('video-card')} />
-            <Video data={video} />
-          </div>
+          <Video data={video} />
 
           <Action
             data={{
