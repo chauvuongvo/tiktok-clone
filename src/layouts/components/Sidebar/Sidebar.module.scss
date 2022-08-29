@@ -1,12 +1,13 @@
 .wrapper {
   width: var(--sidebar-width);
   height: 100vh;
+  flex-shrink: 0;
 }
 
 .content {
   height: 100%;
   width: var(--sidebar-width);
-  padding-top: 20px;
+  padding: 20px 8px 26px;
   overflow-y: overlay;
   position: fixed;
 
@@ -39,6 +40,23 @@
   -moz-transform: scaleY(0.5);
   -ms-transform: scaleY(0.5);
   transform: scaleY(0.5);
+}
+
+// Login Form
+.login-container {
+  padding: 20px 8px 24px 8px;
+  margin: 0;
+}
+
+.login-title {
+  color: rgba(22, 24, 35, 0.5);
+}
+
+.login-btn {
+  font-family: var(--font-family-secondary);
+  font-size: 1.8rem;
+  margin-top: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1071px) {

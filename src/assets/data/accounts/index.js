@@ -321,6 +321,33 @@ export const accountList = [
   },
 ];
 
-const accounts = { followings, recommends, user };
+const followingFullList = followings.getFullAccount();
+
+const fullAccountList = recommends.data.suggestedAccountList.reduce(
+  (result, curr) => {
+    for (const account of followingFullList) {
+      if (curr.cardItem.id === account.user.id) return [...result];
+    }
+    return [...result, curr.cardItem];
+  },
+  [...followingFullList],
+);
+
+const accounts = {
+  followings,
+  recommends,
+  user,
+
+  fullAccountList: {
+    data: fullAccountList,
+    getAccount: function (userId) {
+      const account = this.data.find((item) => {
+        if (item['id']) return item.id === userId;
+        return item.user.id === userId;
+      });
+      return !!account ? account : {};
+    },
+  },
+};
 
 export default accounts;

@@ -57,7 +57,8 @@ function Video({ data, className }) {
           className={cx('video-basic')}
           src={videoSrc}
           type="video/mp4"
-          autoPlay
+          // autoPlay
+          playsInline
           loop
           muted={muted}
         ></video>

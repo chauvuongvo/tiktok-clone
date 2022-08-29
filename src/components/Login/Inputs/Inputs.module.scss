@@ -1,0 +1,167 @@
+.wrapper {
+  margin-bottom: 9px;
+}
+
+.body {
+  background-color: rgba(22, 24, 35, 0.06);
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  transition: all 0.3s ease 0s;
+  border-radius: 4px;
+  height: 46px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  &.body-code {
+    border: none;
+  }
+}
+
+.input-container {
+  flex: 1 1 0%;
+  position: relative;
+}
+
+.error {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 4px 0px;
+  color: rgb(255, 76, 58);
+  display: flex;
+}
+
+.error-styles {
+  color: rgb(255, 76, 58) !important;
+  border: 1px solid rgb(255, 76, 58) !important;
+}
+
+// Select phone input
+.select-phone {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  padding: 12px;
+  height: 100%;
+  cursor: pointer;
+  user-select: none;
+  color: var(--text-color);
+
+  &::after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: rgba(22, 24, 35, 0.12);
+    right: 0px;
+    left: unset;
+    position: absolute;
+  }
+}
+
+.select-label {
+  margin-right: 12px;
+
+  svg {
+    transform: rotateZ(0deg);
+    transition: all 0.3s ease 0s;
+  }
+}
+
+// Send Code Input
+.body-code {
+  .input-container {
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-right: none !important;
+    transition: all 0.3s ease 0s;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.error-icon {
+  right: 0px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 44px;
+  padding-right: 16px;
+}
+
+.send-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  border-radius: 0 4px 4px 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.send-btn {
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 600;
+  user-select: none;
+  height: 100%;
+  padding: 0px 16px;
+  cursor: pointer;
+
+  &:disabled {
+    color: rgba(22, 24, 35, 0.34);
+    cursor: not-allowed;
+  }
+}
+
+.loading-icon {
+  vertical-align: middle;
+  margin-top: -2px;
+  animation: 1s linear 0s infinite normal none running loading-circle-anim;
+  margin-left: 4px;
+}
+
+@keyframes loading-circle-anim {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+// Password Input
+.password-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 44px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.tip-desc {
+  color: rgb(22, 24, 35);
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+.tip-text {
+  font-size: 1.2rem;
+  line-height: 15px;
+  margin: 4px 0px;
+  color: rgba(22, 24, 35, 0.5);
+  display: flex;
+
+  svg {
+    margin-left: 4px;
+  }
+}

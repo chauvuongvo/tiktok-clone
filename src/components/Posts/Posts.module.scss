@@ -1,5 +1,21 @@
 .wrapper {
   display: flex;
+  position: relative;
+  padding: 20px 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    -moz-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    background: rgba(22, 24, 35, 0.2);
+  }
 }
 
 .avatar {
@@ -29,11 +45,11 @@
 }
 
 // Info Component
-@media (max-width: 1070px) {
-  .info-container {
-    width: 410px;
-  }
-}
+// @media (max-width: 1070px) {
+//   .info-container {
+//     width: 410px;
+//   }
+// }
 .info-container {
   margin-right: 114px;
 }
@@ -82,6 +98,9 @@
   .tag {
     margin-left: 4px;
     display: inline-flex;
+  }
+  .tag ~ .comment {
+    margin-left: 4px;
   }
 }
 

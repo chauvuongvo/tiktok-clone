@@ -1,7 +1,14 @@
+import * as comments from '~/assets/data/comment';
+import file1 from './static/user1/1.mp4';
+import file2 from './static/user1/2.mp4';
+import file3 from './static/user1/3.mp4';
+import file4 from './static/user1/4.mp4';
+import file5 from './static/user1/5.mp4';
+
 const video0 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/eaaeba16c663a22ab112f64a4f7ce152/62fa2e4f/video/tos/useast2a/tos-useast2a-pve-0037-aiso/5ea0988cbb6f48e99f05fe552c6cc99a/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3548&bt=1774&cs=0&ds=3&ft=eXd.6Hk_Myq8ZBAZAwe2NRBhml7Gb&mime_type=video_mp4&qs=0&rc=aTxlZzNpZTNpNmZmNTk0OEBpam1teWc6ZjdsZTMzZjgzM0AvNF9iMDEyNjMxMGIwX2FiYSM2bHIucjRfMm9gLS1kL2Nzcw%3D%3D&l=202208150530070102452421951500F8A1&btag=80000',
+  src: file1,
   title: 'Cũng là mộng dừa nhưng mà nó lạ lắm 😂',
   author_url: 'https://www.tiktok.com/@vietphuongthoa98',
   author_name: 'Việt Phương Thoa',
@@ -14,12 +21,15 @@ const video0 = {
     'https://p16-sign-va.tiktokcdn.com/tos-useast2a-p-0037-aiso/259250a9e75f4cddaf8a391a542af174~tplv-dmt-logom:tos-useast2a-pv-0037-aiso/7b5128d321034b3c91f35f675ce91bf5.image?x-expires=1660521600&x-signature=ULOuqEjg8mzruperPl1qenSNP%2FE%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video1 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/eaaeba16c663a22ab112f64a4f7ce152/62fa2e4f/video/tos/useast2a/tos-useast2a-pve-0037-aiso/5ea0988cbb6f48e99f05fe552c6cc99a/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3548&bt=1774&cs=0&ds=3&ft=eXd.6Hk_Myq8ZBAZAwe2NRBhml7Gb&mime_type=video_mp4&qs=0&rc=aTxlZzNpZTNpNmZmNTk0OEBpam1teWc6ZjdsZTMzZjgzM0AvNF9iMDEyNjMxMGIwX2FiYSM2bHIucjRfMm9gLS1kL2Nzcw%3D%3D&l=202208150530070102452421951500F8A1&btag=80000',
+  src: file2,
   title: 'Trả lời @thaovy_060500 Phần 2 nè đây mn ơi 😂',
   author_url: 'https://www.tiktok.com/@vietphuongthoa98',
   author_name: 'Việt Phương Thoa',
@@ -32,12 +42,15 @@ const video1 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/14e19ad4fe504ab3aa68688cbeb70bd6_1660393627?x-expires=1660521600&x-signature=B924P8JQnl1l7nLmy%2BZ8dseHMxA%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video2 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/eaaeba16c663a22ab112f64a4f7ce152/62fa2e4f/video/tos/useast2a/tos-useast2a-pve-0037-aiso/5ea0988cbb6f48e99f05fe552c6cc99a/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3548&bt=1774&cs=0&ds=3&ft=eXd.6Hk_Myq8ZBAZAwe2NRBhml7Gb&mime_type=video_mp4&qs=0&rc=aTxlZzNpZTNpNmZmNTk0OEBpam1teWc6ZjdsZTMzZjgzM0AvNF9iMDEyNjMxMGIwX2FiYSM2bHIucjRfMm9gLS1kL2Nzcw%3D%3D&l=202208150530070102452421951500F8A1&btag=80000',
+  src: file3,
   title: 'Nhà trai đến rước ai đây 😂',
   author_url: 'https://www.tiktok.com/@vietphuongthoa98',
   author_name: 'Việt Phương Thoa',
@@ -50,12 +63,15 @@ const video2 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/5ff5020e11ad4825ac8aab23ba0cbed0_1660363444?x-expires=1660521600&x-signature=UShQtm3QxZBOfVpbwIQw6%2B8duTI%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video3 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/eaaeba16c663a22ab112f64a4f7ce152/62fa2e4f/video/tos/useast2a/tos-useast2a-pve-0037-aiso/5ea0988cbb6f48e99f05fe552c6cc99a/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3548&bt=1774&cs=0&ds=3&ft=eXd.6Hk_Myq8ZBAZAwe2NRBhml7Gb&mime_type=video_mp4&qs=0&rc=aTxlZzNpZTNpNmZmNTk0OEBpam1teWc6ZjdsZTMzZjgzM0AvNF9iMDEyNjMxMGIwX2FiYSM2bHIucjRfMm9gLS1kL2Nzcw%3D%3D&l=202208150530070102452421951500F8A1&btag=80000',
+  src: file4,
   title:
     'Tham gia để giật quà nha mn ơi 😁 #IfWeWantWeWON #showmeyourW #IWantWON #Wooribank #dancechallenge #tiktokdancevn',
   author_url: 'https://www.tiktok.com/@vietphuongthoa98',
@@ -69,12 +85,15 @@ const video3 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/0dba0c98ba61442c909fa35a9f65d424_1660281184?x-expires=1660521600&x-signature=TihMlS9Z%2B0LYFNuqhNV0VUWLE8Q%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video4 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/eaaeba16c663a22ab112f64a4f7ce152/62fa2e4f/video/tos/useast2a/tos-useast2a-pve-0037-aiso/5ea0988cbb6f48e99f05fe552c6cc99a/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3548&bt=1774&cs=0&ds=3&ft=eXd.6Hk_Myq8ZBAZAwe2NRBhml7Gb&mime_type=video_mp4&qs=0&rc=aTxlZzNpZTNpNmZmNTk0OEBpam1teWc6ZjdsZTMzZjgzM0AvNF9iMDEyNjMxMGIwX2FiYSM2bHIucjRfMm9gLS1kL2Nzcw%3D%3D&l=202208150530070102452421951500F8A1&btag=80000',
+  src: file5,
   title: 'Xin lũi nhưng mà e dùng áp 😬😬😬',
   author_url: 'https://www.tiktok.com/@vietphuongthoa98',
   author_name: 'Việt Phương Thoa',
@@ -87,16 +106,35 @@ const video4 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/570dba15f6ea4c1da6974d6045d442fe_1660222116?x-expires=1660521600&x-signature=8f%2B66xB2vlOfWaI1XYbi%2FpN3p8s%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video = {
-  userId: 65726233604,
+  userId: '65726233604',
   data: [
-    { id: 7131718645088128282, video: video0 },
-    { id: 7131336135628180762, video: video1 },
-    { id: 7131206646121893146, video: video2 },
-    { id: 7130853320087833882, video: video3 },
-    { id: 7130599625475542299, video: video4 },
+    {
+      id: '7131718645088128282',
+      video: { ...video0, comment: comments.comment0 },
+    },
+    {
+      id: '7131336135628180762',
+      video: { ...video1, comment: comments.comment1 },
+    },
+    {
+      id: '7131206646121893146',
+      video: { ...video2, comment: comments.comment2 },
+    },
+    {
+      id: '7130853320087833882',
+      video: { ...video3, comment: comments.comment3 },
+    },
+    {
+      id: '7130599625475542299',
+      video: { ...video4, comment: comments.comment4 },
+    },
   ],
 };
+
 export default video;

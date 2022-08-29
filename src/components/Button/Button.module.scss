@@ -89,7 +89,9 @@
 
 .disabled {
   pointer-events: none;
-  opacity: 0.5;
+  color: rgba(22, 24, 35, 0.34);
+  background-color: rgba(22, 24, 35, 0.06);
+  border: none;
 }
 
 .small {
@@ -102,4 +104,25 @@
 .large {
   height: var(--btn-height-large);
   min-width: var(--min-width-large);
+}
+
+.inline {
+  display: inline-flex;
+  height: auto;
+  min-width: auto;
+  padding: 0;
+
+  border-radius: 0;
+  border: 0;
+  color: rgba(22, 24, 35, 1);
+
+  &.primary {
+    color: var(--primary-color);
+    background-color: transparent;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    background: transparent;
+  }
 }

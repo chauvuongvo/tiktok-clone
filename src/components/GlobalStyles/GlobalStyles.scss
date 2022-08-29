@@ -94,6 +94,12 @@ body {
   }
 }
 
+#header {
+  .tippy-box {
+    z-index: 999999;
+  }
+}
+
 // Responsive
 
 @media screen and (max-width: 1071px) {

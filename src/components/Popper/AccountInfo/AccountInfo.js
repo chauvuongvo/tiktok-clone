@@ -22,30 +22,10 @@ function AccountInfo({
   offset = [-10, -48],
   placement = 'bottom-start',
   appendTo = 'parent',
-  isFollowing = false,
   isSidebar = false,
 }) {
   // const [response, setResponse] = useState({ offset, appendTo });
   const [showPopper, setShowPopper] = useState('');
-  let link, avatar, nickname, isVerified, fullName, follower, liker, signature;
-  if (post) {
-    link = account.user.uniqueId;
-    avatar = account.user.avatarThumb;
-    nickname = account.user.uniqueId;
-    isVerified = account.user.verified;
-    fullName = account.user.nickname;
-    follower = account.stats.followerCount;
-    signature = account.user.signature;
-    liker = account.stats.heartCount;
-  } else {
-    link = account.link;
-    avatar = account.cover;
-    nickname = account.subTitle.replace('@', '');
-    isVerified = account.extraInfo.verified;
-    fullName = account.title;
-    follower = +account.extraInfo.fans;
-    liker = +account.extraInfo.likes;
-  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -106,10 +86,14 @@ function AccountInfo({
           >
             <PopperWrapper className={cx('wrapper')}>
               <div className={cx('header')}>
-                <Link className={cx('avatar-link')} to={`/@${link}`}>
-                  <Image src={avatar} alt={nickname} className={cx('avatar')} />
+                <Link className={cx('avatar-link')} to={`/@${account.link}`}>
+                  <Image
+                    src={account.avatar}
+                    alt={account.uniqueId}
+                    className={cx('avatar')}
+                  />
                 </Link>
-                {isFollowing ? (
+                {account.isFollowing ? (
                   <Button className={cx('btn')}>Following</Button>
                 ) : (
                   <Button primary className={cx('btn')}>
@@ -118,9 +102,9 @@ function AccountInfo({
                 )}
               </div>
 
-              <Link className={cx('title')} to={`/@${link}`}>
-                <span className={cx('nickname')}>{nickname}</span>
-                {isVerified && (
+              <Link className={cx('title')} to={`/@${account.link}`}>
+                <span className={cx('nickname')}>{account.uniqueId}</span>
+                {account.isVerified && (
                   <FontAwesomeIcon
                     icon={faCheckCircle}
                     className={cx('icon-check')}
@@ -128,24 +112,24 @@ function AccountInfo({
                 )}
               </Link>
               <div>
-                <Link className={cx('full-name')} to={`/@${link}`}>
-                  {fullName}
+                <Link className={cx('full-name')} to={`/@${account.link}`}>
+                  {account.fullName}
                 </Link>
               </div>
 
               <div className={cx('status')}>
                 <span className={cx('follower-count')}>
-                  {handleCountStats(follower)}
+                  {handleCountStats(account.follower)}
                 </span>
                 <span className={cx('follower')}>Followers</span>
                 <span className={cx('like-count')}>
-                  {handleCountStats(liker)}
+                  {handleCountStats(account.liker)}
                 </span>
                 <span className={cx('like')}>Likes</span>
               </div>
 
-              {!!signature && (
-                <div className={cx('signature')}>{signature}</div>
+              {post && (
+                <div className={cx('signature')}>{account.signature}</div>
               )}
             </PopperWrapper>
           </div>

@@ -1,7 +1,13 @@
+import * as comments from '~/assets/data/comment';
+import file1 from './static/user6/1.mp4';
+import file2 from './static/user6/2.mp4';
+import file3 from './static/user6/3.mp4';
+import file4 from './static/user6/4.mp4';
+import file5 from './static/user6/5.mp4';
 const video0 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/59a1f27c71a1bd1019052df22b66ac26/62fa2f61/video/tos/useast2a/tos-useast2a-pve-0037-aiso/956c3be8e2ee490ca750306f06fc33c1/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5414&bt=2707&cs=0&ds=3&ft=z_piDPWT2NvjVIYVEOzfuCYQFAe4nRQjlGpJCtOB&mime_type=video_mp4&qs=0&rc=Njk7OzdmOzU7O2hkODs5M0BpM2h3dDo6ZnJkZTMzZjgzM0AyY2IyXmNjNmExNjQ2LzFeYSM1YW1jcjQwLnBgLS1kL2Nzcw%3D%3D&l=2022081505343301024524314125015F44&btag=80000',
+  src: file1,
   title: 'Nhập gia tuỳ tục 🫣 #manhtienkhoi #vidhia_r #adisyahreza',
   author_url: 'https://www.tiktok.com/@manhtienkhoi_',
   author_name: 'Mạnh Tiến Khôi 🐯',
@@ -14,12 +20,15 @@ const video0 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/d735aff3891243d2908374fd36953092_1660476457?x-expires=1660521600&x-signature=wN0DnPv8sAeAQCGwE6ANIBWIrVs%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video1 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/59a1f27c71a1bd1019052df22b66ac26/62fa2f61/video/tos/useast2a/tos-useast2a-pve-0037-aiso/956c3be8e2ee490ca750306f06fc33c1/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5414&bt=2707&cs=0&ds=3&ft=z_piDPWT2NvjVIYVEOzfuCYQFAe4nRQjlGpJCtOB&mime_type=video_mp4&qs=0&rc=Njk7OzdmOzU7O2hkODs5M0BpM2h3dDo6ZnJkZTMzZjgzM0AyY2IyXmNjNmExNjQ2LzFeYSM1YW1jcjQwLnBgLS1kL2Nzcw%3D%3D&l=2022081505343301024524314125015F44&btag=80000',
+  src: file2,
   title: 'Hello Thái Lan #manhtienkhoi #vidhi_r #adisyahreza',
   author_url: 'https://www.tiktok.com/@manhtienkhoi_',
   author_name: 'Mạnh Tiến Khôi 🐯',
@@ -32,12 +41,15 @@ const video1 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/140fc824d59d4cc4878986d129eaff4c?x-expires=1660521600&x-signature=3ruHnr%2FV1nQdRKZGMphThJXjDrQ%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video2 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/59a1f27c71a1bd1019052df22b66ac26/62fa2f61/video/tos/useast2a/tos-useast2a-pve-0037-aiso/956c3be8e2ee490ca750306f06fc33c1/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5414&bt=2707&cs=0&ds=3&ft=z_piDPWT2NvjVIYVEOzfuCYQFAe4nRQjlGpJCtOB&mime_type=video_mp4&qs=0&rc=Njk7OzdmOzU7O2hkODs5M0BpM2h3dDo6ZnJkZTMzZjgzM0AyY2IyXmNjNmExNjQ2LzFeYSM1YW1jcjQwLnBgLS1kL2Nzcw%3D%3D&l=2022081505343301024524314125015F44&btag=80000',
+  src: file3,
   title: 'Go go Thái Lan 🤔 #manhtienkhoi',
   author_url: 'https://www.tiktok.com/@manhtienkhoi_',
   author_name: 'Mạnh Tiến Khôi 🐯',
@@ -50,12 +62,15 @@ const video2 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/4fce593b77be43c7a1f0d33306318757?x-expires=1660521600&x-signature=%2BCkq05Ow%2Fha%2BEXlMVL1rHpQLVZ4%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video3 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/59a1f27c71a1bd1019052df22b66ac26/62fa2f61/video/tos/useast2a/tos-useast2a-pve-0037-aiso/956c3be8e2ee490ca750306f06fc33c1/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5414&bt=2707&cs=0&ds=3&ft=z_piDPWT2NvjVIYVEOzfuCYQFAe4nRQjlGpJCtOB&mime_type=video_mp4&qs=0&rc=Njk7OzdmOzU7O2hkODs5M0BpM2h3dDo6ZnJkZTMzZjgzM0AyY2IyXmNjNmExNjQ2LzFeYSM1YW1jcjQwLnBgLS1kL2Nzcw%3D%3D&l=2022081505343301024524314125015F44&btag=80000',
+  src: file4,
   title: 'Una said : “ anh khôi miss una?🥺” #manhtienkhoi #una',
   author_url: 'https://www.tiktok.com/@manhtienkhoi_',
   author_name: 'Mạnh Tiến Khôi 🐯',
@@ -68,12 +83,15 @@ const video3 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/1f2976c133bb45ba8795c240c01d0936?x-expires=1660521600&x-signature=lqus48zN%2FIQCtgQHDMg9pdR47K0%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video4 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/59a1f27c71a1bd1019052df22b66ac26/62fa2f61/video/tos/useast2a/tos-useast2a-pve-0037-aiso/956c3be8e2ee490ca750306f06fc33c1/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=5414&bt=2707&cs=0&ds=3&ft=z_piDPWT2NvjVIYVEOzfuCYQFAe4nRQjlGpJCtOB&mime_type=video_mp4&qs=0&rc=Njk7OzdmOzU7O2hkODs5M0BpM2h3dDo6ZnJkZTMzZjgzM0AyY2IyXmNjNmExNjQ2LzFeYSM1YW1jcjQwLnBgLS1kL2Nzcw%3D%3D&l=2022081505343301024524314125015F44&btag=80000',
+  src: file5,
   title: 'Hati hati Mama @vidhia_r go to Jakarta nha #manhtienkhoi #vidhia_r',
   author_url: 'https://www.tiktok.com/@manhtienkhoi_',
   author_name: 'Mạnh Tiến Khôi 🐯',
@@ -86,16 +104,34 @@ const video4 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/48831220a6684683ba4fe1747cd00f43_1660129876?x-expires=1660521600&x-signature=1OGM1YagMxnzPDo9m5pmOezM%2BQA%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video = {
-  userId: 6638151765965668353,
+  userId: '6638151765965668353',
   data: [
-    { id: 7131692035903425819, video: video0 },
-    { id: 7131627084098719002, video: video1 },
-    { id: 7131337105036348698, video: video2 },
-    { id: 7130948023781281050, video: video3 },
-    { id: 7130203498192407834, video: video4 },
+    {
+      id: '7131692035903425819',
+      video: { ...video0, comment: comments.comment0 },
+    },
+    {
+      id: '7131627084098719002',
+      video: { ...video1, comment: comments.comment1 },
+    },
+    {
+      id: '7131337105036348698',
+      video: { ...video2, comment: comments.comment2 },
+    },
+    {
+      id: '7130948023781281050',
+      video: { ...video3, comment: comments.comment3 },
+    },
+    {
+      id: '7130203498192407834',
+      video: { ...video4, comment: comments.comment4 },
+    },
   ],
 };
 export default video;

@@ -41,24 +41,35 @@ function SuggestedAccounts({
   }, []);
 
   const render = () => {
-    return renderList.map((account, index) => {
-      const link = account.cardItem.link;
-      const avatar = account.cardItem.cover;
-      const nickname = account.cardItem.subTitle.replace('@', '');
-      const isVerified = account.cardItem.extraInfo.verified;
-      const fullName = account.cardItem.title;
+    return renderList.map((item, index) => {
+      const account = {};
+      account.link = item.link;
+      account.uniqueId = item.subTitle.slice(1);
+      account.avatar = item.cover;
+      account.isVerified = item.extraInfo.verified;
+      account.fullName = item.title;
+      account.follower = +item.extraInfo.fans;
+      account.liker = +item.extraInfo.likes;
+      account.isFollowing = false;
 
       return (
         <AccountInfo
           key={index}
-          account={account.cardItem}
+          account={account}
           isSidebar
           appendTo={() => document.getElementById('sidebar')}
           {...props}
         >
           <AccountItem
-            data={{ link, avatar, nickname, isVerified, fullName }}
+            data={{
+              link: account.link,
+              avatar: account.avatar,
+              fullName: account.fullName,
+              isVerified: account.isVerified,
+              uniqueId: account.uniqueId,
+            }}
             className={cx('item', 'response-center')}
+            isSidebar
           />
         </AccountInfo>
       );

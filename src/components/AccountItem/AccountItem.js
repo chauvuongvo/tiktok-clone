@@ -11,21 +11,23 @@ const cx = classNames.bind(styles);
 
 const AccountItem = forwardRef(
   (
-    { data: { link, avatar, nickname, isVerified, fullName }, className },
+    {
+      data: { link, avatar, uniqueId, isVerified, fullName },
+      className,
+      isSidebar,
+    },
     ref,
   ) => {
-    // const link = account.link;
-    // const avatar = account.cover;
-    // const nickname = account.subTitle.replace('@', '');
-    // const isVerified = account.extraInfo.verified;
-    // const fullName = account.title;
-
     return (
       <Link to={link} className={cx('wrapper', className)} ref={ref}>
-        <Image className={cx('user-avatar')} src={avatar} alt={nickname} />
-        <div className={cx('user-info', 'response-hidden')}>
+        <Image className={cx('user-avatar')} src={avatar} alt={uniqueId} />
+        <div
+          className={
+            isSidebar ? cx('user-info', 'response-hidden') : cx('user-info')
+          }
+        >
           <h4 className={cx('user-name')}>
-            <span className={cx('name')}>{nickname}</span>
+            <span className={cx('name')}>{uniqueId}</span>
             {isVerified && (
               <FontAwesomeIcon
                 icon={faCheckCircle}

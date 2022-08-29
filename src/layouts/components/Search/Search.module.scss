@@ -100,3 +100,27 @@
   -webkit-user-select: none;
   color: #16182380;
 }
+
+.search-text {
+  font-weight: 600;
+  color: rgb(22, 24, 35);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  cursor: pointer;
+  display: flex;
+  padding: 0 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 52px;
+  margin-bottom: -8px;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+
+  &:active {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+}

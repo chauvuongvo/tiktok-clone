@@ -16,3 +16,9 @@
     max-width: 592px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: calc(100vw - 32px - 68px);
+  }
+}

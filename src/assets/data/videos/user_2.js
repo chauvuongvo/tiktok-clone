@@ -1,7 +1,13 @@
+import * as comments from '~/assets/data/comment';
+import file1 from './static/user2/1.mp4';
+import file2 from './static/user2/2.mp4';
+import file3 from './static/user2/3.mp4';
+import file4 from './static/user2/4.mp4';
+import file5 from './static/user2/5.mp4';
 const video0 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/54c43144674e2282a024e6b0986d8de1/62fa2f12/video/tos/useast2a/tos-useast2a-pve-0037-aiso/90ba9f2c431e4a8d8988419d664e4e57/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3342&bt=1671&cs=0&ds=3&ft=z_piDPWT2NvjVrdVEOzfuSrQFAe4nRQjlNKJI2JE&mime_type=video_mp4&qs=0&rc=aTQ1ZGk0Ozw5Zzs2OjZlPEBpM3NsNzs6Zm9yZTMzZjgzM0BgNTUyMy8vXmAxXzRgNGNfYSNga2kxcjRfcW9gLS1kL2Nzcw%3D%3D&l=20220815053245010245242117060135B6&btag=80000',
+  src: file1,
   title:
     'Bạn có nhận ra rằng trải qua biết bao phong trần ,đến cuối cùng thứ bản thân cần chỉ là một chút bình yên...#hoian #reviewhoian #dulich #vietnam #quangnam',
   author_url: 'https://www.tiktok.com/@reviewhoian2022',
@@ -15,12 +21,15 @@ const video0 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/f65aed730031448c942e1b3fac65cae2?x-expires=1660521600&x-signature=whEY99v6VYJyzx3WQvtdMJMBYJA%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video1 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/54c43144674e2282a024e6b0986d8de1/62fa2f12/video/tos/useast2a/tos-useast2a-pve-0037-aiso/90ba9f2c431e4a8d8988419d664e4e57/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3342&bt=1671&cs=0&ds=3&ft=z_piDPWT2NvjVrdVEOzfuSrQFAe4nRQjlNKJI2JE&mime_type=video_mp4&qs=0&rc=aTQ1ZGk0Ozw5Zzs2OjZlPEBpM3NsNzs6Zm9yZTMzZjgzM0BgNTUyMy8vXmAxXzRgNGNfYSNga2kxcjRfcW9gLS1kL2Nzcw%3D%3D&l=20220815053245010245242117060135B6&btag=80000',
+  src: file2,
   title:
     'Đi đâu cũng muốn quay về bên mẹ …mẹ là nơi bình yên nhất của cuộc đời con …#hoian #reviewhoian #dulich #vietnam #quangnam',
   author_url: 'https://www.tiktok.com/@reviewhoian2022',
@@ -34,12 +43,15 @@ const video1 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/9d39c649b635412eab1e2326f853b3bc?x-expires=1660521600&x-signature=egY2uQZOycKdFzde2eaX%2BdVtwm4%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video2 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/54c43144674e2282a024e6b0986d8de1/62fa2f12/video/tos/useast2a/tos-useast2a-pve-0037-aiso/90ba9f2c431e4a8d8988419d664e4e57/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3342&bt=1671&cs=0&ds=3&ft=z_piDPWT2NvjVrdVEOzfuSrQFAe4nRQjlNKJI2JE&mime_type=video_mp4&qs=0&rc=aTQ1ZGk0Ozw5Zzs2OjZlPEBpM3NsNzs6Zm9yZTMzZjgzM0BgNTUyMy8vXmAxXzRgNGNfYSNga2kxcjRfcW9gLS1kL2Nzcw%3D%3D&l=20220815053245010245242117060135B6&btag=80000',
+  src: file3,
   title:
     'Cuộc sống sau này chỉ mong được về với cha mẹ sống đời bình yên …#hoian #reviewhoian #dulich #vietnam #quangnam',
   author_url: 'https://www.tiktok.com/@reviewhoian2022',
@@ -53,12 +65,15 @@ const video2 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/76877ae575b6400fa9c2b94d4402c868?x-expires=1660521600&x-signature=1QMI7nX7PpWH4wgkv63ILyPQqG4%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video3 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/54c43144674e2282a024e6b0986d8de1/62fa2f12/video/tos/useast2a/tos-useast2a-pve-0037-aiso/90ba9f2c431e4a8d8988419d664e4e57/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3342&bt=1671&cs=0&ds=3&ft=z_piDPWT2NvjVrdVEOzfuSrQFAe4nRQjlNKJI2JE&mime_type=video_mp4&qs=0&rc=aTQ1ZGk0Ozw5Zzs2OjZlPEBpM3NsNzs6Zm9yZTMzZjgzM0BgNTUyMy8vXmAxXzRgNGNfYSNga2kxcjRfcW9gLS1kL2Nzcw%3D%3D&l=20220815053245010245242117060135B6&btag=80000',
+  src: file4,
   title:
     'Chỉ có mẹ là người yêu thương con vô điều kiện …. Tình thương của mẹ thật vỹ đại …#hoian #reviewhoian #dulich #vietnam #quangnam',
   author_url: 'https://www.tiktok.com/@reviewhoian2022',
@@ -72,12 +87,15 @@ const video3 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/5459443d601945a1a51a35042c02746d?x-expires=1660521600&x-signature=A7%2FfWnmZWsWLFmT2kTTwBORPt%2BQ%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video4 = {
   version: '1.0',
   type: 'video',
-  src: 'https://v16-webapp.tiktok.com/54c43144674e2282a024e6b0986d8de1/62fa2f12/video/tos/useast2a/tos-useast2a-pve-0037-aiso/90ba9f2c431e4a8d8988419d664e4e57/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3342&bt=1671&cs=0&ds=3&ft=z_piDPWT2NvjVrdVEOzfuSrQFAe4nRQjlNKJI2JE&mime_type=video_mp4&qs=0&rc=aTQ1ZGk0Ozw5Zzs2OjZlPEBpM3NsNzs6Zm9yZTMzZjgzM0BgNTUyMy8vXmAxXzRgNGNfYSNga2kxcjRfcW9gLS1kL2Nzcw%3D%3D&l=20220815053245010245242117060135B6&btag=80000',
+  src: file5,
   title:
     'Xin trả lại cho ta những giây phút bình yên của cuộc sống này …. #hoian #reviewhoian #dulich #vietnam #quangnam',
   author_url: 'https://www.tiktok.com/@reviewhoian2022',
@@ -91,16 +109,34 @@ const video4 = {
     'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/385995983dfb445584cf9ae93b469ff4?x-expires=1660521600&x-signature=uN2O8HCgVV0YdkGUvk2U7T9MkBw%3D',
   provider_url: 'https://www.tiktok.com',
   provider_name: 'TikTok',
+  createdDate: 'Sun, 14 Aug 2022 12:48:38 GMT',
+  likeCount: 170900,
+  shareCount: 507,
 };
 
 const video = {
-  userId: 6534814936252596226,
+  userId: '6534814936252596226',
   data: [
-    { id: 7131327185016638746, video: video0 },
-    { id: 7131267503384169755, video: video1 },
-    { id: 7131006249994374427, video: video2 },
-    { id: 7130951078077680922, video: video3 },
-    { id: 7130924598618606874, video: video4 },
+    {
+      id: '7131327185016638746',
+      video: { ...video0, comment: comments.comment0 },
+    },
+    {
+      id: '7131267503384169755',
+      video: { ...video1, comment: comments.comment1 },
+    },
+    {
+      id: '7131006249994374427',
+      video: { ...video2, comment: comments.comment2 },
+    },
+    {
+      id: '7130951078077680922',
+      video: { ...video3, comment: comments.comment3 },
+    },
+    {
+      id: '7130924598618606874',
+      video: { ...video4, comment: comments.comment4 },
+    },
   ],
 };
 

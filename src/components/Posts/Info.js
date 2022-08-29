@@ -1,68 +1,80 @@
 import PropTypes from 'prop-types';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 
-import { accountList } from '~/assets/data/accounts';
 import styles from './Posts.module.scss';
 import Tags from '../Tags';
 import { TickIcon } from '../Icons';
 import AccountInfo from '../Popper/AccountInfo';
 import Button from '../Button';
+import config from '~/config';
 
 const cx = classNames.bind(styles);
 
 function Info({
-  data: { postedDay, comment, musicName, isFollowing, postRef },
+  data: { account, postDayRender, postTitleList, musicName, postRef },
   className,
 }) {
-  const [follow, setFollow] = useState(isFollowing);
+  const [follow, setFollow] = useState(account.isFollowing);
+  const isHomePage = window.location.pathname === config.routes.home;
+
+  const renderTitle = () => {
+    return postTitleList.map((item, index) => {
+      if (item.startsWith('#') || item.startsWith('@')) {
+        return (
+          <Tags key={index} className={cx('tag')}>
+            {item}
+          </Tags>
+        );
+      }
+      return (
+        <span key={index} className={cx('comment')}>
+          {item}
+        </span>
+      );
+    });
+  };
+
+  const passPropsFollowBtn = useMemo(() => {
+    if (follow) return { children: 'Following' };
+
+    return { children: 'Follow', outline: true };
+  }, [follow]);
 
   return (
     <div className={cx('info-container', className)}>
       <AccountInfo
-        account={accountList[0]}
+        account={account}
         appendTo={() => postRef.current}
         post
         offset={[-95, -24]}
         placement="bottom-start"
-        isFollowing={isFollowing}
       >
-        <Link to={`/@${accountList[0].user.uniqueId}`} className={cx('author')}>
+        <Link to={`/@${account.uniqueId}`} className={cx('author')}>
           <h3 className={cx('author-uniqueId')}>
-            {accountList[0].user.uniqueId}
-            {accountList[0].user.verified && (
-              <TickIcon className={cx('tick-icon')} />
-            )}
+            {account.uniqueId}
+            {account.isVerified && <TickIcon className={cx('tick-icon')} />}
           </h3>
-          <h4 className={cx('author-nickname')}>
-            {accountList[0].user.nickname}
-          </h4>
-          <span className={cx('dot')}> . </span>
-          <span className={cx('posted-day')}>{postedDay}</span>
+          <h4 className={cx('author-nickname')}>{account.fullName}</h4>
+          {!isHomePage && (
+            <>
+              <span className={cx('dot')}> . </span>
+              <span className={cx('posted-day')}>{postDayRender}</span>
+            </>
+          )}
         </Link>
       </AccountInfo>
 
-      {follow ? (
-        <Button small className={cx('btn')} onClick={() => setFollow(!follow)}>
-          Following
-        </Button>
-      ) : (
-        <Button
-          outline
-          small
-          className={cx('btn')}
-          onClick={() => setFollow(!follow)}
-        >
-          Follow
-        </Button>
-      )}
+      <Button
+        small
+        className={cx('btn')}
+        onClick={() => setFollow(!follow)}
+        {...passPropsFollowBtn}
+      />
 
-      <div className={cx('video-desc')}>
-        {/* Post content is not handle */}
-        <span className={cx('comment')}> {comment}</span>
-        <Tags className={cx('tag')}>@tat_106</Tags>
-      </div>
+      <div className={cx('video-desc')}>{renderTitle()}</div>
+
       <h4 className={cx('video-music')}>
         <Tags music className={cx('tag-music')}>
           {musicName}

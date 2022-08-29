@@ -8,8 +8,10 @@ const cx = classNames.bind(styles);
 function Button({
   to,
   href,
+  type,
 
   primary = false,
+  inline = false,
   rounded = false,
   disabled = false,
   outline = false,
@@ -27,6 +29,7 @@ function Button({
   let Component = 'button';
   const props = {
     onClick,
+    type,
     ...passProps,
   };
 
@@ -49,6 +52,7 @@ function Button({
   const classList = cx('wrapper', {
     [className]: className,
     primary,
+    inline,
     outline,
     rounded,
     disabled,
@@ -67,8 +71,10 @@ function Button({
 Button.propTypes = {
   to: PropTypes.string,
   href: PropTypes.string,
+  type: PropTypes.string,
 
   primary: PropTypes.bool,
+  inline: PropTypes.bool,
   rounded: PropTypes.bool,
   disabled: PropTypes.bool,
   outline: PropTypes.bool,

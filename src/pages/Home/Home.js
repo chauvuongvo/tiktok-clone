@@ -2,47 +2,64 @@ import classNames from 'classnames/bind';
 import styles from './Home.module.scss';
 import videos from '~/assets/data/videos';
 import Posts from '~/components/Posts';
-import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
-import Tippy from '@tippyjs/react/headless';
-import 'tippy.js/dist/tippy.css';
+import accounts from '~/assets/data/accounts';
+import { useEffect, useState } from 'react';
+import { LoadDataIcon } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
 
 function Home() {
-  // console.log(videos[0].data);
-  // console.log(videos.data[4]);
-  // console.log(videos.getVideo(7131718645088128282));
-  // console.log(videos.getVideosOfUser(6574657885953933314));
+  const [postList, setPostList] = useState(getPostList(5));
+  const [atBottom, setBottom] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const getUser = useMemo(() => {
-    const userId = videos.getRandomUser().userId;
+  function getPostList(count) {
+    const result = [];
 
-    const videoRandom = videos.getRandomVideo(userId);
-    // console.log(videoRandom);
-    return { userId, ...videoRandom };
+    for (let i = 0; i < count; i++) {
+      const userId = videos.getRandomUser();
+      const videoRandom = videos.getRandomVideo(userId.userId);
+      const info = accounts.fullAccountList.getAccount(userId.userId);
+      result.push({ ...videoRandom, info });
+    }
+    return result;
+  }
+
+  useEffect(() => {
+    const handleScrollAtBottomPage = () => {
+      const totalPageHeight = document.body.scrollHeight;
+      const scrollPoint = window.scrollY + window.innerHeight;
+
+      if (scrollPoint >= totalPageHeight) {
+        setBottom(true);
+      }
+    };
+    window.addEventListener('scroll', handleScrollAtBottomPage);
+
+    return () => window.removeEventListener('scroll', handleScrollAtBottomPage);
   }, []);
 
-  // useEffect(() => {
-  //   console.log(getUser);
-  // }, []);
+  useEffect(() => {
+    if (atBottom) {
+      setLoading(true);
 
-  // const videoId = 7131712545072762139;
-  // const video = videos.getVideo(userId);
+      const timerId = setTimeout(() => {
+        setPostList((prev) => [...prev, ...getPostList(5)]);
+        setLoading(false);
+        setBottom(false);
+      }, 1500);
 
-  // console.log(videos.getRandomVideo(6574657885953933314));
-
-  // const str = video.video.html;
-
-  // const musicHtml = str.match(/<a.+href.+\/music\/.+<\/a>/)[0];
-
-  // const musicTitle = musicHtml.replaceAll(/<a.+">|<\/a>/gim, '');
-
-  // console.log(musicTitle);
-  const test = useRef();
+      return () => clearTimeout(timerId);
+    }
+  }, [atBottom]);
 
   return (
-    <div className={cx('wrapper')} ref={test}>
-      <Posts data={getUser} />
+    <div className={cx('wrapper')}>
+      {postList.map((user, index) => (
+        <Posts data={user} key={index} />
+      ))}
+
+      {loading && <LoadDataIcon />}
     </div>
   );
 }

@@ -1,27 +1,44 @@
 import PropTypes from 'prop-types';
-import { useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import classNames from 'classnames/bind';
 import HeadlessTippy from '@tippyjs/react/headless';
 
+import { ContextApp } from '~/App';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import MenuItem from './MenuItem';
 import styles from './Menu.module.scss';
 import Header from './Header';
 
 const cx = classNames.bind(styles);
-const defaultFn = () => {};
 
-function Menu({
-  children,
-  items = [],
-  onChange = defaultFn,
-  hideOnClick = false,
-}) {
-  const [historyMenu, setHistoryMenu] = useState([{ data: items }]);
+function Menu({ children, data, onChange }) {
+  const { currentUser, setCurrentUser } = useContext(ContextApp);
+
+  const [historyMenu, setHistoryMenu] = useState(
+    currentUser
+      ? [{ data: data.USER_MENU_ITEM_LIST }]
+      : [{ data: data.MENU_ITEM_LIST }],
+  );
   const currentMenu = historyMenu[historyMenu.length - 1];
+
+  useEffect(() => {
+    if (currentUser) setHistoryMenu([{ data: data.USER_MENU_ITEM_LIST }]);
+    else setHistoryMenu([{ data: data.MENU_ITEM_LIST }]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentUser]);
+
   const renderItem = () => {
     return currentMenu.data.map((item, index) => {
       const isParentMenu = !!item.children;
+
+      const handleClickItem = () => {
+        if (item.isLogout) {
+          return setCurrentUser(false);
+        }
+        if (isParentMenu)
+          return setHistoryMenu((prev) => [...prev, item.children]);
+        onChange(item);
+      };
 
       const className = item['separate']
         ? cx('menu-title', 'separate')
@@ -32,13 +49,7 @@ function Menu({
           key={index}
           data={item}
           className={className}
-          onClick={() => {
-            if (isParentMenu) {
-              setHistoryMenu((prev) => [...prev, item.children]);
-            } else {
-              onChange(item);
-            }
-          }}
+          onClick={handleClickItem}
         />
       );
     });
@@ -58,7 +69,6 @@ function Menu({
   return (
     <HeadlessTippy
       interactive
-      hideOnClick={hideOnClick}
       offset={[12, 10]}
       delay={[0, 500]}
       placement="bottom-end"
@@ -81,9 +91,8 @@ function Menu({
 
 Menu.propTypes = {
   children: PropTypes.node.isRequired,
-  items: PropTypes.array.isRequired,
+  data: PropTypes.object.isRequired,
   onChange: PropTypes.func,
-  hideOnClick: PropTypes.bool,
 };
 
 export default Menu;

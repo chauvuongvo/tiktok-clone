@@ -7,14 +7,13 @@ import styles from './Following.module.scss';
 import { useEffect, useRef, useState } from 'react';
 const cx = classNames.bind(styles);
 
-function Following({ data, className }) {
-  const followingList = data.slice(0, 3);
+function Following({ data: followingList, isSidebar = false, className }) {
+  // const followingList = data.slice(0, 3);
   const length = followingList.length;
   const [hasList, setHasList] = useState(true);
   const [listCount, setListCount] = useState(0);
   const [renderList, setRenderList] = useState([]);
 
-  // const seeMoreBtnRef = useRef();
   const followingRef = useRef();
   useEffect(() => {
     // Get full list following from data
@@ -56,17 +55,29 @@ function Following({ data, className }) {
   }, [listCount]);
 
   const render = () => {
-    return renderList.map((account, index) => {
-      const link = `/@${account.user.uniqueId}`;
-      const avatar = account.user.avatarThumb;
-      const nickname = account.user.uniqueId;
-      const isVerified = account.user.verified;
-      const fullName = account.user.nickname;
+    return renderList.map((item, index) => {
+      const account = {};
+      account.link = item.user.uniqueId;
+      account.uniqueId = item.user.uniqueId;
+      account.avatar = item.user.avatarThumb;
+      account.isVerified = item.user.verified;
+      account.fullName = item.user.nickname;
+      account.follower = +item.stats.followerCount;
+      account.liker = +item.stats.heart;
+      account.isFollowing = true;
+
       return (
         <AccountItem
           key={index}
-          data={{ link, avatar, nickname, isVerified, fullName }}
+          data={{
+            link: account.link,
+            avatar: account.avatar,
+            fullName: account.fullName,
+            isVerified: account.isVerified,
+            uniqueId: account.uniqueId,
+          }}
           className={cx('item', 'response-center')}
+          isSidebar
         />
       );
     });

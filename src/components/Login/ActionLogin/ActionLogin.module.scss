@@ -1,0 +1,37 @@
+.container {
+  width: 375px;
+  margin: auto;
+  padding: unset;
+}
+
+.item-btn {
+  margin-bottom: 16px;
+  height: 44px;
+  padding: 0 12px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 0;
+
+  & ~ .item-btn {
+    margin-left: 0;
+  }
+
+  span:first-child {
+    font-size: 20px;
+  }
+
+  span:last-child {
+    flex: 1;
+    // align-items: center;
+    margin-left: 0;
+  }
+}
+
+.title {
+  font-family: var(--font-family-secondary);
+  font-size: 3.2rem;
+  margin: 16px auto;
+  font-weight: bold;
+  text-align: center;
+}
