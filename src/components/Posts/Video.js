@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import classNames from 'classnames/bind';
 
 import { useElementOnScreen } from '~/hooks';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout';
 import styles from './Posts.module.scss';
 import ControlVolume from './ControlVolume';
 import { FlagIcon, MuteIcon, PauseIcon, PlayIcon, SoundIcon } from '../Icons';
@@ -10,8 +11,8 @@ import { FlagIcon, MuteIcon, PauseIcon, PlayIcon, SoundIcon } from '../Icons';
 const cx = classNames.bind(styles);
 
 function Video({ data, className }) {
+  const { mutedVideo } = useContext(ContextDefaultLayout);
   const [play, setPlay] = useState(true);
-  const [muted, setMuted] = useState(true);
   const [canvasSize, setCanvasSize] = useState({
     width: '56.25',
     height: '100',
@@ -23,15 +24,7 @@ function Video({ data, className }) {
   const soundRef = useRef();
 
   const videoSrc = data.src;
-  const dataTransfer = {
-    state: { muted },
-    DOM: { VIDEO: videoRef.current, SOUND: soundRef.current },
-    setMuted,
-  };
-
-  useEffect(() => {
-    videoRef.current.volume = 0;
-  }, []);
+  const refs = { VIDEO: videoRef.current, SOUND: soundRef.current };
 
   const handlePlay = () => {
     if (play) videoRef.current.pause();
@@ -48,7 +41,6 @@ function Video({ data, className }) {
         if (width > height) {
           feedVideoRef.current.classList.add(cx('horizontal'));
           videoRef.current.classList.add(cx('horizontal'));
-          console.log('horizontal');
         }
 
         setCanvasSize({ width: `${(width * 100) / height}%`, height: '100%' });
@@ -86,8 +78,9 @@ function Video({ data, className }) {
             className={cx('video-basic')}
             src={videoSrc}
             type="video/mp4"
+            playsInline
             loop
-            muted={muted}
+            muted={mutedVideo}
           ></video>
         </div>
 
@@ -100,13 +93,13 @@ function Video({ data, className }) {
           onMouseEnter={() => setHideVoiceControl(true)}
           onMouseLeave={() => setHideVoiceControl(false)}
         >
-          {hideVoiceControl && <ControlVolume data={dataTransfer} />}
+          {hideVoiceControl && <ControlVolume dataRef={refs} />}
           <div
             ref={soundRef}
-            style={muted ? { opacity: 1 } : {}}
+            style={mutedVideo ? { opacity: 1 } : {}}
             className={cx('sound-video')}
           >
-            {muted ? <MuteIcon /> : <SoundIcon />}
+            {mutedVideo ? <MuteIcon /> : <SoundIcon />}
           </div>
         </div>
 

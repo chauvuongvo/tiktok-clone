@@ -9,12 +9,22 @@ import Button from '~/components/Button';
 import { GoToTopIcon } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
-export const ContextModalLogin = createContext();
+export const ContextDefaultLayout = createContext();
 
 function DefaultLayout({ children }) {
   const [showModalLogin, setShowModalLogin] = useState(false);
-  const valueContext = { showModalLogin, setShowModalLogin };
+  const [mutedVideo, setMutedVideo] = useState(true);
+  const [scaleVolume, setScaleVolume] = useState(0);
 
+  const valueContext = {
+    showModalLogin,
+    setShowModalLogin,
+    mutedVideo,
+    setMutedVideo,
+    scaleVolume,
+    setScaleVolume,
+  };
+  console.log(valueContext);
   const bottomRef = useRef();
 
   useEffect(() => {
@@ -37,7 +47,7 @@ function DefaultLayout({ children }) {
   };
 
   return (
-    <ContextModalLogin.Provider value={valueContext}>
+    <ContextDefaultLayout.Provider value={valueContext}>
       <div className={cx('wrapper')}>
         <Header />
         <div className={cx('container')}>
@@ -57,7 +67,7 @@ function DefaultLayout({ children }) {
           </button>
         </div>
       </div>
-    </ContextModalLogin.Provider>
+    </ContextDefaultLayout.Provider>
   );
 }
 

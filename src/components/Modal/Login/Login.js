@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import classNames from 'classnames/bind';
 
-import { ContextModalLogin } from '~/layouts/DefaultLayout/DefaultLayout';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout';
 import styles from './Login.module.scss';
 import ModalWrapper from '~/components/Modal';
 import Button from '~/components/Button';
@@ -25,7 +25,7 @@ import {
 const cx = classNames.bind(styles);
 
 function Login() {
-  const { setShowModalLogin } = useContext(ContextModalLogin);
+  const { setShowModalLogin } = useContext(ContextDefaultLayout);
   document.title = 'Log in | TikTok';
   const [page, setPage] = useState(1);
   const [pageType, setPageType] = useState('');

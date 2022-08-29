@@ -1,11 +1,13 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import classNames from 'classnames/bind';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout';
 import styles from './Posts.module.scss';
 
 const cx = classNames.bind(styles);
 
-function ControlVolume({ data: { state, DOM, setMuted }, className }) {
-  const [scaleVolume, setScaleVolume] = useState(DOM.VIDEO.volume);
+function ControlVolume({ dataRef: { VIDEO, SOUND }, className }) {
+  const { mutedVideo, setMutedVideo, scaleVolume, setScaleVolume } =
+    useContext(ContextDefaultLayout);
   const [scaleCircle, setScaleCircle] = useState(0);
 
   const volumeControlRef = useRef('volume-control');
@@ -28,19 +30,19 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
 
   useEffect(() => {
     const handleSound = (e) => {
-      if (state.muted) {
-        setMuted(false);
+      if (mutedVideo) {
+        setMutedVideo(false);
         updateScale(e, 0.6);
       } else {
-        setMuted(true);
+        setMutedVideo(true);
         updateScale(e, 0);
       }
     };
-    DOM.SOUND.addEventListener('click', handleSound);
+    SOUND.addEventListener('click', handleSound);
 
-    return () => DOM.SOUND.removeEventListener('click', handleSound);
+    return () => SOUND.removeEventListener('click', handleSound);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state.muted]);
+  }, [mutedVideo]);
 
   useEffect(() => {
     const DOM_VOLUME_CIRCLE = volumeCircleRef.current;
@@ -83,13 +85,13 @@ function ControlVolume({ data: { state, DOM, setMuted }, className }) {
 
     if (scale > 1) {
       scale = 1;
-      setMuted(false);
+      setMutedVideo(false);
     } else if (scale <= 0) {
       scale = 0;
-      setMuted(true);
-    } else setMuted(false);
+      setMutedVideo(true);
+    } else setMutedVideo(false);
 
-    DOM.VIDEO.volume = scale;
+    VIDEO.volume = scale;
     setScaleCircle(scale * (heightProgress - heightCircle));
     setScaleVolume(scale);
   }

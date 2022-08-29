@@ -2,7 +2,7 @@ import { useState, createContext, useMemo, useContext } from 'react';
 import classNames from 'classnames/bind';
 
 import { ContextApp } from '~/App';
-import { ContextModalLogin } from '~/layouts/DefaultLayout/DefaultLayout';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout/DefaultLayout';
 import styles from './DefaultLogin.module.scss';
 import Button from '~/components/Button';
 import Phone from '../Phone';
@@ -85,7 +85,7 @@ function DefaultLogin({ type }) {
   }, [layout]);
 
   const { setCurrentUser } = useContext(ContextApp);
-  const { setShowModalLogin } = useContext(ContextModalLogin);
+  const { setShowModalLogin } = useContext(ContextDefaultLayout);
   const loginUser = (e) => {
     e.preventDefault();
     setCurrentUser(true);

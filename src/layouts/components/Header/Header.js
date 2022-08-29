@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsisVertical, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import { ContextApp } from '~/App';
-import { ContextModalLogin } from '~/layouts/DefaultLayout/DefaultLayout';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout';
 import styles from './Header.module.scss';
 import config from '~/config';
 import Search from '../Search';
@@ -95,7 +95,8 @@ const handleChangeMenu = (menuItem) => {
 
 function Header() {
   const { userInfo, currentUser } = useContext(ContextApp);
-  const { showModalLogin, setShowModalLogin } = useContext(ContextModalLogin);
+  const { showModalLogin, setShowModalLogin } =
+    useContext(ContextDefaultLayout);
 
   const tippyProps = {
     appendTo: () => document.getElementById('header'),

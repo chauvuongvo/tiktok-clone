@@ -2,7 +2,7 @@ import { useEffect, useRef, useContext } from 'react';
 import classNames from 'classnames/bind';
 
 import { ContextApp } from '~/App';
-import { ContextModalLogin } from '~/layouts/DefaultLayout/DefaultLayout';
+import { ContextDefaultLayout } from '~/layouts/DefaultLayout';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import config from '~/config';
@@ -25,7 +25,7 @@ const cx = classNames.bind(styles);
 
 function Sidebar() {
   const { currentUser } = useContext(ContextApp);
-  const { setShowModalLogin } = useContext(ContextModalLogin);
+  const { setShowModalLogin } = useContext(ContextDefaultLayout);
   const menuList = [
     {
       icon: <HomeIcon width={32} height={32} />,
