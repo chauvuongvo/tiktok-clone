@@ -24,7 +24,6 @@ function DefaultLayout({ children }) {
     scaleVolume,
     setScaleVolume,
   };
-  console.log(valueContext);
   const bottomRef = useRef();
 
   useEffect(() => {
