@@ -1,0 +1,89 @@
+.wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  height: 302px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.video-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+}
+
+.video-basic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  flex-direction: column;
+  padding: 30px 12px 20px;
+}
+
+.avatar {
+  margin-bottom: 14px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+
+.nickname {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.uniqueId {
+  max-width: 180px;
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 0px;
+  white-space: nowrap;
+
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  margin-top: 8px;
+  width: 70%;
+  font-size: 1.8rem;
+}
