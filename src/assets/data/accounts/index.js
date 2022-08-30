@@ -333,6 +333,8 @@ const fullAccountList = recommends.data.suggestedAccountList.reduce(
   [...followingFullList],
 );
 
+console.log(followingFullList);
+
 const accounts = {
   followings,
   recommends,
@@ -346,6 +348,14 @@ const accounts = {
         return item.user.id === userId;
       });
       return !!account ? account : {};
+    },
+  },
+  followingFullList: {
+    data: followingFullList,
+    getRandomUser: function () {
+      const indexRandom = Math.trunc(Math.random() * this.data.length);
+      // return indexRandom;
+      return this.data[indexRandom].user.id;
     },
   },
 };

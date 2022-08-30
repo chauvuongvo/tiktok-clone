@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  margin-right: 16px;
+  margin-left: 16px;
+
+  padding: 24px 0;
+
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1071px) {
+  .wrapper {
+    width: 592px;
+    max-width: 592px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: calc(100vw - 32px - 68px);
+  }
+}

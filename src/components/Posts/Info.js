@@ -66,7 +66,7 @@ function Info({
               {account.isVerified && <TickIcon className={cx('tick-icon')} />}
             </h3>
             <h4 className={cx('author-nickname')}>{account.fullName}</h4>
-            {isHomePage && (
+            {!isHomePage && (
               <>
                 <span className={cx('dot')}> . </span>
                 <span className={cx('posted-day')}>{postDayRender}</span>
@@ -76,12 +76,14 @@ function Info({
         </Link>
       </AccountInfo>
 
-      <Button
-        small
-        className={cx('btn')}
-        onClick={() => setFollow(!follow)}
-        {...passPropsFollowBtn}
-      />
+      {isHomePage && (
+        <Button
+          small
+          className={cx('btn')}
+          onClick={() => setFollow(!follow)}
+          {...passPropsFollowBtn}
+        />
+      )}
 
       <div className={cx('video-desc')}>{renderTitle()}</div>
 

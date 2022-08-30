@@ -368,15 +368,52 @@ const following1 = [
 const following2 = [
   {
     user: {
+      id: '6819245573318493185',
+      uniqueId: 'moonaov',
+      nickname: 'Moon(AOV)☻',
+      avatarThumb:
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2d117517ac4c0c5015783b81e529fd~c5_100x100.jpeg?x-expires=1662022800&x-signature=QkhX6ajImUB%2FqFoE9J351m4c8y8%3D',
+      avatarMedium:
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2d117517ac4c0c5015783b81e529fd~c5_720x720.jpeg?x-expires=1662022800&x-signature=F6ZgFgC6eWoCy2Wn6rCkBgFhexI%3D',
+      avatarLarger:
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2d117517ac4c0c5015783b81e529fd~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=TQubFRErGfpcb6WfxUA%2BtThwOAI%3D',
+      signature:
+        '!60k Thẳng Tiến!\nTin tức về Liên Quân(AOV)\n  👇 Link Group FB👇',
+      verified: false,
+      secUid:
+        'MS4wLjABAAAADfrGscPPNSylP_1sHNFqw578tXLld4f5WdMJjaRYIX60oVfOReLBBhr_7jf5RAgL',
+      secret: false,
+      ftc: false,
+      relation: 1,
+      openFavorite: false,
+      commentSetting: 0,
+      duetSetting: 0,
+      stitchSetting: 0,
+      privateAccount: false,
+      isADVirtual: false,
+      ttSeller: false,
+      downloadSetting: 0,
+    },
+    stats: {
+      followingCount: 5,
+      followerCount: 68800,
+      heartCount: 2200000,
+      videoCount: 502,
+      diggCount: 5012,
+      heart: 2200000,
+    },
+  },
+  {
+    user: {
       id: '7029568287655560193',
       uniqueId: 'heluhine',
       nickname: 'Helu Hí Nè',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_100x100.jpeg?x-expires=1660539600&x-signature=TaOIgVCrwtjXM3EpIrUK9M1N7lI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_100x100.jpeg?x-expires=1662022800&x-signature=CJ85WHYPwJ57o6Gsm%2BLOfMDkuYU%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_720x720.jpeg?x-expires=1660539600&x-signature=2ORi2tlS5APdcfu%2FVOmKDI%2F5KgA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_720x720.jpeg?x-expires=1662022800&x-signature=nRyVmzeZJZVuFi760XwY%2FT5ytXI%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_1080x1080.jpeg?x-expires=1660539600&x-signature=hPDLzuPps1SHXnY830x5wrOQnlg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a1daaa2ebe89a465df35096393b79116~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=girbMMmc7lbLToi%2Bml2AZAiNzXM%3D',
       signature: '✨ CONTACT FOR WORK ✨\nfrtgrcontact@gmail.com',
       verified: false,
       secUid:
@@ -394,12 +431,12 @@ const following2 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 45,
-      followerCount: 900000,
-      heartCount: 12100000,
-      videoCount: 182,
-      diggCount: 3999,
-      heart: 12100000,
+      followingCount: 44,
+      followerCount: 902300,
+      heartCount: 12200000,
+      videoCount: 190,
+      diggCount: 4115,
+      heart: 12200000,
     },
   },
   {
@@ -408,11 +445,11 @@ const following2 = [
       uniqueId: 'shimphotography.phuquoc',
       nickname: 'Shim Photography',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1660539600&x-signature=uLK9Iuu1Lyd1l3eYNmyaawg5gS8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1662022800&x-signature=hLlUgPhsK8PIAfhVS4zmph74EUk%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1660539600&x-signature=O0ch%2Focay02e2aE7X2AFfTotvc0%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1662022800&x-signature=6qaQ32GK1ONDXgrW%2Bk0el5oTZhc%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1660539600&x-signature=0S1QEOOm1juEnf2TJ3Xsnttve2g%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9fafd8665555ac5543d73aec352ae42c.jpeg?x-expires=1662022800&x-signature=xLeu1cMrmQfK%2BDX%2FmdC7amHoco8%3D',
       signature:
         'Fb:Thu Hoài Shim (Shim). Chuyên phòng, tour, chụp hình, setup tiệc tại Phú Quốc.',
       verified: false,
@@ -431,11 +468,11 @@ const following2 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 166,
-      followerCount: 4682,
+      followingCount: 168,
+      followerCount: 4666,
       heartCount: 113100,
       videoCount: 81,
-      diggCount: 2907,
+      diggCount: 2952,
       heart: 113100,
     },
   },
@@ -445,11 +482,11 @@ const following2 = [
       uniqueId: 'dmax98.com',
       nickname: 'Dmax98',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1660539600&x-signature=RrJCkqcTl%2BR0R97cJjdndjLx7kY%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1662022800&x-signature=IFZPWr9bQM8gs9O30h9yFewxUbE%3D',
       avatarMedium:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1660539600&x-signature=WvtsUKWHYIbCXRVTkzhXwU772aM%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1662022800&x-signature=P6nR%2FkpFh6YPVEslFoORnqAZFfw%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1660539600&x-signature=Dxl3WyO%2Fg0iilpZWkcPYmqyd4iM%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/0ae1ec30935280e0bb3ac63312bb3cf1.jpeg?x-expires=1662022800&x-signature=hXVtbw9vHm2B9kyD9n2com2PivM%3D',
       signature: 'uy tín là sức mạnh !!!\ncó tiktokshop\ncó shopee',
       verified: false,
       secUid:
@@ -468,11 +505,11 @@ const following2 = [
     },
     stats: {
       followingCount: 44,
-      followerCount: 20100,
-      heartCount: 101100,
-      videoCount: 93,
-      diggCount: 444,
-      heart: 101100,
+      followerCount: 20000,
+      heartCount: 101200,
+      videoCount: 95,
+      diggCount: 448,
+      heart: 101200,
     },
   },
   {
@@ -481,11 +518,11 @@ const following2 = [
       uniqueId: 'tuanle_edit',
       nickname: 'TuanLe Edit',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_100x100.jpeg?x-expires=1660539600&x-signature=mAPLN8HGXAIg5kTal0H2Nhy2PJs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_100x100.jpeg?x-expires=1662022800&x-signature=eUMOiXphNUlSzegDd8J9SETjcjg%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_720x720.jpeg?x-expires=1660539600&x-signature=pMX2UjD%2Be4yrYGhL2xn1p7aYbts%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_720x720.jpeg?x-expires=1662022800&x-signature=Uz5uziAhqRPI%2F2uEL0i78r9rBck%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_1080x1080.jpeg?x-expires=1660539600&x-signature=nt8oUZOJsQKe4tB5wBqf0RARPTM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/103280f3f07b2330ae5ae61f79d6a68b~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=qmwyuSWwCIYRcO4BUpw%2BPIQDpu4%3D',
       signature:
         'Forwork:0336.339.936-contact@vulaci.vn\nHƯỚNG DẪN LÀM CLIP TRIỆU VIEW\nKhoá Học👇',
       verified: false,
@@ -504,12 +541,12 @@ const following2 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 116,
-      followerCount: 433500,
-      heartCount: 2600000,
+      followingCount: 123,
+      followerCount: 441100,
+      heartCount: 2700000,
       videoCount: 61,
-      diggCount: 2231,
-      heart: 2600000,
+      diggCount: 2390,
+      heart: 2700000,
     },
   },
   {
@@ -518,11 +555,11 @@ const following2 = [
       uniqueId: 'raindinh.quayphim',
       nickname: 'RainDinh.quayphim',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1660539600&x-signature=MXRS%2Bx%2FlxxU6xqP3XFYbhs1iZXU%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1662022800&x-signature=MQV76YUxRIIodKahdm6GTwHEIMA%3D',
       avatarMedium:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1660539600&x-signature=uHu57oIEDdcczQoAu%2B6n8e5LB44%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1662022800&x-signature=rEltq%2FRtCb%2BaFlb0ZAmCSI9MtQE%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1660539600&x-signature=ZeQFe4l%2BBN7u2Na%2FhTjsSOlcN%2BI%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/4d5d060b04762cdc65499f301b841e15.jpeg?x-expires=1662022800&x-signature=3dpp2xTaVEYVeB4fb1rb6ZtxmsE%3D',
       signature:
         'Quay và sản xuất video\nLiên Hệ 👇🏻😻\nFb: Raindinh ( Đinh Nhật Tuấn Anh)',
       verified: false,
@@ -541,12 +578,12 @@ const following2 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 544,
-      followerCount: 917300,
-      heartCount: 17100000,
-      videoCount: 311,
-      diggCount: 5095,
-      heart: 17100000,
+      followingCount: 525,
+      followerCount: 945300,
+      heartCount: 17800000,
+      videoCount: 319,
+      diggCount: 5311,
+      heart: 17800000,
     },
   },
   {
@@ -555,11 +592,11 @@ const following2 = [
       uniqueId: 'vantuan_rnd',
       nickname: 'Văn Tuấn',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_100x100.jpeg?x-expires=1660539600&x-signature=SF1QwmcAapoDNnna1Z7rInfcCK4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_100x100.jpeg?x-expires=1662022800&x-signature=Fbp6uemK0xf4oJ78qc2gF%2FL7nPE%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_720x720.jpeg?x-expires=1660539600&x-signature=FSmaUdhmJt6qNq8QBrBXI1XOSs0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_720x720.jpeg?x-expires=1662022800&x-signature=0UfLiB9WSEMfwcQG5dBRA7Z814w%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_1080x1080.jpeg?x-expires=1660539600&x-signature=M9U8SbUx2dP5rXKYx0H%2FL%2BSVSdw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6bfe8ca1ff1c4d63b3381bfbd92c6878~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=31TtNgw38%2BekEWqYi0Ph5B3sze0%3D',
       signature: '"I will be back"\nNhững cuốn sách hay nhất\n👇',
       verified: false,
       secUid:
@@ -577,11 +614,11 @@ const following2 = [
       downloadSetting: 3,
     },
     stats: {
-      followingCount: 45,
-      followerCount: 63700,
+      followingCount: 54,
+      followerCount: 63500,
       heartCount: 1100000,
       videoCount: 247,
-      diggCount: 581,
+      diggCount: 612,
       heart: 1100000,
     },
   },
@@ -591,12 +628,12 @@ const following2 = [
       uniqueId: 'chupanhsaochodep',
       nickname: 'Chụp ảnh sao cho đẹp',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_100x100.jpeg?x-expires=1660539600&x-signature=PGyj6zBrbnBbuqjY6w%2FlDnv1OXc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_100x100.jpeg?x-expires=1662022800&x-signature=1uxL6m9NqyudCu%2BfdBqf7KJj364%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_720x720.jpeg?x-expires=1660539600&x-signature=j4fiMpOMqM2rdi%2BpNxOYHc%2Fks4Q%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_720x720.jpeg?x-expires=1662022800&x-signature=Q9Qe352d3w%2Fdk3sytBJH%2Fci7XWU%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_1080x1080.jpeg?x-expires=1660539600&x-signature=WoefqV6Nu3SBGf0nKCIsMAqX7pY%3D',
-      signature: 'Mua đồ ở link bai ô này nhoé 👇🏻',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d211bc65e615fd048b6f665898d531e~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=1iUt0B1IafjdfCUwMpB1gTngb%2Fk%3D',
+      signature: 'Mn ghé Ins mình lấy link mua đồ nhé 👆🏽',
       verified: false,
       secUid:
         'MS4wLjABAAAAyCqUMFY_jXXVi-fkI08NjXzj8hPJ1U70j1QZbMuJhBefqootzG_otgdaiB_F29yv',
@@ -613,11 +650,11 @@ const following2 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 108,
-      followerCount: 87900,
+      followingCount: 109,
+      followerCount: 87500,
       heartCount: 769800,
-      videoCount: 94,
-      diggCount: 2466,
+      videoCount: 97,
+      diggCount: 2491,
       heart: 769800,
     },
   },
@@ -627,11 +664,11 @@ const following2 = [
       uniqueId: 'msnbc',
       nickname: 'MSNBC',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_100x100.jpeg?x-expires=1660539600&x-signature=NU9PMkuBb2ZkHGrPihfe0RGTWAs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_100x100.jpeg?x-expires=1662022800&x-signature=lSyFUCsqeJYfY8asmUJsA%2BMuPV8%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_720x720.jpeg?x-expires=1660539600&x-signature=UcTQII1jxsEhH%2BMH58OYA%2BX0%2Bz8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_720x720.jpeg?x-expires=1662022800&x-signature=xGrFM3bevTJMTQYYwcV0U9mB3F8%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_1080x1080.jpeg?x-expires=1660539600&x-signature=wF1M%2FSoTwYuxndqVjFczDUPbXuc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e92a3469e7b4ffb29a68cc86420f3e96~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=1NCemgh19xORMEoOaFX5z07HdCk%3D',
       signature:
         'We’re that network with the anchor who provides legal analysis via rap lyrics.',
       verified: true,
@@ -651,11 +688,11 @@ const following2 = [
     },
     stats: {
       followingCount: 31,
-      followerCount: 861200,
-      heartCount: 20500000,
-      videoCount: 486,
-      diggCount: 244,
-      heart: 20500000,
+      followerCount: 869800,
+      heartCount: 20900000,
+      videoCount: 515,
+      diggCount: 252,
+      heart: 20900000,
     },
   },
   {
@@ -664,13 +701,13 @@ const following2 = [
       uniqueId: 'samnguyenphoto',
       nickname: 'Sam Nguyen',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1660539600&x-signature=3g4K4GkI7RcNzeEehLS1T0K2Zio%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1662022800&x-signature=JTCL6NEkR46Si9Sjbni1dIo3N2E%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1660539600&x-signature=m7KOodBwItOcneN5ChM4TP81%2BTE%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1662022800&x-signature=AdOc9usG5LJKB%2FHuc7wkySBYAns%3D',
       avatarLarger:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1660539600&x-signature=pfxIS3laI4JFfurK2R%2FG3%2BYD3dM%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/0c0e28209240406055bd0c0ed2b3ec1a.jpeg?x-expires=1662022800&x-signature=pwkXjnJMu62Y6RL6vWKucQh9Ulo%3D',
       signature:
-        'Đào Tạo, Huấn Luyện Nhiếp Ảnh Điện Thoại và Máy Ảnh Chuyên Nghiệp...',
+        'Tham khảo các khoá học Online và Offline của Sam Nguyễn ở đường link dưới...',
       verified: false,
       secUid:
         'MS4wLjABAAAAglZuwAubz3zyx9qjNiCafoOLpp_j8heBb60zQZsuJ_8MQv9j_Sg28ycnK-gemfTa',
@@ -688,24 +725,27 @@ const following2 = [
     },
     stats: {
       followingCount: 3,
-      followerCount: 937800,
-      heartCount: 7200000,
-      videoCount: 213,
-      diggCount: 199,
-      heart: 7200000,
+      followerCount: 944200,
+      heartCount: 7400000,
+      videoCount: 229,
+      diggCount: 204,
+      heart: 7400000,
     },
   },
+];
+
+const following3 = [
   {
     user: {
       id: '7034098162341299201',
       uniqueId: 'cherimi.ig',
       nickname: 'Phối Đồ - Chụp Ảnh 🌹',
       avatarThumb:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1660539600&x-signature=Y7aHc%2Bw0l9QVAYLtLRP2JX2MU5A%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1662022800&x-signature=BisxyepKCUxmxXzneMpGm2feHYI%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1660539600&x-signature=6z1g7bz4NmyBuSEbSu8JqkVLfx8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1662022800&x-signature=5P1s5%2FILvymBI7%2B9rp5O2tO%2F9K4%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1660539600&x-signature=wfpwdbhujYKFBRvoWrkUSA4U9KU%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/be5d43c7d5ac177795583c6c69ad6f7e.jpeg?x-expires=1662022800&x-signature=NPNXYqIofZXHnAJ8hAz4Foy90UI%3D',
       signature: 'Nhận order ở ig: cherimi.ig ạ🍀🍀',
       verified: false,
       secUid:
@@ -724,27 +764,60 @@ const following2 = [
     },
     stats: {
       followingCount: 36,
-      followerCount: 18600,
-      heartCount: 320400,
+      followerCount: 18500,
+      heartCount: 320700,
       videoCount: 136,
       diggCount: 1654,
-      heart: 320400,
+      heart: 320700,
     },
   },
-];
-
-const following3 = [
+  {
+    user: {
+      id: '6714635764355859457',
+      uniqueId: 'tip_chupanhh',
+      nickname: 'Típ chụp ảnh',
+      avatarThumb:
+        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/205e7699e5f49d9d5df5abbd82d372a2.jpeg?x-expires=1662022800&x-signature=33A4swxkIqRl5cgXYwISGLjquXk%3D',
+      avatarMedium:
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/205e7699e5f49d9d5df5abbd82d372a2.jpeg?x-expires=1662022800&x-signature=DCZP0BqqlSKWqlyBVyxFn8uxvcw%3D',
+      avatarLarger:
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/205e7699e5f49d9d5df5abbd82d372a2.jpeg?x-expires=1662022800&x-signature=I7SMeIIr22fhNFv9s3YtIy74V9E%3D',
+      signature: 'Cách tạo dáng, phối đồ trên douyin. Mn đừng spam ❤️',
+      verified: false,
+      secUid:
+        'MS4wLjABAAAAL_OV09VphnVBtYVe3UVx83cgusS5je5pxBVBcxtMaa6xH9lFeEcdBNvmubW1PTzC',
+      secret: false,
+      ftc: false,
+      relation: 1,
+      openFavorite: false,
+      commentSetting: 0,
+      duetSetting: 0,
+      stitchSetting: 0,
+      privateAccount: false,
+      isADVirtual: false,
+      ttSeller: false,
+      downloadSetting: 0,
+    },
+    stats: {
+      followingCount: 133,
+      followerCount: 164700,
+      heartCount: 2600000,
+      videoCount: 182,
+      diggCount: 1863,
+      heart: 2600000,
+    },
+  },
   {
     user: {
       id: '7002977201529160731',
       uniqueId: 'nevobuan',
       nickname: 'Ne-vờ Buần',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_100x100.jpeg?x-expires=1661256000&x-signature=aFH9qfkh564LqlKmKasJMhpAFqg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_100x100.jpeg?x-expires=1662022800&x-signature=SpxzaQ7GzWlodn%2B%2FqfcbYzCUatI%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_720x720.jpeg?x-expires=1661256000&x-signature=5y%2FEajtuo%2FL8XgXAFdpKkuCto2c%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_720x720.jpeg?x-expires=1662022800&x-signature=RZnvvOnn5g63Lgd%2BoDisyX8f9CY%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=xiKJweXK%2FkmbhGxtlgLPJiudxA8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/932ad8d425724259ff660b83a535b00c~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=ITZIqAv4kMA2SQit6j1pzluDRrQ%3D',
       signature: 'Ở đây chúng tôi âm tính với nỗi buồn <3',
       verified: false,
       secUid:
@@ -762,8 +835,8 @@ const following3 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 20,
-      followerCount: 90400,
+      followingCount: 21,
+      followerCount: 90300,
       heartCount: 2300000,
       videoCount: 153,
       diggCount: 469,
@@ -776,11 +849,11 @@ const following3 = [
       uniqueId: 'thanhnhacdinh',
       nickname: 'Thanh Nhạc Đỉnh',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_100x100.jpeg?x-expires=1661256000&x-signature=mKlFfRt123uEdPs0IL16hgQGPuo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_100x100.jpeg?x-expires=1662022800&x-signature=buNuHU8uaqdOdO5KKQ7u%2B7LLi9Y%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_720x720.jpeg?x-expires=1661256000&x-signature=KwsGDjx40su8cwyKj8BzWLXe8no%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_720x720.jpeg?x-expires=1662022800&x-signature=sLy9PWSV0tVM0CGpzbVXDZb6LXE%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=Bobqopw11Hik9kOY8sv%2BDxV918k%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/64eea8c8c1a99f71aa6527bd894f3fca~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=E3G6rLYhdzJhj4bw5oi1LsPEj08%3D',
       signature: '👇👇👇 vào nhóm hoặc hỏi khoá học',
       verified: false,
       secUid:
@@ -798,11 +871,11 @@ const following3 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 1233,
-      followerCount: 116600,
+      followingCount: 1241,
+      followerCount: 116800,
       heartCount: 1400000,
-      videoCount: 501,
-      diggCount: 38300,
+      videoCount: 508,
+      diggCount: 38400,
       heart: 1400000,
     },
   },
@@ -812,11 +885,11 @@ const following3 = [
       uniqueId: 'lovito_vn',
       nickname: 'Lovito Vietnam',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_100x100.jpeg?x-expires=1661256000&x-signature=wfSDP%2BKArWTabupO3Qe40LKrMmg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_100x100.jpeg?x-expires=1662022800&x-signature=%2Fehlihi9EjDzOhT5DDOxhbr8O28%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_720x720.jpeg?x-expires=1661256000&x-signature=Mfqnmze3V0TwScz9DwrZMIZmOKQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_720x720.jpeg?x-expires=1662022800&x-signature=a16riygW2ALWUwLV3LKDkyIXKC4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=qsEdzBTVU9ODMB4pUTMMeufnYVs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d21bf563b53805c53af02b869f673bd6~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=xFTOKIN3sERZh2iyLKTCbvXJ8Ec%3D',
       signature: '𝙎𝙝𝙞𝙣𝙞𝙣𝙜 𝙀𝙫𝙚𝙧𝙮𝙬𝙝𝙚𝙧𝙚\nc0de:LOVIVN21\nGiảm giá 21%',
       verified: false,
       secUid:
@@ -834,11 +907,11 @@ const following3 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 25,
-      followerCount: 262300,
+      followingCount: 27,
+      followerCount: 267800,
       heartCount: 2200000,
-      videoCount: 264,
-      diggCount: 658,
+      videoCount: 273,
+      diggCount: 659,
       heart: 2200000,
     },
   },
@@ -848,11 +921,11 @@ const following3 = [
       uniqueId: 'blameanthony',
       nickname: 'Photography by Anthony G',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_100x100.jpeg?x-expires=1661256000&x-signature=f5lHu8T5PnvvifO4iVipxVe62Vw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_100x100.jpeg?x-expires=1662022800&x-signature=ccfLjOGjnq37U6%2Fhg8GMoKbxz%2BE%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_720x720.jpeg?x-expires=1661256000&x-signature=8BN1n0SKjHdrsF8WRfI0%2BbJPNCs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_720x720.jpeg?x-expires=1662022800&x-signature=5B9T%2F1P4lNsfmzAOxYZm57wrijM%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=bawBfbAyarIRPk2ii1YO4bFJzXQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b599fd2b73af900b1565a6df3577c50a~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=xNeoGeI7EutzPUy%2FFEZTkIb4zys%3D',
       signature:
         'Tips for Photographers & Creators 📷\n🇨🇦 Toronto / GTA\nProducts / Links ⤵️',
       verified: false,
@@ -871,12 +944,12 @@ const following3 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 647,
-      followerCount: 127300,
-      heartCount: 2300000,
-      videoCount: 753,
-      diggCount: 22800,
-      heart: 2300000,
+      followingCount: 651,
+      followerCount: 138400,
+      heartCount: 2500000,
+      videoCount: 760,
+      diggCount: 22900,
+      heart: 2500000,
     },
   },
   {
@@ -885,11 +958,11 @@ const following3 = [
       uniqueId: 'jordi.koalitic',
       nickname: '@Jordi.koalitic',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_100x100.jpeg?x-expires=1661256000&x-signature=%2FWxai%2B2jgrgyjyd1dnaKl1E2Mlc%3D',
+        'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_100x100.jpeg?x-expires=1662022800&x-signature=u1ejei4EmLwexyQ4jhZxklF8%2Fic%3D',
       avatarMedium:
-        'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_720x720.jpeg?x-expires=1661256000&x-signature=KRF2WZKlQnjrW8ebvBOX7IaiB7Y%3D',
+        'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_720x720.jpeg?x-expires=1662022800&x-signature=lFKsJ0lRKPGiJJ3GIQige2F8NBY%3D',
       avatarLarger:
-        'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=tWycwN%2BOXsZDgO0e%2FBVI5SyQ4lY%3D',
+        'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1655607938404357~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=7jMlVgiiZE77glEC8CO4aw%2BmVAY%3D',
       signature:
         'Creative photography 📸\nFollow on IG @jordi.koalitic \nNew T-Shirts & Hoodies👇🏼',
       verified: true,
@@ -922,11 +995,11 @@ const following3 = [
       uniqueId: 'huynhduykhuongofficial',
       nickname: 'Huỳnh Duy Khương',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1661256000&x-signature=70XdwIJj8MBCWQt4y%2FtMtw7BBMQ%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1662022800&x-signature=o1FrUMZ8bGBhIROn4UxoKtUX1XU%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1661256000&x-signature=40NoTVUmr%2B18wfBM4nJVPM2gsa8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1662022800&x-signature=DZsm3CcldrxCWk0uNpx9niLax94%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1661256000&x-signature=wP1fnSE4%2Bocb59BfZzBWE67RR%2Bw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/cbdf134850c1914c4564845685a1355b.jpeg?x-expires=1662022800&x-signature=L1UBuLGVcYlbECA0Hyx2S7%2BQRXA%3D',
       signature:
         '🔑 Kỹ năng giao tiếp và lãnh đạo đội nhóm\n👇 Học cùng anh tại đây:',
       verified: false,
@@ -947,10 +1020,10 @@ const following3 = [
     stats: {
       followingCount: 8,
       followerCount: 1300000,
-      heartCount: 22600000,
-      videoCount: 876,
-      diggCount: 1336,
-      heart: 22600000,
+      heartCount: 22900000,
+      videoCount: 879,
+      diggCount: 1345,
+      heart: 22900000,
     },
   },
   {
@@ -959,11 +1032,11 @@ const following3 = [
       uniqueId: 'sieuthi2022',
       nickname: 'HUN store',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_100x100.jpeg?x-expires=1661256000&x-signature=6ssEM%2BizgjG6DQOfUiIyrrHBck8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_100x100.jpeg?x-expires=1662022800&x-signature=Ac8TwmpFzIf4t%2FXs%2B%2FrDfuMvUv0%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_720x720.jpeg?x-expires=1661256000&x-signature=rwSRqIvi%2B3cLmMYQaypNmujQkC8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_720x720.jpeg?x-expires=1662022800&x-signature=X2H5sb3ludKgfermzwSnV86%2F4E8%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=K1HZHYYRv5lhlfKE0nFFPWQ%2Fndc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7f4a15855727ad8629df0bf11e711fd~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=zmvgFwcGAQI3uff5kjUq%2BDQZv%2Bc%3D',
       signature: '',
       verified: false,
       secUid:
@@ -984,8 +1057,8 @@ const following3 = [
       followingCount: 18,
       followerCount: 1600000,
       heartCount: 25400000,
-      videoCount: 6,
-      diggCount: 9698,
+      videoCount: 12,
+      diggCount: 9711,
       heart: 25400000,
     },
   },
@@ -995,12 +1068,13 @@ const following3 = [
       uniqueId: 'chuchowtinhyeu',
       nickname: 'Chú Chow Tình Yêu',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_100x100.jpeg?x-expires=1661256000&x-signature=iu2axZIgK294BvREpCv7%2B0SCq0o%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_100x100.jpeg?x-expires=1662022800&x-signature=2RsFtkThQzlSXOP5fysfujgDfBY%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_720x720.jpeg?x-expires=1661256000&x-signature=bX11ppsa7cH7Q12ifH%2BsL2244tc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_720x720.jpeg?x-expires=1662022800&x-signature=lrvXeuLg5z3a%2B2c8CZiItIhBNWU%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=E9vVf%2BeN3OKc68DWKnq1YklrE%2Fc%3D',
-      signature: 'chỉ tình yêu\ndaodienchow@gmail.com',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/766594d6b7d10efd80bae479bf251285~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=c%2Ft5MM20uz811b%2Bs7umpk3X5E5I%3D',
+      signature:
+        'hơn cả lời khuyên - đó là  trải nghiệm \ndaodienchow@gmail.com',
       verified: false,
       secUid:
         'MS4wLjABAAAA1j-pMHAehaSVCbengpZGyjmCqlagdOnlhGmzKyLeSqDZRAZA4hmKAopNgY3zTi6t',
@@ -1017,25 +1091,28 @@ const following3 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 0,
+      followingCount: 2,
       followerCount: 1200000,
-      heartCount: 35100000,
-      videoCount: 851,
+      heartCount: 35200000,
+      videoCount: 877,
       diggCount: 696,
-      heart: 35100000,
+      heart: 35200000,
     },
   },
+];
+
+const following4 = [
   {
     user: {
       id: '6602278801799036930',
       uniqueId: 'luutuananh_magician',
       nickname: 'LUU TUAN ANH MAGICIAN OFFICIAL',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1661256000&x-signature=hWgXAOU8pwxrQWTxu8qZ1C0mcHw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1662022800&x-signature=W58MtCUUb2Pz29Yc%2FkfZ55LBWoA%3D',
       avatarMedium:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1661256000&x-signature=4VK77NW1fzt3QzahS8DLVwxDo9U%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1662022800&x-signature=0R%2BH%2BTxI56ITfzK7sQQjcZhQpFQ%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1661256000&x-signature=QvuA4zwiahH4EKIDx%2BTzd5c83Vs%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/509751a257aca63971a11925f45f5c1c.jpeg?x-expires=1662022800&x-signature=9YfmCCVnbYW6G6%2Bbev0%2FrMU0e1g%3D',
       signature: 'Q/c: 0914275848 (zalo)',
       verified: false,
       secUid:
@@ -1053,12 +1130,12 @@ const following3 = [
       downloadSetting: 3,
     },
     stats: {
-      followingCount: 4045,
-      followerCount: 495100,
-      heartCount: 6700000,
-      videoCount: 261,
-      diggCount: 3551,
-      heart: 6700000,
+      followingCount: 4112,
+      followerCount: 498600,
+      heartCount: 6800000,
+      videoCount: 266,
+      diggCount: 3594,
+      heart: 6800000,
     },
   },
   {
@@ -1067,11 +1144,11 @@ const following3 = [
       uniqueId: '.phuot_luon',
       nickname: 'Đam Mê Xê Dịch',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_100x100.jpeg?x-expires=1661256000&x-signature=r9yq4MB147r9Jiqf9NnPbs66RwI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_100x100.jpeg?x-expires=1662022800&x-signature=M33zPRXw%2FEJnTn6OaIbSeZGVAy0%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_720x720.jpeg?x-expires=1661256000&x-signature=iGbreUGRvmlP8K9EIMXM3xxnt30%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_720x720.jpeg?x-expires=1662022800&x-signature=ffjRVSnn572b06MBWuLTB587s5A%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=%2FZ9zcpS60NudPXF8f%2FTHkSB3Bns%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f7b4d6973eca32eda83b9e396da40394~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=TPfVEIDzFUrWVW5%2FQLVSr1fZ8TU%3D',
       signature:
         'Kênh Tổng Hợp Và Chia Sẻ Những Video Xê Dịch Trên Mọi Miền Tổ Quốc.',
       verified: false,
@@ -1091,27 +1168,24 @@ const following3 = [
     },
     stats: {
       followingCount: 42,
-      followerCount: 220600,
+      followerCount: 222600,
       heartCount: 2800000,
-      videoCount: 612,
-      diggCount: 1552,
+      videoCount: 618,
+      diggCount: 1559,
       heart: 2800000,
     },
   },
-];
-
-const following4 = [
   {
     user: {
       id: '6809460871040418817',
       uniqueId: 'nhatquynh.photo',
       nickname: 'Nhật Quỳnh Photo 📸',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_100x100.jpeg?x-expires=1661256000&x-signature=bTiVY56Ms%2Fw0fnCthBDSh1apZpQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_100x100.jpeg?x-expires=1662022800&x-signature=WJIMdMzZBCVmQ4556INZPks8TPs%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_720x720.jpeg?x-expires=1661256000&x-signature=wcdCo%2FGWYJCh9xxMkYl7VXoPcKw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_720x720.jpeg?x-expires=1662022800&x-signature=jAbM%2Bp8B3wOaDjCThF0QXSPIPqY%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=iO%2FktUwQavF3yT5%2Fm72NlsAXhdo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/bb67013133276e9fc45ebdb0f44261b9~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=g759NZ4WrMCJigYC%2FqTj%2FfJ24V4%3D',
       signature:
         'Kênh Nhiếp Ảnh be bé của Quỳnh 👀\n👇🏻Quỳnh tặng bạn vài cuốn Tạp chí nè👇🏻',
       verified: false,
@@ -1134,7 +1208,7 @@ const following4 = [
       followerCount: 13100,
       heartCount: 112300,
       videoCount: 60,
-      diggCount: 1333,
+      diggCount: 1340,
       heart: 112300,
     },
   },
@@ -1144,11 +1218,11 @@ const following4 = [
       uniqueId: 'ngoclong_photographer',
       nickname: 'Ngọc Long_Photo 📸',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_100x100.jpeg?x-expires=1661256000&x-signature=OmlulPHhgJOvNRCzqHcEdiUQM%2BQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_100x100.jpeg?x-expires=1662022800&x-signature=9VM%2BbzPaiUJ%2Bdkg1MszHo%2BNWXiw%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_720x720.jpeg?x-expires=1661256000&x-signature=SPHebka5lhSfJMLJw3ujdYf0xJE%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_720x720.jpeg?x-expires=1662022800&x-signature=A6%2BwkdwiYtvU6IWsiTT3SkLQDI8%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=58wajpwPeUBp5J8oCJovTrAwRxM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ae882cf6833fca4df36156c3eeef0f59~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=EO%2FZlMZ4OXxzjB5EC%2FTpVdgQHuk%3D',
       signature:
         '📍In Hanoi\n👉🏻Chụp ảnh- Quay video- Makeup \nMUỐN HỌC CHỤP ẢNH IB CHÚNG TỚ NHÉ❤️',
       verified: false,
@@ -1168,11 +1242,11 @@ const following4 = [
     },
     stats: {
       followingCount: 44,
-      followerCount: 53100,
-      heartCount: 644300,
+      followerCount: 53000,
+      heartCount: 644600,
       videoCount: 124,
-      diggCount: 5244,
-      heart: 644300,
+      diggCount: 5249,
+      heart: 644600,
     },
   },
   {
@@ -1181,11 +1255,11 @@ const following4 = [
       uniqueId: 'vantoi.calis',
       nickname: 'Văn Tới_Calisthenics',
       avatarThumb:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1661611273758721.jpeg?x-expires=1661256000&x-signature=CGnc3z8pn4ix94uMxaA6DDYeoxs%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1661611273758721.jpeg?x-expires=1662022800&x-signature=auDF7fCuFU948B8elxlKsLpdoSg%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1661611273758721.jpeg?x-expires=1661256000&x-signature=KxdhmLVXUOg9Yr0Xc31QLgYkyEg%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1661611273758721.jpeg?x-expires=1662022800&x-signature=UtCxvU0oy0zX0Q1i0tV35g7lY0A%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1661611273758721.jpeg?x-expires=1661256000&x-signature=2f8EQU0%2FKhnpP0MGHDGacLx4Bsw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1661611273758721.jpeg?x-expires=1662022800&x-signature=TtLuFg6MCLMltA1tD%2F%2BcjU8LxXA%3D',
       signature:
         'Tham khảo các sp hỗ trợ tập luyện thiết yếu tại và TPBS tại 👇',
       verified: false,
@@ -1200,15 +1274,15 @@ const following4 = [
       stitchSetting: 0,
       privateAccount: false,
       isADVirtual: false,
-      ttSeller: false,
+      ttSeller: true,
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 220,
-      followerCount: 179300,
+      followingCount: 223,
+      followerCount: 179800,
       heartCount: 2200000,
-      videoCount: 212,
-      diggCount: 6696,
+      videoCount: 215,
+      diggCount: 6735,
       heart: 2200000,
     },
   },
@@ -1218,11 +1292,11 @@ const following4 = [
       uniqueId: 'nguyenyoga.com',
       nickname: 'Youtube: Nguyên Yoga',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_100x100.jpeg?x-expires=1661256000&x-signature=LXHc3QwUHpCdXFpZQpbw8ucqRQo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_100x100.jpeg?x-expires=1662022800&x-signature=Y5zhXQOxc4hTKCJcrB7uCGvnHrg%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_720x720.jpeg?x-expires=1661256000&x-signature=47cyKEimXi3DhumlzrkWMFoZyTA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_720x720.jpeg?x-expires=1662022800&x-signature=59kqo%2B%2Bv43XZEUhOcKb9I%2FUGc1w%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=p7uYCLfHbfh6YfKrGmt%2FoNRgaEI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8c9370e712eec4f28f6068039e447e43~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=Z4D0mlSX8uzHcGzd2n8ysq%2FRNxg%3D',
       signature: 'Youtube: Nguyên Yoga \n👇 Video Full Bài Tập Miễn Phí 👇',
       verified: false,
       secUid:
@@ -1241,7 +1315,7 @@ const following4 = [
     },
     stats: {
       followingCount: 20,
-      followerCount: 295400,
+      followerCount: 294700,
       heartCount: 3200000,
       videoCount: 171,
       diggCount: 55,
@@ -1254,11 +1328,11 @@ const following4 = [
       uniqueId: 'k98studio.chupanhkyyeu',
       nickname: 'K98 Studio | Chụp ảnh kỷ yếu',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_100x100.jpeg?x-expires=1661256000&x-signature=1U6BOSk0YXBQPs9YDHurK85iMYU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_100x100.jpeg?x-expires=1662022800&x-signature=eVN5xNqXFZwVIfClEHrNOAqTM3k%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_720x720.jpeg?x-expires=1661256000&x-signature=cYyFQkGNIavDZeXjNB1FH8GoPb4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_720x720.jpeg?x-expires=1662022800&x-signature=HZKNp9d%2F16uphe258iiiaCOqrws%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=Olx8CmRfL8EgFP0RKpWEsBW7BVU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/7ac437ef30eafcb70ee92a2c41280a56~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=FhRP%2F9dp8G%2Bxt0Jt6iQ6Sem0Aak%3D',
       signature: '📩 K98studio@gmail.com\nĐặt lịch & tư vấn gói chụp ảnh\n👇',
       verified: false,
       secUid:
@@ -1277,10 +1351,10 @@ const following4 = [
     },
     stats: {
       followingCount: 3,
-      followerCount: 20700,
+      followerCount: 20600,
       heartCount: 119600,
       videoCount: 4,
-      diggCount: 15,
+      diggCount: 19,
       heart: 119600,
     },
   },
@@ -1290,11 +1364,11 @@ const following4 = [
       uniqueId: 'picfair',
       nickname: 'picfair',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_100x100.jpeg?x-expires=1661256000&x-signature=7vOkUzkXrxzZZm8qj8RP%2F7J2n%2BE%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_100x100.jpeg?x-expires=1662022800&x-signature=YEjIPzuWJdTzp9X6JNhHoK1wvUE%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_720x720.jpeg?x-expires=1661256000&x-signature=u3BJuyBveAJxPUsxNeWGJTpAm88%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_720x720.jpeg?x-expires=1662022800&x-signature=TjSFyoe0XnPBxMUARybvlj2Or9s%3D',
       avatarLarger:
-        'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=2uaysYd0ziIYOT4iDSv%2F6DVl97w%3D',
+        'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1c5cb2816d8a80dc0f0a977d01754fe8~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=qxgaPS2B1u1qndfgmZJAVl7irPQ%3D',
       signature:
         'Create your FREE online #photography store today! 📸 Use #Picfair to be featured',
       verified: true,
@@ -1313,11 +1387,11 @@ const following4 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 12,
-      followerCount: 173400,
+      followingCount: 11,
+      followerCount: 173200,
       heartCount: 2900000,
-      videoCount: 285,
-      diggCount: 71,
+      videoCount: 289,
+      diggCount: 72,
       heart: 2900000,
     },
   },
@@ -1327,11 +1401,11 @@ const following4 = [
       uniqueId: 'jared.vandermeer',
       nickname: 'Jared VanderMeer',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_100x100.jpeg?x-expires=1661256000&x-signature=4t6ggPhbXxfHrun7XEqfuVE6F2c%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_100x100.jpeg?x-expires=1662022800&x-signature=4MAPFvRUOjUoUeF07XvapKPOMFc%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_720x720.jpeg?x-expires=1661256000&x-signature=AF61s4Lx7H9zAbgoCi%2FOFaZASVY%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_720x720.jpeg?x-expires=1662022800&x-signature=8AcZ1oh1hZTvlZii0jDhgwshCC4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=vgx9zQfHmlYOx2wviIDH0Wp5NVo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ede29441423251d1f4a0fff71aa01545~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=p2RJqsRSfZnYBfYnrSlN0DqLoMg%3D',
       signature:
         'Spreading Creativity 📸 Creative Photography📱\n🤷‍♂️ BTS and Content Ideas 🇨🇦',
       verified: false,
@@ -1350,12 +1424,12 @@ const following4 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 691,
-      followerCount: 935400,
-      heartCount: 8000000,
-      videoCount: 1113,
-      diggCount: 3275,
-      heart: 8000000,
+      followingCount: 707,
+      followerCount: 951400,
+      heartCount: 8100000,
+      videoCount: 1135,
+      diggCount: 3295,
+      heart: 8100000,
     },
   },
   {
@@ -1364,11 +1438,11 @@ const following4 = [
       uniqueId: 'vunguyencoder',
       nickname: 'vunguyencoder',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1661256000&x-signature=1BUqIhnX0S5dNewMnq16h4PI0Q4%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1662022800&x-signature=iLgTMGD7X1%2FhrhDlYsyCUzCtq24%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1661256000&x-signature=4rTaY%2B14zyZm97IBQezOQEgWkv8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1662022800&x-signature=ugexaWcYe0eaFFu1mBgrnwcb4%2Fg%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1661256000&x-signature=14PCSG4O%2F0WFjvTt%2BLT2IeOmOmQ%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/ba5b734b92fe37b98ebe6337e5cb7482.jpeg?x-expires=1662022800&x-signature=2i%2FOH8LSrOw6gStCIb5wI6s9jdw%3D',
       signature:
         'Người kể chuyện về công việc lập trình\nhttp://youtube.com/vunguyencoder',
       verified: false,
@@ -1388,24 +1462,27 @@ const following4 = [
     },
     stats: {
       followingCount: 1,
-      followerCount: 55200,
-      heartCount: 446900,
-      videoCount: 82,
-      diggCount: 9,
-      heart: 446900,
+      followerCount: 55400,
+      heartCount: 448700,
+      videoCount: 83,
+      diggCount: 12,
+      heart: 448700,
     },
   },
+];
+
+const following5 = [
   {
     user: {
       id: '6918752954662355969',
       uniqueId: 'minhphung.photo',
       nickname: 'MinhPhung.photo',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_100x100.jpeg?x-expires=1661256000&x-signature=fhQLTGHZEAuVnXRb45p6d90oDY0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_100x100.jpeg?x-expires=1662022800&x-signature=ubSgM%2FVgghAUAWKcrFuL%2F%2BQimaM%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_720x720.jpeg?x-expires=1661256000&x-signature=aJEWvhOOxRbzcSMU5hNFd6th6Vw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_720x720.jpeg?x-expires=1662022800&x-signature=XxbHvDaFBaXh%2F2YJjsWjUQ%2FPLSw%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=XtkKi96YEhJXdXIlKNjt2xyyHTs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/52d55a3837fac3308f8f85768bd728e3~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=0tUba3Jch43cM06M1fAPy%2BwcwwI%3D',
       signature: '🥰🥰🥰🥰🥰🥰',
       verified: false,
       secUid:
@@ -1424,7 +1501,7 @@ const following4 = [
     },
     stats: {
       followingCount: 123,
-      followerCount: 1213,
+      followerCount: 1212,
       heartCount: 13700,
       videoCount: 53,
       diggCount: 2759,
@@ -1437,11 +1514,11 @@ const following4 = [
       uniqueId: 'trongaden.daily',
       nickname: 'Trọng ADen | Daily',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_100x100.jpeg?x-expires=1661256000&x-signature=aMt3BbuP%2FO7vJpxF75ysjXkSbic%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_100x100.jpeg?x-expires=1662022800&x-signature=pXwpM94NbrcinCTtsvpTo6GZGeQ%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_720x720.jpeg?x-expires=1661256000&x-signature=swCppwZpV%2Fc1Sn528g9AOfwn%2BaM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_720x720.jpeg?x-expires=1662022800&x-signature=WFMjZv%2BU1gkTsR6AqZBC9DOqRuA%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=EJIeNMNbd48KVN4Gcsa6s7uc%2FEQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/161a725bf61cc996ac1f695ac14c950c~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=s62dUnV%2BAvemz4as0EX5AgtgRL4%3D',
       signature:
         'Công việc ib IG (Trongaden.99)\n👇🏽 Kênh này là để unbox & review 👇🏽',
       verified: false,
@@ -1461,27 +1538,24 @@ const following4 = [
     },
     stats: {
       followingCount: 22,
-      followerCount: 42300,
-      heartCount: 905700,
+      followerCount: 42200,
+      heartCount: 906200,
       videoCount: 81,
-      diggCount: 451,
-      heart: 905700,
+      diggCount: 454,
+      heart: 906200,
     },
   },
-];
-
-const following5 = [
   {
     user: {
       id: '6848547162587235330',
       uniqueId: 'x2_editor',
       nickname: 'X2  PRESETS',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_100x100.jpeg?x-expires=1661256000&x-signature=LG7Rh11V6cBSskdIjnxesp2tFQM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_100x100.jpeg?x-expires=1662022800&x-signature=Q1%2FIO9AbRsclpixCo8fWwf0pLeo%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_720x720.jpeg?x-expires=1661256000&x-signature=lmEmHtzoBCklgH0%2FzzPY4AnZWzg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_720x720.jpeg?x-expires=1662022800&x-signature=bEX0sF0AVpb0IZRKYp10kcrxDU4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=WdVvPqFMvgJJL9Q%2FaQVv9R06eus%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e81937a1997c917be0f99704dec48209~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=djzR6AMnhGFw1sMXJiF6ChTv93c%3D',
       signature:
         "🖤 TikTok Tranding video Editing Totourial🖤\nIs Here\n🔞 Don't Check  on YouTube",
       verified: false,
@@ -1501,11 +1575,11 @@ const following5 = [
     },
     stats: {
       followingCount: 5,
-      followerCount: 29700,
-      heartCount: 146300,
+      followerCount: 29600,
+      heartCount: 146400,
       videoCount: 66,
       diggCount: 3138,
-      heart: 146300,
+      heart: 146400,
     },
   },
   {
@@ -1514,11 +1588,11 @@ const following5 = [
       uniqueId: 'jdthecameraguy',
       nickname: 'JD The Camera Guy',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_100x100.jpeg?x-expires=1661256000&x-signature=gSF%2BwZClS20YUtcuX3Pbtl7M4So%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_100x100.jpeg?x-expires=1662022800&x-signature=RUMrC1Jz7bQrYvKHYAHTA7aAuA8%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_720x720.jpeg?x-expires=1661256000&x-signature=iZG%2B0R0REW2IsWPl7DkeBguWzX4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_720x720.jpeg?x-expires=1662022800&x-signature=%2BgkdmnH3XapffVu0ra3YYENb%2FZY%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=Fi77t5xWVaogf%2BQ84jzE6s7qLBM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/0ae4268fd8fdfe09126fae1055005d07~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=upE5bItgzWnDoHgBcEosDEDZSRU%3D',
       signature:
         'Smartphone Photography\nGet My Presets Below 👇\nUse code tiktok25 for 25% off',
       verified: false,
@@ -1537,12 +1611,12 @@ const following5 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 541,
+      followingCount: 551,
       followerCount: 3500000,
-      heartCount: 41900000,
-      videoCount: 693,
-      diggCount: 2457,
-      heart: 41900000,
+      heartCount: 42700000,
+      videoCount: 701,
+      diggCount: 2494,
+      heart: 42700000,
     },
   },
   {
@@ -1551,11 +1625,11 @@ const following5 = [
       uniqueId: 'tuotuo_24',
       nickname: '𝙸𝚄 𝚃𝚄𝙾 𝚃𝚄𝙾 📸',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_100x100.jpeg?x-expires=1661256000&x-signature=g48KzldnvMbTSRZWyw3cMQhnTew%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_100x100.jpeg?x-expires=1662022800&x-signature=kuaUrDvAT984C2H7ukjJUr2nbfk%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_720x720.jpeg?x-expires=1661256000&x-signature=QYIZNkkbap1MnSzMzTvx5FoWMQ8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_720x720.jpeg?x-expires=1662022800&x-signature=Z%2Fd%2FWBtZB%2B3o15vhk%2Fc6eBs8dz4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=HikreP8fJpudr8ip4HzXgdt4Lqc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ef926287d775598f9b06773e8805b5b2~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=fFV4Vs9lSJHTgOq82uK%2BEupTjso%3D',
       signature: 'các sản phẩm trong clip đều có bên dưới',
       verified: false,
       secUid:
@@ -1573,12 +1647,12 @@ const following5 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 112,
+      followingCount: 116,
       followerCount: 36000,
-      heartCount: 679800,
+      heartCount: 681500,
       videoCount: 166,
-      diggCount: 1104,
-      heart: 679800,
+      diggCount: 1125,
+      heart: 681500,
     },
   },
   {
@@ -1587,11 +1661,11 @@ const following5 = [
       uniqueId: 'danfoolish.radio',
       nickname: 'DanFoolish.Radio',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_100x100.jpeg?x-expires=1661256000&x-signature=QMDG5YKr0N%2FofS0Weya9lkS205Q%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_100x100.jpeg?x-expires=1662022800&x-signature=X15O7F7tdri5tymeIwUivLi8oxE%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_720x720.jpeg?x-expires=1661256000&x-signature=BlpzzrHHK06Pd2oEBveEopRiDPo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_720x720.jpeg?x-expires=1662022800&x-signature=RFGMHBUMm%2Fqr0RIYVaqaFQMk4XA%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=3Fd7s5GtiOejm2s4cSPbwW44jHw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/e4056717d8b8b2cd072deb2745df8925~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=zGAYglxT5T0Lyg%2BPdELNgy0CgO4%3D',
       signature:
         'Đã được anh Dan cho phép chia sẻ và lan toả giá trị\nKênh chính Dan Foolish',
       verified: false,
@@ -1611,7 +1685,7 @@ const following5 = [
     },
     stats: {
       followingCount: 32,
-      followerCount: 390200,
+      followerCount: 389200,
       heartCount: 4200000,
       videoCount: 70,
       diggCount: 363,
@@ -1624,11 +1698,11 @@ const following5 = [
       uniqueId: 'ngoclinh3g',
       nickname: 'ngọc linh✅',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_100x100.jpeg?x-expires=1661256000&x-signature=TFm5B3dGN1vXytF%2F1mSnztnrUMI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_100x100.jpeg?x-expires=1662022800&x-signature=lqOtuYdd1f26UXrd4Cc2u%2F5lKKY%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_720x720.jpeg?x-expires=1661256000&x-signature=ci%2F7oGzhJuZByrCWJ2qfPmLjUQw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_720x720.jpeg?x-expires=1662022800&x-signature=6awe1rmVM6WR27zwPCzn6G1FZ8M%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=IZKVi7QcnVgm%2BcknBvDiEUAWF7s%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/8b8cfba2e3ed178d37daedd18d23dfe2~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=102SRczscYWUxL26MMK2lhFwGOU%3D',
       signature: 'Ngọc linh 2k2',
       verified: false,
       secUid:
@@ -1647,24 +1721,24 @@ const following5 = [
     },
     stats: {
       followingCount: 127,
-      followerCount: 48900,
-      heartCount: 504500,
-      videoCount: 410,
-      diggCount: 6953,
-      heart: 504500,
+      followerCount: 49200,
+      heartCount: 506400,
+      videoCount: 413,
+      diggCount: 6955,
+      heart: 506400,
     },
   },
   {
     user: {
       id: '6770481055293785090',
-      uniqueId: 'hiino1960',
+      uniqueId: 'dinhdedinhde',
       nickname: 'Chỉnh Màu Lightroom 🌼',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ea98d0d2df5f75da136b9c466c8e51ae~c5_100x100.jpeg?x-expires=1661256000&x-signature=raN3LRcKAvmsi91NXVsXfgfwQ%2FM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d7a6e660ef8c1069491cc6c3581dfbc~c5_100x100.jpeg?x-expires=1662022800&x-signature=AjeHWH2NitjvTwb5V6VA0HCSEfg%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ea98d0d2df5f75da136b9c466c8e51ae~c5_720x720.jpeg?x-expires=1661256000&x-signature=06g1UbR8KKK05XGxol2AAAL0e5s%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d7a6e660ef8c1069491cc6c3581dfbc~c5_720x720.jpeg?x-expires=1662022800&x-signature=y0REFR63IjutAWiLC8yRGLvx%2F4s%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ea98d0d2df5f75da136b9c466c8e51ae~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=QcLroFEGHUrO9uzuEF3y1ESgPi4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/5d7a6e660ef8c1069491cc6c3581dfbc~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=XpAEAas1AvFXzJz7BwilODuF7P8%3D',
       signature: 'Mua tài khoản Lightroom Full Màu inbox \nZalo : 0947.596.905',
       verified: false,
       secUid:
@@ -1682,11 +1756,11 @@ const following5 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 1268,
-      followerCount: 401800,
+      followingCount: 1269,
+      followerCount: 400500,
       heartCount: 3300000,
-      videoCount: 316,
-      diggCount: 3106,
+      videoCount: 289,
+      diggCount: 3140,
       heart: 3300000,
     },
   },
@@ -1696,11 +1770,11 @@ const following5 = [
       uniqueId: 'babywitch.95',
       nickname: 'Huỳnh Thư',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_100x100.jpeg?x-expires=1661256000&x-signature=cZZDZxHLpUL2BzBfttWkGuYn0ok%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_100x100.jpeg?x-expires=1662022800&x-signature=KAc7hjxIekSLin%2Bf1LVAJdNccLI%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_720x720.jpeg?x-expires=1661256000&x-signature=Qm4WVEGmOKybJlKcMJ8b7ohCOSk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_720x720.jpeg?x-expires=1662022800&x-signature=AVk3ZgMcsfiNTViDQWp8ARgFPwQ%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=SO45Jb9xX6Van16ZksN0VxCO3dw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/70db075dbe04e9d0798e28fdf03acdc2~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=HocMxhX7p2ChZ8JJlGT6lQtCbKc%3D',
       signature: 'Vũ trụ song song pi=3.15\nContact: huynhthu.765@gmail.com',
       verified: false,
       secUid:
@@ -1719,60 +1793,27 @@ const following5 = [
     },
     stats: {
       followingCount: 444,
-      followerCount: 103900,
+      followerCount: 103600,
       heartCount: 4300000,
       videoCount: 33,
-      diggCount: 6965,
+      diggCount: 6975,
       heart: 4300000,
     },
   },
-  {
-    user: {
-      id: '6693665676843893761',
-      uniqueId: 'sadesign.vn',
-      nickname: 'SADESIGN PHOTOSHOP',
-      avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/a56409a51eacdd8473a17dcb9108ca0a.jpeg?x-expires=1661256000&x-signature=z06ma203ia7O4WTdFWatjvDVo2M%3D',
-      avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/a56409a51eacdd8473a17dcb9108ca0a.jpeg?x-expires=1661256000&x-signature=tipItaYb2Hl%2FcUT322393945GFc%3D',
-      avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/a56409a51eacdd8473a17dcb9108ca0a.jpeg?x-expires=1661256000&x-signature=10748UzlHqE65wb6pOvjSCqETAI%3D',
-      signature: 'Photoshop Free👆\nRetouching Action & Preset👇',
-      verified: false,
-      secUid:
-        'MS4wLjABAAAAH9rpA6j3odnrkMig31jtRzaFdiBgO1ZxY0dT2DDqtAZAJODjbft5zQVa0zKWy1Bd',
-      secret: false,
-      ftc: false,
-      relation: 1,
-      openFavorite: false,
-      commentSetting: 0,
-      duetSetting: 0,
-      stitchSetting: 0,
-      privateAccount: false,
-      isADVirtual: false,
-      ttSeller: false,
-      downloadSetting: 0,
-    },
-    stats: {
-      followingCount: 5226,
-      followerCount: 76400,
-      heartCount: 315400,
-      videoCount: 482,
-      diggCount: 930,
-      heart: 315400,
-    },
-  },
+];
+
+const following6 = [
   {
     user: {
       id: '6812215876772840449',
       uniqueId: 'ieltsleader',
       nickname: 'ieltsleader',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/6989561109661351962.jpeg?x-expires=1661256000&x-signature=sBg%2BtsdochPccvA3ypFU1%2BPADX8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/6989561109661351962.jpeg?x-expires=1662022800&x-signature=p1kV6ebmJioh3r76XB8oGTsIJVA%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/6989561109661351962.jpeg?x-expires=1661256000&x-signature=ceKnGRRaDzjFaPfF10CEpRc0Cio%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/6989561109661351962.jpeg?x-expires=1662022800&x-signature=bIpbOHFXUQSJdUXX6wQsFfy2xas%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/6989561109661351962.jpeg?x-expires=1661256000&x-signature=fe9L96qlVJCGBpU1FGF6OBc762U%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/6989561109661351962.jpeg?x-expires=1662022800&x-signature=LUkiaxLjppSppy5WDlEFpK6cTQQ%3D',
       signature: '',
       verified: false,
       secUid:
@@ -1792,10 +1833,10 @@ const following5 = [
     stats: {
       followingCount: 4,
       followerCount: 33000,
-      heartCount: 168000,
-      videoCount: 188,
+      heartCount: 168800,
+      videoCount: 191,
       diggCount: 264,
-      heart: 168000,
+      heart: 168800,
     },
   },
   {
@@ -1804,11 +1845,11 @@ const following5 = [
       uniqueId: 'beyourbestselfvn',
       nickname: 'Quân_himself',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1661256000&x-signature=hE9oXWg6YLeLZzZ0R4CtlndSK7U%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1662022800&x-signature=E9kW%2FIq9BXtwRoBXJOagmsgJHP4%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1661256000&x-signature=v8BMyKPQaHtLY2dwy%2FWMW0U%2B%2B4s%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1662022800&x-signature=MPxNz%2BTPJPSeAUCvBTlQ3hqdjTM%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1661256000&x-signature=URNQBuxwAPt%2FubfDGZywTIJQHgo%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bc776c5d55728269636c24c243ee11fa.jpeg?x-expires=1662022800&x-signature=C2u6CVaMGO15z96JWYfNqRQOAx8%3D',
       signature: 'Hiểu phụ nữ & trở thành người đàn ông tinh tế',
       verified: false,
       secUid:
@@ -1827,27 +1868,24 @@ const following5 = [
     },
     stats: {
       followingCount: 272,
-      followerCount: 161600,
+      followerCount: 161400,
       heartCount: 3900000,
       videoCount: 273,
       diggCount: 283,
       heart: 3900000,
     },
   },
-];
-
-const following6 = [
   {
     user: {
       id: '21406813',
       uniqueId: 'trailetuoi',
       nickname: 'Le Tuoi',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_100x100.jpeg?x-expires=1661256000&x-signature=fYJwG65r96eHrnRVSyDw71I4inQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_100x100.jpeg?x-expires=1662022800&x-signature=40kyQIOpZQewXFFXsixFiSodg4o%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_720x720.jpeg?x-expires=1661256000&x-signature=2vaTUri267nGU1ZX9iocy%2BNPLJI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_720x720.jpeg?x-expires=1662022800&x-signature=GBDyqTmR8h9RVFqqgg4FJljN2lc%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=PJJHyFpFPr1rtrheHLbC0Y8r0dI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/440f35e3ac28ca350bbd78043676e93e~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=ncWEVj2482RXJobelRhWAahPMF4%3D',
       signature:
         'Trái Lê biết chụp ảnh 📷🍐\nYoutube : Lê Tươi\nInstagram letuoi97_',
       verified: false,
@@ -1865,12 +1903,12 @@ const following6 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 88,
+      followingCount: 90,
       followerCount: 31400,
-      heartCount: 589000,
-      videoCount: 150,
-      diggCount: 1068,
-      heart: 589000,
+      heartCount: 591000,
+      videoCount: 154,
+      diggCount: 1086,
+      heart: 591000,
     },
   },
   {
@@ -1879,11 +1917,11 @@ const following6 = [
       uniqueId: 'hqd1992',
       nickname: 'Quốc Dũng',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_100x100.jpeg?x-expires=1661256000&x-signature=IF%2FYFuj75eWVfBlFmYEgcqT0R2w%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_100x100.jpeg?x-expires=1662022800&x-signature=%2BzSqODXdke8Rlwrn9RN0EjCDShM%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_720x720.jpeg?x-expires=1661256000&x-signature=VcU48ajLMR84z4e6Vxii6Nd%2F4C8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_720x720.jpeg?x-expires=1662022800&x-signature=clPt3meqvs9LhpjtuUz403OJW7k%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=jA8OezfI4zmcBtkaW9xI%2F%2BMUW00%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/f330820d2d915efb6c4c4f55e93e174b~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=VQUyMhfJS95lMOxrcI7x5Ka05zs%3D',
       signature: 'Ljnk sản phẩm ở dưới đây nè \nAnh chị nhấp vào là thấy \n👇',
       verified: false,
       secUid:
@@ -1901,12 +1939,12 @@ const following6 = [
       downloadSetting: 3,
     },
     stats: {
-      followingCount: 78,
+      followingCount: 73,
       followerCount: 1800000,
-      heartCount: 21900000,
-      videoCount: 125,
-      diggCount: 131900,
-      heart: 21900000,
+      heartCount: 22200000,
+      videoCount: 133,
+      diggCount: 132900,
+      heart: 22200000,
     },
   },
   {
@@ -1915,11 +1953,11 @@ const following6 = [
       uniqueId: 'fususu.official',
       nickname: 'FuSuSu',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1661256000&x-signature=sOQl%2Blp7OOHXVOOoZ51FROaclgI%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1662022800&x-signature=JjVGlGnqI9IwulJ43rnwJwu4oVU%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1661256000&x-signature=GFOOQfxQeyr9kz1XxpFlV4lVCV8%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1662022800&x-signature=Q%2Bcm2KJKynCjW1JKfcJg36YynoQ%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1661256000&x-signature=4ygxmppDZi7jnnKt9jdCaZHcV50%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/7b0ca074a3655c3ff25c4305e25f4cef.jpeg?x-expires=1662022800&x-signature=WMNGHo15lyM%2BWkxlof%2FoFaqB7mU%3D',
       signature:
         'Đường dài 10 năm của Fususu sẽ trở thành đường tắt của bạn chỉ sau 1 chạm\n🔻',
       verified: false,
@@ -1938,12 +1976,12 @@ const following6 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 33,
-      followerCount: 280100,
-      heartCount: 4400000,
-      videoCount: 120,
+      followingCount: 34,
+      followerCount: 282000,
+      heartCount: 4500000,
+      videoCount: 121,
       diggCount: 35,
-      heart: 4400000,
+      heart: 4500000,
     },
   },
   {
@@ -1952,11 +1990,11 @@ const following6 = [
       uniqueId: 'canhmukbang',
       nickname: 'jessica',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_100x100.jpeg?x-expires=1661256000&x-signature=oLEycySJeXFfsalbA9%2BCjI76Oho%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_100x100.jpeg?x-expires=1662022800&x-signature=ky5DldSRcLduhjGYvuXfJc%2BWlaI%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_720x720.jpeg?x-expires=1661256000&x-signature=znhwkhqQDsDoCZxqkccvom5SuTk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_720x720.jpeg?x-expires=1662022800&x-signature=x0ACH3YCgiDy1iRyUlulJJTyIp4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=Yu9uzhI6A7xE5mXyMk9P6aEz8Zw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/0b6ea252ba58f78b1beccda4ff4cf667~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=kzU3hvZ4%2Be6es2sVt8s2lgJ3eAE%3D',
       signature: 'Revew những bộ phim hay nhất mọi người follow ủng hộ ad nhé!',
       verified: false,
       secUid:
@@ -1975,7 +2013,7 @@ const following6 = [
     },
     stats: {
       followingCount: 1367,
-      followerCount: 52500,
+      followerCount: 52400,
       heartCount: 794600,
       videoCount: 385,
       diggCount: 6321,
@@ -1986,13 +2024,13 @@ const following6 = [
     user: {
       id: '6827063759685682177',
       uniqueId: 'hungtn20e',
-      nickname: 'Mạnh Hùng 20E 🇻🇳',
+      nickname: 'Mạnh Hùng 20E 🇻🇳🇹🇼',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_100x100.jpeg?x-expires=1661256000&x-signature=TsoKyZNFfwjUXE%2FMAhdZvVZHAnw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_100x100.jpeg?x-expires=1662022800&x-signature=3F0InD%2BzWy9ggMYfHeDpp7Pmf1I%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_720x720.jpeg?x-expires=1661256000&x-signature=9KEMDzcdvE5nem%2FGw5y0vdfXaaA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_720x720.jpeg?x-expires=1662022800&x-signature=j0RyEmwSD3%2FN%2FvjKKwe9C7UWHmI%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=oGzOzlnwJPlx2yDGQb54TyQmhEA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/2d3fa3566c1351168ef6d54e26600fce~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=szaBkozDDd1wNBpTFKmg7y3DOu4%3D',
       signature: 'Cao Hùng Đài Loan\n越南人在台灣🇻🇳🇹🇼',
       verified: false,
       secUid:
@@ -2010,12 +2048,12 @@ const following6 = [
       downloadSetting: 3,
     },
     stats: {
-      followingCount: 507,
-      followerCount: 43900,
-      heartCount: 229600,
-      videoCount: 172,
-      diggCount: 15800,
-      heart: 229600,
+      followingCount: 454,
+      followerCount: 43700,
+      heartCount: 230200,
+      videoCount: 176,
+      diggCount: 16000,
+      heart: 230200,
     },
   },
   {
@@ -2024,11 +2062,11 @@ const following6 = [
       uniqueId: 'quanglinhhhh',
       nickname: 'Quanglinhhhh',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_100x100.jpeg?x-expires=1661256000&x-signature=qBMegDVawZPkJfuFz5%2FyFxsKDnQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_100x100.jpeg?x-expires=1662022800&x-signature=LzKL%2BLSc2L%2BWZKTPybPOfMYk0Q8%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_720x720.jpeg?x-expires=1661256000&x-signature=G643uClbdN0kEmctQ2HIY%2BxtelU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_720x720.jpeg?x-expires=1662022800&x-signature=MoEEBncl%2BRV6FG%2FsGhjzdMVdSCU%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=VLVwK9vzLKid3ktoXAhNpsfz5UU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/44ae7aa7e78aa9f2ebc763008b459ec8~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=QdJdP3B3T7fXo89YMe7lN2Nsg3M%3D',
       signature:
         'live acoustic T4 và CN 20h30 trên Tiktok quanglinhhh\n    nhóm học piano 👇🏻👇🏻',
       verified: false,
@@ -2047,11 +2085,11 @@ const following6 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 108,
-      followerCount: 438300,
+      followingCount: 111,
+      followerCount: 438800,
       heartCount: 9700000,
-      videoCount: 280,
-      diggCount: 1908,
+      videoCount: 284,
+      diggCount: 1930,
       heart: 9700000,
     },
   },
@@ -2061,11 +2099,11 @@ const following6 = [
       uniqueId: 'dao_duy_phuong',
       nickname: 'Review Cùng Mập',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1661256000&x-signature=KD9O2bPGBTRWBEGo73DQal%2Fjrzw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1662022800&x-signature=r3gLP0tF1Nhs%2FLnoUjMD1Tiu6xg%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1661256000&x-signature=LFSH32HV9GQTVJVJ7VG8cssluJI%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1662022800&x-signature=J7WvaP%2FbMH%2FtrqkgYGp0Ru1Rb5I%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1661256000&x-signature=eL%2BEyGn4b14K2I1twgDhCYGzLLs%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/cbadb7d202e7782be836db6ad44b0063.jpeg?x-expires=1662022800&x-signature=oXv3DDwzQUtBQGtIHRrUIXfcxbM%3D',
       signature:
         'Ads.bookingkol@gmail.com\n033.212.8250\n Fb : Duy Phương Đào (Mập)',
       verified: false,
@@ -2085,11 +2123,11 @@ const following6 = [
     },
     stats: {
       followingCount: 27,
-      followerCount: 222800,
-      heartCount: 3700000,
-      videoCount: 628,
-      diggCount: 9731,
-      heart: 3700000,
+      followerCount: 223700,
+      heartCount: 3800000,
+      videoCount: 636,
+      diggCount: 9778,
+      heart: 3800000,
     },
   },
   {
@@ -2098,11 +2136,11 @@ const following6 = [
       uniqueId: 'delaquadra',
       nickname: 'Fernando Delaquadra',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_100x100.jpeg?x-expires=1661256000&x-signature=LsWvp5zZcbnTM5AMGNc4%2F4Fq11s%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_100x100.jpeg?x-expires=1662022800&x-signature=BjOZGZjD950cdBUpTeS%2BFJLqYUk%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_720x720.jpeg?x-expires=1661256000&x-signature=XO35YSKJIc2ZM3bfGqEjwDI0WUY%3D',
+        'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_720x720.jpeg?x-expires=1662022800&x-signature=NLC9bs2yXIwxUkd6OcBe0NpHklM%3D',
       avatarLarger:
-        'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=tuX%2B9%2BxHZPwfJroEZH54QriIA9k%3D',
+        'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/83bb3f6fc15f1e8422c35590a0873275~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=5DAdyRKUHTauk4Yu9aCJSt2tlRM%3D',
       signature:
         'sigueme para más @delaquadra ☝ \nphotographer creative photos & video tips',
       verified: true,
@@ -2124,22 +2162,25 @@ const following6 = [
       followingCount: 816,
       followerCount: 1800000,
       heartCount: 17400000,
-      videoCount: 368,
-      diggCount: 4506,
+      videoCount: 369,
+      diggCount: 4508,
       heart: 17400000,
     },
   },
+];
+
+const following7 = [
   {
     user: {
       id: '6855971531056399365',
       uniqueId: 'salah_180010',
       nickname: 'Salah 🔱🔥"',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_100x100.jpeg?x-expires=1661256000&x-signature=8%2FuST0Lg4i8oPdDZDbSlB1QXtRU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_100x100.jpeg?x-expires=1662022800&x-signature=h7Fsaa23sqhK4y4bzVL3fZEYB0E%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_720x720.jpeg?x-expires=1661256000&x-signature=klMT7e7KOXk6YjEAs6lBZygUQqA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_720x720.jpeg?x-expires=1662022800&x-signature=LjnsK%2BJPitwS%2BZAnYaWF%2Ft7UgNE%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=r8erIvnod4cHf5jM65wHn5lDeGg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/18dcfe2779723f3ecd646e10bfe12d3d~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=%2Bcs78cSX3pVscrWc1CEZWN1hCQ8%3D',
       signature: '𝐌𝐄𝐍’𝐒 𝐅𝐀𝐒𝐇𝐈𝐎𝐍 🇪🇬\n4.5M?!',
       verified: false,
       secUid:
@@ -2158,11 +2199,11 @@ const following6 = [
     },
     stats: {
       followingCount: 11,
-      followerCount: 4100000,
-      heartCount: 22300000,
-      videoCount: 132,
-      diggCount: 265,
-      heart: 22300000,
+      followerCount: 4200000,
+      heartCount: 22500000,
+      videoCount: 134,
+      diggCount: 268,
+      heart: 22500000,
     },
   },
   {
@@ -2171,11 +2212,11 @@ const following6 = [
       uniqueId: 'maomitra',
       nickname: 'Mao Mitra',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/08885397821dccb7130902e1b378faf0~c5_100x100.jpeg?x-expires=1661256000&x-signature=9tWPt7aEVXAyp5aSGewA89BUnXg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b14176048a235161e5b71e7f9582ea00~c5_100x100.jpeg?x-expires=1662022800&x-signature=JQyVit3OO4oyu1RtqiyW1f204UE%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/08885397821dccb7130902e1b378faf0~c5_720x720.jpeg?x-expires=1661256000&x-signature=8JnGW0TdO2Ag73RygGT8%2F0OOluI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b14176048a235161e5b71e7f9582ea00~c5_720x720.jpeg?x-expires=1662022800&x-signature=PiR29Tnw4QfdFFB5sDyuwqTEaIY%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/08885397821dccb7130902e1b378faf0~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=DyPY6j%2Bit31pW5cnDJe%2FYW1tar0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b14176048a235161e5b71e7f9582ea00~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=Y899AacmUXaszwy7p70M5i6tViE%3D',
       signature:
         'CREADOR DE CONTENIDO DIGITAL\nFotografía | Edición | Producción | Tecnología',
       verified: true,
@@ -2195,27 +2236,24 @@ const following6 = [
     },
     stats: {
       followingCount: 16,
-      followerCount: 3200000,
-      heartCount: 28500000,
-      videoCount: 697,
+      followerCount: 3300000,
+      heartCount: 29000000,
+      videoCount: 705,
       diggCount: 3052,
-      heart: 28500000,
+      heart: 29000000,
     },
   },
-];
-
-const following7 = [
   {
     user: {
       id: '6995905392026911771',
       uniqueId: 'camquayphim',
       nickname: 'CAM QUAY TAY',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_100x100.jpeg?x-expires=1661256000&x-signature=XL1dL7SZHyuSyLqwbUBmQlUhZUw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_100x100.jpeg?x-expires=1662022800&x-signature=NHSqSkBDSOisIZF0cNWvvp4zhq4%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_720x720.jpeg?x-expires=1661256000&x-signature=8s0pbIKZvaejdXRACTZ59y1YX74%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_720x720.jpeg?x-expires=1662022800&x-signature=lKJeG8sgnNPB9jbdxoUBRm6%2BDH4%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=PRiK%2FLheBDaxyh5vfvvl8%2FTNL9c%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/bda63378344eae641041ee8a72c8d1af~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=waOCLGO%2BIh97wZ18uZ0T91mSy3w%3D',
       signature: 'Khoá học và thiết bị Cam dùng để ở đây nhé 👇🏽',
       verified: false,
       secUid:
@@ -2234,11 +2272,11 @@ const following7 = [
     },
     stats: {
       followingCount: 44,
-      followerCount: 124600,
-      heartCount: 592200,
+      followerCount: 124700,
+      heartCount: 594900,
       videoCount: 79,
       diggCount: 418,
-      heart: 592200,
+      heart: 594900,
     },
   },
   {
@@ -2247,11 +2285,11 @@ const following7 = [
       uniqueId: 'ducoi_lunmacgi',
       nickname: 'Đức ơi, LÙN mặc gì?',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1661256000&x-signature=FvaaZi60scJzC6WOcNyxb9FUErs%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1662022800&x-signature=OIRiYNTrle3y7%2FzTFYU0Dh8yvDM%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1661256000&x-signature=O8uAIoJcJd1o3Sb4Z%2FVrNCf9H0k%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1662022800&x-signature=kLattcGkhb6MvX%2FV3zr3K7cOmOM%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1661256000&x-signature=QK4K7pT%2F02D1vXvgeZ9Ay7h4Tvk%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/31bf1b8e24002c1b74e59b5d38fd6143.jpeg?x-expires=1662022800&x-signature=JQ%2BTB%2FBEYiVuS08ude%2BSxvcYtls%3D',
       signature:
         '▪️Thời trang trai lùn▪️\nWelcome to Đà Nẵng\n\nContact: creator@box.studio',
       verified: false,
@@ -2270,12 +2308,12 @@ const following7 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 241,
+      followingCount: 248,
       followerCount: 14400,
-      heartCount: 131600,
-      videoCount: 47,
-      diggCount: 2719,
-      heart: 131600,
+      heartCount: 132000,
+      videoCount: 49,
+      diggCount: 2813,
+      heart: 132000,
     },
   },
   {
@@ -2284,11 +2322,11 @@ const following7 = [
       uniqueId: 'yeuxingtu',
       nickname: 'Xingtu yêu dấu',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_100x100.jpeg?x-expires=1661256000&x-signature=F6QlcmtjXn95gVVhld0Eor%2BuvmE%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_100x100.jpeg?x-expires=1662022800&x-signature=dckJs4w3eREBp0WI10p8OFDITCQ%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_720x720.jpeg?x-expires=1661256000&x-signature=5Ei9tTEN4Uep4q5JINxu7VFCkHQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_720x720.jpeg?x-expires=1662022800&x-signature=Om1ZiI7EWfKsd6RPCEaNLdjBwos%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=UAVycen%2FBWBKZAQeSPoCQXIBfME%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/7a2c796ce829621172030a1c1a73cacf~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=BgfqdQizNTCFolb1CQtOWXti37g%3D',
       signature:
         'Xin chào các bạn yêu dấu Xingtu, rảnh ghé vào tiktokshop mình dạo thử nhé ạ.',
       verified: false,
@@ -2308,10 +2346,10 @@ const following7 = [
     },
     stats: {
       followingCount: 31,
-      followerCount: 156400,
+      followerCount: 156000,
       heartCount: 3100000,
-      videoCount: 340,
-      diggCount: 966,
+      videoCount: 341,
+      diggCount: 982,
       heart: 3100000,
     },
   },
@@ -2321,11 +2359,11 @@ const following7 = [
       uniqueId: 'zono.sann',
       nickname: 'ぞのさんっ',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1661256000&x-signature=i%2Bm67LxRx59%2BzJZ%2FCrPmD0eSflQ%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1662022800&x-signature=Oea%2FNcPFR%2BeGnMrdExGPMGmujtw%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1661256000&x-signature=FcGcjhi8X5e5UyWiP4sbER479HA%3D',
+        'https://p77-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1662022800&x-signature=ZFywuO57JEboC0BOF%2FiE9%2BLeWXI%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1661256000&x-signature=0z9C3zRPRoFF2he5hzKrlHsqrnY%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/b5e5e2fe4204192c9b04dcb610c9cfbf.jpeg?x-expires=1662022800&x-signature=IG0K37mkCL1Q0CXMxaDN3FPbaxM%3D',
       signature:
         'Creator’s Campus 代表\n僕の動画の全てが学べます♫\nYou can learn from my videos :)\n↓',
       verified: true,
@@ -2344,12 +2382,12 @@ const following7 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 94,
+      followingCount: 96,
       followerCount: 2700000,
-      heartCount: 34400000,
+      heartCount: 34600000,
       videoCount: 497,
-      diggCount: 8729,
-      heart: 34400000,
+      diggCount: 8777,
+      heart: 34600000,
     },
   },
   {
@@ -2358,11 +2396,11 @@ const following7 = [
       uniqueId: 'baba.bapbap',
       nickname: 'Nam Hiếu nè…📸',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_100x100.jpeg?x-expires=1661256000&x-signature=8U1QrBwbaqcJ62vUvycgLdQf1m8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_100x100.jpeg?x-expires=1662022800&x-signature=RwV6U1fSfqP16%2FDpHQbU2Qe51Fg%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_720x720.jpeg?x-expires=1661256000&x-signature=TtslEO86kRA6FED7CnFoB8NizzI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_720x720.jpeg?x-expires=1662022800&x-signature=%2F9BkJq8KJJo0SZ%2BdYNavDVYoWFg%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=V1XR7N%2FwmxFrchyESPTzZmRuVvI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a6ab75cf0380cddada320d8b7d42607a~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=6YJzQ55Vi9Va9jWQoHEvtlcEmBA%3D',
       signature:
         'Mình là thợ ảnh thích chia sẽ những cái mình biết \n🔻À thứ bạn tìm nằm ở đây☺️🔻',
       verified: false,
@@ -2382,10 +2420,10 @@ const following7 = [
     },
     stats: {
       followingCount: 196,
-      followerCount: 5610,
+      followerCount: 5597,
       heartCount: 23200,
       videoCount: 23,
-      diggCount: 827,
+      diggCount: 833,
       heart: 23200,
     },
   },
@@ -2395,11 +2433,11 @@ const following7 = [
       uniqueId: 'arianteo',
       nickname: 'Arian Teo',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1661256000&x-signature=SjtOPpvRwYSz3o9zCXT0D%2F7EmZ4%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1662022800&x-signature=fCwG6Hu93AzDzIGYUD0KQUlkuYA%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1661256000&x-signature=YqkaRQGdNgM5mJFpUI1sJo3HXm4%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1662022800&x-signature=4Tmei6D%2BaZyUwg9NsB%2BXwCGR3RE%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1661256000&x-signature=d1lpY9jOWdx%2Bbc76aUIW8S49Bq4%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/8f43725ae504c7a0cdfb3dc54fd51390.jpeg?x-expires=1662022800&x-signature=2VV7kxlyoc90SGM8REZbAFJiIUI%3D',
       signature: 'Creative photo, video & edit\n📧: hello@arianteo.com',
       verified: false,
       secUid:
@@ -2417,12 +2455,12 @@ const following7 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 384,
+      followingCount: 385,
       followerCount: 4400000,
-      heartCount: 90400000,
-      videoCount: 286,
-      diggCount: 3918,
-      heart: 90400000,
+      heartCount: 90600000,
+      videoCount: 287,
+      diggCount: 3926,
+      heart: 90600000,
     },
   },
   {
@@ -2431,11 +2469,11 @@ const following7 = [
       uniqueId: 'trongloc1010',
       nickname: '☘️ Trọng Lọc ☘️',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_100x100.jpeg?x-expires=1661256000&x-signature=AtqjGkv%2FL7EHwOrBbtjrtcL4iU8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_100x100.jpeg?x-expires=1662022800&x-signature=5X2rWEYlOEZjP3HHF3pQZ6vGvhU%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_720x720.jpeg?x-expires=1661256000&x-signature=Uju0bRN3hq0XUCXHHyWb%2BtadseU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_720x720.jpeg?x-expires=1662022800&x-signature=xxdJaGTAmexaTC0SS6cFWPo1aG8%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=ZWSNh3KYzVKC0PzQKWNAEHiHDbw%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/02a1e1cf74eddc8430233566f980ebb5~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=E9S5CY%2BEzNiiQtEhj9R14KT16H4%3D',
       signature:
         'Liên hệ CV Mail or IG\n📩 bookingtrongloc@gmail.com\n    👇👇👇',
       verified: false,
@@ -2454,11 +2492,11 @@ const following7 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 119,
-      followerCount: 759600,
+      followingCount: 123,
+      followerCount: 759400,
       heartCount: 9100000,
-      videoCount: 211,
-      diggCount: 3770,
+      videoCount: 213,
+      diggCount: 3796,
       heart: 9100000,
     },
   },
@@ -2468,11 +2506,11 @@ const following7 = [
       uniqueId: 'chinhanhlightroom',
       nickname: 'Chỉnh Ảnh Lightroom 🌼',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1661256000&x-signature=rszykYdFU%2Bt4rC1%2FEO5G1BGT6iQ%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1662022800&x-signature=6HcUua72ua5FkpftHjK165yoh48%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1661256000&x-signature=aBt8nKS6LI%2F1KCBeTvsWt0j69mY%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1662022800&x-signature=yYdZKPsjdGjKOhqzNIZJrTHexIo%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1661256000&x-signature=oki9MY5ILIIQHt29XYfHEFAQpPM%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/6e9c4e3d33f6e442863d8cbda86adcdd.jpeg?x-expires=1662022800&x-signature=LyhIibBPFIJq0FHJweqv9OA6A8o%3D',
       signature: 'Tài khoản cài sẵn màu và mọi thông tin về mình\n👇🏻',
       verified: false,
       secUid:
@@ -2490,25 +2528,28 @@ const following7 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 41,
-      followerCount: 451900,
+      followingCount: 42,
+      followerCount: 451600,
       heartCount: 4100000,
-      videoCount: 232,
-      diggCount: 15700,
+      videoCount: 234,
+      diggCount: 15800,
       heart: 4100000,
     },
   },
+];
+
+const following8 = [
   {
     user: {
       id: '6944107826021598209',
       uniqueId: 'tranalistole',
       nickname: 'Trânlisolte(phối đồ chụp hình)',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_100x100.jpeg?x-expires=1661256000&x-signature=8SniU7eWLMmgqatpAoQPPfPh2xo%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_100x100.jpeg?x-expires=1662022800&x-signature=J9BdDwsY1RK5NdHmgJ7R23hLw8k%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_720x720.jpeg?x-expires=1661256000&x-signature=5SrD9wqTipivZsgzs9EWG7N22lU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_720x720.jpeg?x-expires=1662022800&x-signature=Iw0bvlGgSS7S36cTlUtGwQwHDS0%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=BRvwpS6aLoJMx1dKtIx%2BNlq%2BmJ0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/d26ac44ebca4160dfb8e8dc700c915f0~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=fPtNdaasDXTg%2F78gLqDhCCykiPI%3D',
       signature:
         'Ai mua hàng gì thì vào link dưới đây\nỨng dụng TikTok shop nằm dưới link\n👇 🛒',
       verified: false,
@@ -2528,10 +2569,10 @@ const following7 = [
     },
     stats: {
       followingCount: 91,
-      followerCount: 271100,
+      followerCount: 270800,
       heartCount: 1500000,
-      videoCount: 605,
-      diggCount: 52000,
+      videoCount: 609,
+      diggCount: 52300,
       heart: 1500000,
     },
   },
@@ -2541,11 +2582,11 @@ const following7 = [
       uniqueId: 'photo.dl',
       nickname: 'Dũng Lee_Photo',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1661256000&x-signature=3LBFMeVLy5%2FoxTmcDCsSrXnRC0w%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1662022800&x-signature=kU%2ButnLpAPoGATIfnCTneOWCBVs%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1661256000&x-signature=BVx3m9Yxku6EK18mA9w95%2BX0Z3U%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1662022800&x-signature=lVAm%2BJO626rv4ygvj0N%2BTWCfN3M%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1661256000&x-signature=KE3%2Fn1w4fiqdmQ7amMa%2BxbzTXl4%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/dc1538e42711adf64e998c923f01f6bf.jpeg?x-expires=1662022800&x-signature=5CM%2BC1GiAN0yiM%2Bb7InkONifidM%3D',
       signature: 'Photo DaLat -  Contact: 0️⃣8️⃣.4️⃣5️⃣7️⃣9️⃣.0️⃣5️⃣7️⃣9️⃣',
       verified: false,
       secUid:
@@ -2564,27 +2605,24 @@ const following7 = [
     },
     stats: {
       followingCount: 100,
-      followerCount: 93900,
-      heartCount: 645400,
-      videoCount: 121,
-      diggCount: 863,
-      heart: 645400,
+      followerCount: 94500,
+      heartCount: 649600,
+      videoCount: 122,
+      diggCount: 866,
+      heart: 649600,
     },
   },
-];
-
-const following8 = [
   {
     user: {
       id: '7028473297000858626',
       uniqueId: 'xinki5158',
       nickname: '森井',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/bf5c83faf4d4d08461f9d04f1f54ae93.jpeg?x-expires=1661256000&x-signature=Ispow4O4AKMErlKvO0S8%2BxuygKc%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/4a9d1aa73bdba1be6c9c7646afc64e1c.jpeg?x-expires=1662022800&x-signature=kHz5g7s84t810Dj6E%2FnU6us5Jdo%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/bf5c83faf4d4d08461f9d04f1f54ae93.jpeg?x-expires=1661256000&x-signature=MXylfB%2F2A5NOyxa0gAPPqJ3Fqpo%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/4a9d1aa73bdba1be6c9c7646afc64e1c.jpeg?x-expires=1662022800&x-signature=PnsJvQLo8qT5miFD2Hcp3Tk8Lr8%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bf5c83faf4d4d08461f9d04f1f54ae93.jpeg?x-expires=1661256000&x-signature=lwz%2FiMkTWsOkc%2FUM1%2F0xwEo8sy0%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/4a9d1aa73bdba1be6c9c7646afc64e1c.jpeg?x-expires=1662022800&x-signature=0cPZwaoLziPR76ZYT%2BSTI4Dn8ps%3D',
       signature:
         '撮影を希望される方LINEの友達追加してね🤝フォローしている方限定中、心よりお待ちしています☺️\nLINE：19935158👈',
       verified: false,
@@ -2604,11 +2642,11 @@ const following8 = [
     },
     stats: {
       followingCount: 15,
-      followerCount: 43000,
-      heartCount: 886900,
+      followerCount: 42900,
+      heartCount: 887400,
       videoCount: 7,
       diggCount: 64,
-      heart: 886900,
+      heart: 887400,
     },
   },
   {
@@ -2617,11 +2655,11 @@ const following8 = [
       uniqueId: 'hdc55555',
       nickname: 'HDC - 艺术摄影 📷',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_100x100.jpeg?x-expires=1661256000&x-signature=gIPAbvSYeIjRxN6N1IC0IXdWKi8%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_100x100.jpeg?x-expires=1662022800&x-signature=1Wz%2BFQ8%2BN0IJLMQ%2FRAvyZmgG234%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_720x720.jpeg?x-expires=1661256000&x-signature=NLH3pCaLHos1UrjG4S%2B0ZRvYEs4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_720x720.jpeg?x-expires=1662022800&x-signature=IX0kQQxHVQ%2FP%2B8lFy8ururNB5DY%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=HyXBdy0iLhGsxsJGrOcrHb%2FuriA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/9e7e1beb1146865167a26fef1ecfa051~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=uBYjXq3v1gvj7Wskl%2FeJMsYLD8c%3D',
       signature:
         'Thanks 200K F❤️L.  Hope you will have beautiful and meaningful pictures.',
       verified: false,
@@ -2640,11 +2678,11 @@ const following8 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 20,
-      followerCount: 311500,
+      followingCount: 21,
+      followerCount: 310600,
       heartCount: 2700000,
       videoCount: 372,
-      diggCount: 888,
+      diggCount: 912,
       heart: 2700000,
     },
   },
@@ -2654,11 +2692,11 @@ const following8 = [
       uniqueId: 'futa.729s',
       nickname: 'シライフウタ',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1660499888261122.jpeg?x-expires=1661256000&x-signature=xSxZ6aLe4UyIu0s5dNPnmhjtQdE%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1660499888261122.jpeg?x-expires=1662022800&x-signature=T9nSyTJXDr3t%2FZswrFsnEoo22tg%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1660499888261122.jpeg?x-expires=1661256000&x-signature=3lMwX4t2T95byhAPcxmh2IXB5Bk%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1660499888261122.jpeg?x-expires=1662022800&x-signature=fzQdjDnPJ5B2%2BrNF%2BcKxyc7N%2BQI%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1660499888261122.jpeg?x-expires=1661256000&x-signature=7VR99fT5zyBErkD3aJmcrH5Y0qs%3D',
+        'https://p77-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1660499888261122.jpeg?x-expires=1662022800&x-signature=HJ88k%2FgQYWJxy5fVsh%2BPU0qSIsY%3D',
       signature:
         "Content Creator / Filmmaker\nKyoto, Japan🇯🇵 '91🥰\n📩shiraifuta@gmail.com",
       verified: false,
@@ -2678,10 +2716,10 @@ const following8 = [
     },
     stats: {
       followingCount: 55,
-      followerCount: 677100,
+      followerCount: 676700,
       heartCount: 5600000,
-      videoCount: 128,
-      diggCount: 889,
+      videoCount: 129,
+      diggCount: 891,
       heart: 5600000,
     },
   },
@@ -2691,11 +2729,11 @@ const following8 = [
       uniqueId: 'daquythanhlam',
       nickname: 'Thanh Lãm',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_100x100.jpeg?x-expires=1661256000&x-signature=rFPGnQAoyjmbxVuylsRfSRYEtrg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_100x100.jpeg?x-expires=1662022800&x-signature=bssclAUcETscB2ZELk%2B5NdNu3nw%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_720x720.jpeg?x-expires=1661256000&x-signature=62bt%2F8IeCEW%2B6TlGRIdptQT%2FNFI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_720x720.jpeg?x-expires=1662022800&x-signature=fh84Ph3q7Kg%2FT9HoMwnvRP1TD7g%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=p9WDmMg%2BCTbCYVDe%2Fmpy1pM8r5I%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/74de22fc5c33458e8de404ded12c18cb~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=%2Bz8tHpB1SbjWhvXVY3lQ10Zb%2BEs%3D',
       signature:
         'góc quay nghiệp dư đơn giản\nchuyên đá quý ruby,đá phong thủy,tranh đá\n21h live',
       verified: false,
@@ -2714,8 +2752,8 @@ const following8 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 113,
-      followerCount: 402400,
+      followingCount: 114,
+      followerCount: 402900,
       heartCount: 4800000,
       videoCount: 161,
       diggCount: 12500,
@@ -2728,11 +2766,11 @@ const following8 = [
       uniqueId: 'tokyolife.hack',
       nickname: 'Cô Nhân Viên Thông Thái',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_100x100.jpeg?x-expires=1661256000&x-signature=uXv49YyER1xj8rDooOeH9dEwJyI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_100x100.jpeg?x-expires=1662022800&x-signature=4bnN5zCR%2BxfCBWFMKxZvQN%2FjgVc%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_720x720.jpeg?x-expires=1661256000&x-signature=WifzvqFDMv1O5rxgP8lynJqub2U%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_720x720.jpeg?x-expires=1662022800&x-signature=%2FnOgHClZ08uJTXSNl5tQmuIWBPM%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=sdIqVWNm2Tejndc4Lz4mHw%2BxXog%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/4869d7e7fba3724fbf9407796ad5df16~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=QMFWlfHy%2BJ96Fv7eti1QTJQYnXA%3D',
       signature: 'Đồ chúng mình mặc và dùng đều ở đây nè👇',
       verified: false,
       secUid:
@@ -2751,10 +2789,10 @@ const following8 = [
     },
     stats: {
       followingCount: 40,
-      followerCount: 175000,
+      followerCount: 182400,
       heartCount: 1200000,
-      videoCount: 82,
-      diggCount: 1107,
+      videoCount: 85,
+      diggCount: 1124,
       heart: 1200000,
     },
   },
@@ -2764,11 +2802,11 @@ const following8 = [
       uniqueId: 'todayyy___',
       nickname: 'Todayyy___',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_100x100.jpeg?x-expires=1661256000&x-signature=2TRXMs5l688ABytwGbW10RzZ3M4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_100x100.jpeg?x-expires=1662022800&x-signature=WnZozoDArpsvzvDyU6cvNkuNu8Q%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_720x720.jpeg?x-expires=1661256000&x-signature=3p6NiNmbxlFQ2lIL8ACnUGliugc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_720x720.jpeg?x-expires=1662022800&x-signature=eTSRjPHJUuLSp%2FEXEEBcNNwcps0%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=E2cXOb9qZyomh1BBQTIMAZPx6zI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/70ee839b749263b84ad7b8cbc1a303f4~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=ca78lxK0%2BqZXvTNGt9HdtZ8JeeQ%3D',
       signature: '',
       verified: false,
       secUid:
@@ -2787,7 +2825,7 @@ const following8 = [
     },
     stats: {
       followingCount: 214,
-      followerCount: 92100,
+      followerCount: 92000,
       heartCount: 702700,
       videoCount: 209,
       diggCount: 270,
@@ -2800,11 +2838,11 @@ const following8 = [
       uniqueId: 'anhvuart94',
       nickname: 'Anh Vũ Art',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_100x100.jpeg?x-expires=1661256000&x-signature=PFjO9iF8qKVkmnQ1Yy0dkYVdTlk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_100x100.jpeg?x-expires=1662022800&x-signature=4VbN0Ac5CtJZ1Np6SoaFqinMHu0%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_720x720.jpeg?x-expires=1661256000&x-signature=9uS2oAGRTTkbJdIpLiN5yHSgE8o%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_720x720.jpeg?x-expires=1662022800&x-signature=TCD%2FM%2Fuq7Tb0rTH0db9YNUSScqs%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=d81S%2FsnQTrmQMxmuYh%2FJDKJyNVY%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/01714557ff547c8d8aecf6a77d5af907~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=Q5KARuHFvlcxKpGTtutQTgkmSfM%3D',
       signature:
         'Du lịch - Chỉnh màu ảnh - Chỉnh màu video 📸\nLink dưới có hết nhé các bạn ❤️\n👇',
       verified: false,
@@ -2823,11 +2861,11 @@ const following8 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 175,
-      followerCount: 266600,
+      followingCount: 177,
+      followerCount: 266800,
       heartCount: 4000000,
-      videoCount: 259,
-      diggCount: 2228,
+      videoCount: 263,
+      diggCount: 2242,
       heart: 4000000,
     },
   },
@@ -2837,11 +2875,11 @@ const following8 = [
       uniqueId: 'poses.bingo',
       nickname: '𝙋𝙤𝙨𝙚𝙨 🌀𝘽𝙞𝙣𝙜𝙤',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_100x100.jpeg?x-expires=1661256000&x-signature=hrgDgZM85vMiYbc62BbVxzPrvOI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_100x100.jpeg?x-expires=1662022800&x-signature=WNWU5sT1ebc7AvBlvE%2FEo9CGd9U%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_720x720.jpeg?x-expires=1661256000&x-signature=PmxcZy%2BM9X03ecDzeaLtcbPOSfQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_720x720.jpeg?x-expires=1662022800&x-signature=2zEhEPQJy48eABLexGRuTNln%2FzI%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=znT0C%2FXrrQR8EnyIk2%2BOvzulAUc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b199fc46b003f3a8cdbe627b4f573edf~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=ytQTIb4DPdfiYp0FgA%2B1cJu9DIc%3D',
       signature:
         'Nếu thấy hữu ích hãy theo dõi và chia sẻ video đến mọi người nhé 🌀',
       verified: false,
@@ -2861,24 +2899,27 @@ const following8 = [
     },
     stats: {
       followingCount: 0,
-      followerCount: 41000,
-      heartCount: 206900,
-      videoCount: 43,
+      followerCount: 40900,
+      heartCount: 207300,
+      videoCount: 44,
       diggCount: 85,
-      heart: 206900,
+      heart: 207300,
     },
   },
+];
+
+const following9 = [
   {
     user: {
       id: '6868146543133819905',
       uniqueId: 'ty.photo',
       nickname: 'Tý photography',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1661256000&x-signature=IlpJE%2BDV%2FYT0U0evmYFj59cWGts%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1662022800&x-signature=X5Vmijhux02zbTVPDNUeihuWGTQ%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1661256000&x-signature=LDAK7tnCOOGyjGyVYztJu5xhfcY%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1662022800&x-signature=dBOhvsKawjqrcN%2F1sM5eYuuedPg%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1661256000&x-signature=BCqNxbJl1sodGQXSpHtsR5b4aks%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/02d13058698cd2d256973486500eade7.jpeg?x-expires=1662022800&x-signature=g2FfPlS59%2FklieMIKv4PIgfs7KM%3D',
       signature:
         'Forwork: typhoto.8689@gmail.com\n🌈 Link các tone màu mình có để dưới đây nhé 👇',
       verified: false,
@@ -2898,10 +2939,10 @@ const following8 = [
     },
     stats: {
       followingCount: 429,
-      followerCount: 280200,
+      followerCount: 279500,
       heartCount: 1600000,
       videoCount: 239,
-      diggCount: 1582,
+      diggCount: 1586,
       heart: 1600000,
     },
   },
@@ -2911,11 +2952,11 @@ const following8 = [
       uniqueId: 'bachnhue',
       nickname: 'bách nhuệ 📸',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_100x100.jpeg?x-expires=1661256000&x-signature=CmDmfT2TQlCAi%2BHcpegN6RNMeps%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_100x100.jpeg?x-expires=1662022800&x-signature=nWJy1oNEj9DMEqYvZyr4WcQMHE0%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_720x720.jpeg?x-expires=1661256000&x-signature=tjoTPnC0Jer11RZDhigbk%2FU%2FqnU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_720x720.jpeg?x-expires=1662022800&x-signature=aDYKSixjiFVhfovQEycjoAT2nlo%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=7XPBZnWdiCwwJD%2FYF35kXGLcdlg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/6e2d4d2dd6ceaba572aaaac7839c12ac~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=NqLMMrnOIy72JfpDTJ5SL6k8hDc%3D',
       signature:
         '📸👖vừa đi vừa chụp👕📷\n1m74 | 65kg | saigon \nFor Work: tiktok@gdl.vn',
       verified: false,
@@ -2934,28 +2975,25 @@ const following8 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 444,
-      followerCount: 86000,
+      followingCount: 464,
+      followerCount: 85900,
       heartCount: 1200000,
-      videoCount: 206,
-      diggCount: 23900,
+      videoCount: 210,
+      diggCount: 24200,
       heart: 1200000,
     },
   },
-];
-
-const following9 = [
   {
     user: {
       id: '6552438171719876609',
       uniqueId: 'hoangtuan_photo',
       nickname: 'Hoàng Minh Tuấn',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_100x100.jpeg?x-expires=1661256000&x-signature=rcjtgV4Cu6IgwhQunv2Il66difI%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_100x100.jpeg?x-expires=1662022800&x-signature=6pSWRRFyswb8zzyUMfiCB97Bf6I%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_720x720.jpeg?x-expires=1661256000&x-signature=6LPaJjdPm9mKBcyk%2B7EyXUQwtbY%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_720x720.jpeg?x-expires=1662022800&x-signature=frtyVLy0u%2FDXE5EHPlnWqPgm2%2FE%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=DFriU%2BAgE1L6DssKy5cm3eRLQMA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/a3201ea4e959877ec7607dcd138b6521~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=htAo868cveRfgN2dynKkaFm8DQM%3D',
       signature:
         'Đào tạo nhiếp ảnh ở SG và online\nInfo Khóa hoc, thiết bị bạn tìm ở đây\n⬇️⬇️',
       verified: true,
@@ -2975,11 +3013,11 @@ const following9 = [
     },
     stats: {
       followingCount: 7,
-      followerCount: 846300,
-      heartCount: 13900000,
-      videoCount: 643,
-      diggCount: 5360,
-      heart: 13900000,
+      followerCount: 848000,
+      heartCount: 14000000,
+      videoCount: 651,
+      diggCount: 5374,
+      heart: 14000000,
     },
   },
   {
@@ -2988,11 +3026,11 @@ const following9 = [
       uniqueId: 'okomehakumai',
       nickname: 'せきはん',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1664493202646017.jpeg?x-expires=1661256000&x-signature=63sxX9PCVwzcAXd9U0kH3JN1PGw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1664493202646017.jpeg?x-expires=1662022800&x-signature=MFMvIEe2%2B%2FeEB3Bx4R7xB7H%2BgNI%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1664493202646017.jpeg?x-expires=1661256000&x-signature=Odu3hucUxn25sYmk0aE%2BBgV27yM%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1664493202646017.jpeg?x-expires=1662022800&x-signature=37XxgaxyaML8AIon0v2xSkHls2M%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1664493202646017.jpeg?x-expires=1661256000&x-signature=COlJrVhTZSmXZHDmP837CMr0PvU%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1664493202646017.jpeg?x-expires=1662022800&x-signature=uSRYzmkpohXcGwtN9Gj8h%2FGQm9Q%3D',
       signature:
         '毎日が笑顔で溢れる世界にしたい🐝\nbe filled with smiles every day.',
       verified: true,
@@ -3011,11 +3049,11 @@ const following9 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 81,
-      followerCount: 773700,
+      followingCount: 84,
+      followerCount: 772600,
       heartCount: 11600000,
       videoCount: 350,
-      diggCount: 3317,
+      diggCount: 3368,
       heart: 11600000,
     },
   },
@@ -3025,11 +3063,11 @@ const following9 = [
       uniqueId: 'chuchuphinh',
       nickname: 'Chú Chụp Hình 📸',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1661256000&x-signature=v8irGqaGnSxhvp3u3pEYQRrvIKM%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1662022800&x-signature=g0t1fqnutLUU4tQx3%2F4UAFEgRtg%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1661256000&x-signature=l0hgFDo4bx6G1%2BuPKdYCqL3i1AU%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1662022800&x-signature=LF5sN22cSvy%2Bev2l4AcpAQvMTE0%3D',
       avatarLarger:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1661256000&x-signature=PoM0nL2pc3B9aqlVarYkLFpMk8o%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/72a88b7c6a69b6e10812ffa33a2f4f47.jpeg?x-expires=1662022800&x-signature=W1mbUwkuukjFngdBPCNGgzKORAM%3D',
       signature:
         '❤️ Tải preset, chỉnh ảnh\n❤ Khóa học, công việc \n❤ video dài, dễ hiểu\n👇👇👇',
       verified: false,
@@ -3045,14 +3083,14 @@ const following9 = [
       privateAccount: false,
       isADVirtual: false,
       ttSeller: true,
-      downloadSetting: 3,
+      downloadSetting: 0,
     },
     stats: {
-      followingCount: 56,
-      followerCount: 194600,
+      followingCount: 57,
+      followerCount: 196900,
       heartCount: 1100000,
-      videoCount: 160,
-      diggCount: 3189,
+      videoCount: 167,
+      diggCount: 3220,
       heart: 1100000,
     },
   },
@@ -3062,11 +3100,11 @@ const following9 = [
       uniqueId: 'buibichphuongofficial',
       nickname: 'Bích Phương',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_100x100.jpeg?x-expires=1661256000&x-signature=9%2BkmmV%2BGUIx9Sjw6cx6ZZz6xMGU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_100x100.jpeg?x-expires=1662022800&x-signature=OapdxWDVs6RWEOFMae%2B6vOEIH3Q%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_720x720.jpeg?x-expires=1661256000&x-signature=zW9skKEEJCV1dIdKybIsUAvgu%2B0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_720x720.jpeg?x-expires=1662022800&x-signature=gaUP%2FMErYvEkva4TUGLtACGy72I%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=BP6nRrDRSW2D3Or38ZuUGzBt%2BZU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c6894793ec95e8a9f13f083586af921b~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=Bc9d95D4okk%2BOkC49AxM8Iw13DE%3D',
       signature: 'M/V nằm ngủ emru',
       verified: true,
       secUid:
@@ -3098,11 +3136,11 @@ const following9 = [
       uniqueId: 'titzy69',
       nickname: 'Trần Dũng 🇻🇳',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_100x100.jpeg?x-expires=1661256000&x-signature=eaRmbh9IGYizgb%2FiPvnU4%2F0EhX4%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_100x100.jpeg?x-expires=1662022800&x-signature=Zm2Dnjb1kPiyJjWzJmAXNOepIjc%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_720x720.jpeg?x-expires=1661256000&x-signature=V3o98%2BH5jqo0MdqFXjVVy4SveSs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_720x720.jpeg?x-expires=1662022800&x-signature=gS2npqgH4uL7TrO8%2FmSSExnnWrA%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=PTY3g6Q3ukbfRJvU7xjJGltHFR0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/191113bf5c9e9e615fc9d12f93567fcb~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=It3woIxSjsEv5%2B%2BOr516x2SDkeE%3D',
       signature: 'HUẤN LUYỆN VIÊN SHUFFLE DANCE QUỐC TẾ\nLiên hệ: 0363627922',
       verified: false,
       secUid:
@@ -3122,10 +3160,10 @@ const following9 = [
     stats: {
       followingCount: 68,
       followerCount: 92400,
-      heartCount: 717900,
-      videoCount: 216,
-      diggCount: 1415,
-      heart: 717900,
+      heartCount: 720800,
+      videoCount: 222,
+      diggCount: 1432,
+      heart: 720800,
     },
   },
   {
@@ -3134,13 +3172,12 @@ const following9 = [
       uniqueId: 'lengkeng.dcloud',
       nickname: 'L E N G K E N G',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1661256000&x-signature=NEOflw6iJnVmL%2Fpem8GHLQn17SQ%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1662022800&x-signature=DHh06SWb%2FTTj0LpN52uDKF2Zr%2Fw%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1661256000&x-signature=3TCVJsKI9ijBwgHU7man2EiUEf8%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1662022800&x-signature=VrqbDFJ9s07SKOvaKgDux0IYKTk%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1661256000&x-signature=Clv9ddLOoc4wp7y39xSg6Uv4C8k%3D',
-      signature:
-        '6 năm làm sếp, về Viết và Đầu Tư. Vì Vui\nTất cả m nói ở đây là góc nhìn cá nhân',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/b86abe8a9df40d9671218f3d99a6249b.jpeg?x-expires=1662022800&x-signature=MEnfUV7nyZZKjGnqpmDlcoyiVHM%3D',
+      signature: '6 năm làm sếp. Về viết lách và đầu tư thôi.',
       verified: false,
       secUid:
         'MS4wLjABAAAAw6hjNOCOkoNtOR1YW-T5k5CHrBI34VP8_s0Tj7SVkJJpppoieoM2S46vkRhf4-DG',
@@ -3157,12 +3194,12 @@ const following9 = [
       downloadSetting: 3,
     },
     stats: {
-      followingCount: 12,
-      followerCount: 650700,
-      heartCount: 10100000,
-      videoCount: 169,
+      followingCount: 9,
+      followerCount: 651800,
+      heartCount: 10200000,
+      videoCount: 171,
       diggCount: 13400,
-      heart: 10100000,
+      heart: 10200000,
     },
   },
   {
@@ -3171,11 +3208,11 @@ const following9 = [
       uniqueId: 'colanhvietsub',
       nickname: 'Cô Lanh Vietsub ⭐️',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_100x100.jpeg?x-expires=1661256000&x-signature=LFibgu2TDv3Ma%2B9wMsXs9Zfgcjk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_100x100.jpeg?x-expires=1662022800&x-signature=mPMBF5lOi8mcbvDAMaaVfjYVCu0%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_720x720.jpeg?x-expires=1661256000&x-signature=7HEKjKNCFlNnKaFjGPawcPGV%2BKM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_720x720.jpeg?x-expires=1662022800&x-signature=wLZ54b1vSdraFQP0tkMId75dNMc%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=PfwjSW7yJbv3jGXuvRXmEkGUhuk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/af75481698e1f998f03489729d6b0ade~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=puADq63DpgoGZSOUQP%2FM08Hr8%2B0%3D',
       signature:
         '⚠️ Warning: Content 1️⃣6️⃣➕⚠️\n\nĐồ các bạn hỏi ở dưới đây\n👇🏻',
       verified: false,
@@ -3195,10 +3232,10 @@ const following9 = [
     },
     stats: {
       followingCount: 580,
-      followerCount: 112100,
+      followerCount: 111900,
       heartCount: 1500000,
       videoCount: 62,
-      diggCount: 5983,
+      diggCount: 5994,
       heart: 1500000,
     },
   },
@@ -3208,11 +3245,11 @@ const following9 = [
       uniqueId: 'pphicoach',
       nickname: 'Phi Phi',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1694034100542465.jpeg?x-expires=1661256000&x-signature=F2%2Fzb5LY3uztK1nM98TdqrCjjC8%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tiktok-obj/1694034100542465.jpeg?x-expires=1662022800&x-signature=oZcF1%2B%2FOj%2BRsiFH%2FcYnXKBeNXiE%3D',
       avatarMedium:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1694034100542465.jpeg?x-expires=1661256000&x-signature=DgNN6awBIhqxR%2FPAQqLgoNVkvAc%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/720x720/tiktok-obj/1694034100542465.jpeg?x-expires=1662022800&x-signature=XKUyqH%2Fq0TPF2z%2FyAWbPTj5hRIo%3D',
       avatarLarger:
-        'https://p9-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1694034100542465.jpeg?x-expires=1661256000&x-signature=D%2FXxu7cAxyor0vLiJQaDa%2FwqNHI%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tiktok-obj/1694034100542465.jpeg?x-expires=1662022800&x-signature=tEO%2BYOpDxKQe0KGP1176G0DsWes%3D',
       signature:
         'Một nơi để tui chia sẻ những kinh nghiệm và hiểu biết về Fitness cho mọi người',
       verified: false,
@@ -3231,25 +3268,28 @@ const following9 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 137,
-      followerCount: 77700,
-      heartCount: 741600,
-      videoCount: 75,
-      diggCount: 25,
-      heart: 741600,
+      followingCount: 139,
+      followerCount: 79000,
+      heartCount: 763200,
+      videoCount: 79,
+      diggCount: 27,
+      heart: 763200,
     },
   },
+];
+
+const following10 = [
   {
     user: {
       id: '116486855365210113',
       uniqueId: 'kisonkee',
       nickname: 'Kison Kee',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_100x100.jpeg?x-expires=1661256000&x-signature=nKiILFU2dOoqwsGW2hzdZdaOC5w%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_100x100.jpeg?x-expires=1662022800&x-signature=%2BhLCtrDwBquDy1161NTRMMWDYYY%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_720x720.jpeg?x-expires=1661256000&x-signature=SJ7nOoK3ldQ%2FlqpMNQ4%2F5oKITNs%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_720x720.jpeg?x-expires=1662022800&x-signature=ZO0%2FLilwvRc%2BujIeGjaz7OEkR6Q%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=835R9PKiDn0Jioa7YYpjcifr460%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/af5f55855af6aff005c3025267bf58b8~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=%2B%2BCQFfJGOkzcuMvQy7GsLVUWr3o%3D',
       signature:
         '@kisonkee on Instagram \nMGMT: Clicks Talent \nCollabs: kison@clickstalent.com',
       verified: true,
@@ -3268,11 +3308,11 @@ const following9 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 363,
+      followingCount: 365,
       followerCount: 3800000,
       heartCount: 73600000,
-      videoCount: 175,
-      diggCount: 43500,
+      videoCount: 177,
+      diggCount: 43700,
       heart: 73600000,
     },
   },
@@ -3282,11 +3322,11 @@ const following9 = [
       uniqueId: 'khuynhthanh86',
       nickname: 'Khuynh Thành',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_100x100.jpeg?x-expires=1661256000&x-signature=MXIryfeP1KX%2Bx4zlDd3sisg0m6w%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_100x100.jpeg?x-expires=1662022800&x-signature=66UA9DQzNeAK4Hkvvn%2FMU1erPY8%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_720x720.jpeg?x-expires=1661256000&x-signature=ty2xqwKOf7SkBgMtuAP4Ii%2BkRns%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_720x720.jpeg?x-expires=1662022800&x-signature=uZ0wIZvu38eCKepDQQ2CPm2TGjo%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=fBuuH7IxuPlX4LkocTBnFvcZjHk%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/533ddd067d47dc151a289d58efd81def~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=E90KwJr5VBULuHhcofLYduQHyu8%3D',
       signature: 'hello! 💕💕Mkzss💕💕\nflow me',
       verified: false,
       secUid:
@@ -3304,28 +3344,25 @@ const following9 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 58,
-      followerCount: 271400,
+      followingCount: 53,
+      followerCount: 272100,
       heartCount: 3200000,
-      videoCount: 423,
-      diggCount: 2998,
+      videoCount: 435,
+      diggCount: 3049,
       heart: 3200000,
     },
   },
-];
-
-const following10 = [
   {
     user: {
       id: '6561717612841123841',
       uniqueId: 'phannguyencaca',
       nickname: 'Phan Nguyễn Ca Ca',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_100x100.jpeg?x-expires=1661256000&x-signature=WuDtlPy8CVNn5ivuI0gDBjWz4NE%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_100x100.jpeg?x-expires=1662022800&x-signature=0XyNaqjyF0ttSbhXgxSuRuc22xg%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_720x720.jpeg?x-expires=1661256000&x-signature=MKhb6DUeMVRyiu5EQaLuJ52p3jc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_720x720.jpeg?x-expires=1662022800&x-signature=4s3nbvblLAqfUuhVj%2BUluJYuasc%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=qsfYsSZFyBXscnwZzpY3SLVJAsU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/32432daa5ae2b7f7ffc2ff6647505ffb~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=dteqkJp96CWEZg0b572lr0Ao6y8%3D',
       signature:
         '2002\nFor work : hi@buithanhbinh.com\nTheo dõi các trang mxh của mình 👇',
       verified: false,
@@ -3344,12 +3381,12 @@ const following10 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 362,
-      followerCount: 585600,
-      heartCount: 10800000,
-      videoCount: 278,
-      diggCount: 14000,
-      heart: 10800000,
+      followingCount: 373,
+      followerCount: 618800,
+      heartCount: 11200000,
+      videoCount: 286,
+      diggCount: 14200,
+      heart: 11200000,
     },
   },
   {
@@ -3358,11 +3395,11 @@ const following10 = [
       uniqueId: 'hannahvananh',
       nickname: 'Hannah Vân Anh',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_100x100.jpeg?x-expires=1661256000&x-signature=FP36oRzJzM7Ak23OUTvDzidsbxA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_100x100.jpeg?x-expires=1662022800&x-signature=nQ1t7MR8OmD%2BBUSDMfr0g%2F6P3Cw%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_720x720.jpeg?x-expires=1661256000&x-signature=G85aDj1vnZwvh7ekkT%2FHoqSbajU%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_720x720.jpeg?x-expires=1662022800&x-signature=VT%2BBZLASMyfUuZMpgNbLm4g1bpg%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=bnGWVthRNZAbABuIHAz86aiZPuY%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/08f1787f59edbad0fdc063c12554efec~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=jy76wCtj36TV3N4lpaKSy8IRsi0%3D',
       signature:
         '🇻🇳\n🌹 Motivation to conquer English 🌹\nContact: 📩 vananhhannah@gmail.com',
       verified: false,
@@ -3381,12 +3418,12 @@ const following10 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 624,
-      followerCount: 623500,
-      heartCount: 10700000,
-      videoCount: 92,
+      followingCount: 623,
+      followerCount: 628700,
+      heartCount: 10800000,
+      videoCount: 86,
       diggCount: 10200,
-      heart: 10700000,
+      heart: 10800000,
     },
   },
   {
@@ -3395,11 +3432,11 @@ const following10 = [
       uniqueId: 'theshermans_english',
       nickname: 'The Shermans English',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_100x100.jpeg?x-expires=1661256000&x-signature=x4N8rTCpJp6CJU%2Fb9cqm6c48Gwc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_100x100.jpeg?x-expires=1662022800&x-signature=YoVMHQKUno0SMj5bSl1zSyqVKn8%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_720x720.jpeg?x-expires=1661256000&x-signature=kCN2BBbeI%2FjqVXkdiPCQ1Pr59oA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_720x720.jpeg?x-expires=1662022800&x-signature=xOWcNi1hXMHX0W1qP9nyZwBxHRM%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=j7UCmLqZjYaUfWZ5GLM%2FXp1R6ZA%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1778afb21a266120df296565564ed4b0~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=JTP%2FkvU%2FJlUySsEh7Mb0YBsq0BE%3D',
       signature:
         'Listening English everyday\nTalk about positive things\nFor anyone & me.',
       verified: false,
@@ -3419,7 +3456,7 @@ const following10 = [
     },
     stats: {
       followingCount: 28,
-      followerCount: 405800,
+      followerCount: 404700,
       heartCount: 3300000,
       videoCount: 223,
       diggCount: 170,
@@ -3432,11 +3469,11 @@ const following10 = [
       uniqueId: 'yling.official',
       nickname: 'YLing',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_100x100.jpeg?x-expires=1661256000&x-signature=IZujM4fmA3l4GmcWGb2bpcMrWVc%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_100x100.jpeg?x-expires=1662022800&x-signature=tZZg4g0YSk2s9PPPgSoPHWJ1K3g%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_720x720.jpeg?x-expires=1661256000&x-signature=XZpEc7izYzxSOhko7S8KOrQ0uUQ%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_720x720.jpeg?x-expires=1662022800&x-signature=c%2FnH1z%2BfuRPOigzuR7C%2BP%2FGuybo%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=A71ZbOIlKPpEE31CzKJIy2ra%2BZg%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/15e5c16eebe4e072c679b48ed7e3cbba~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=NrAoEDvOX5Ra6RhWs%2FtcmmaXtMU%3D',
       signature:
         'ins: lingnehh 🎵\nYoutube: YLing Official 🎶\nGr nho nhỏ giao lưu cùng tụi mình ⤵️',
       verified: false,
@@ -3456,11 +3493,11 @@ const following10 = [
     },
     stats: {
       followingCount: 2,
-      followerCount: 398100,
-      heartCount: 3400000,
-      videoCount: 68,
-      diggCount: 2407,
-      heart: 3400000,
+      followerCount: 410600,
+      heartCount: 3600000,
+      videoCount: 70,
+      diggCount: 2423,
+      heart: 3600000,
     },
   },
   {
@@ -3469,11 +3506,11 @@ const following10 = [
       uniqueId: 'vietfilmmedia.com',
       nickname: 'VietFilm Media',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1661256000&x-signature=bT0KJ%2F2JZ%2FuZuRZ05sFguk3%2BjQg%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1662022800&x-signature=O6%2FoQAlLB%2BLILgrUIJIuejwbs%2Bo%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1661256000&x-signature=GN5hocFl5ouxPtdQdLERt7mZvek%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1662022800&x-signature=ARCBKrcmZX5mcZQmKjxOLNx8q%2Bk%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1661256000&x-signature=t%2B2UFg5BIvxQlOz%2Fg50WoiTuRUw%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/d0759f885729fb039909fd2748d03e50.jpeg?x-expires=1662022800&x-signature=9qgEM1R4MXCrlVFNIWY6YhPChiA%3D',
       signature:
         'Mới - Hay - Đầy cảm xúc là tiêu chí hàng đầu của VietFilm TV. Do not reup.Thanks',
       verified: false,
@@ -3492,11 +3529,11 @@ const following10 = [
       downloadSetting: 0,
     },
     stats: {
-      followingCount: 22,
-      followerCount: 223100,
+      followingCount: 23,
+      followerCount: 222700,
       heartCount: 4500000,
       videoCount: 422,
-      diggCount: 265,
+      diggCount: 283,
       heart: 4500000,
     },
   },
@@ -3506,12 +3543,13 @@ const following10 = [
       uniqueId: 'chiky_1319',
       nickname: 'Mai Gà',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_100x100.jpeg?x-expires=1661256000&x-signature=d7IWrl%2BMMiIxRSrp48l%2FyS9ffK0%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_100x100.jpeg?x-expires=1662022800&x-signature=CsONFlbVq%2BugDjdi4F7GQP7ahOw%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_720x720.jpeg?x-expires=1661256000&x-signature=wWHBaO9TOlAyG71sqQhRHw3kH3Y%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_720x720.jpeg?x-expires=1662022800&x-signature=TtWqv%2F3K%2BHFu%2Fzv06YQN8%2BeA3Hg%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=6qJ%2BnZzx5rLPTvpY1eDjRM7%2Be%2FU%3D',
-      signature: 'Mình làm Marketing còn chồng mình làm Dev',
+        'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/dc2f43c751e243bfccf7f6409747dce3~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=CBxnX2NxYypHIDf4KTDPXcuh%2FxI%3D',
+      signature:
+        'Mình làm Marketing còn chồng mình làm Dev\nEmail: maiga.forbusiness@gmail.com',
       verified: false,
       secUid:
         'MS4wLjABAAAAT8331LJIe8PGT_sSPQnYib38UNNy4lftWsNInxwykghfROYHtL1cx7NAkEkebrzl',
@@ -3531,7 +3569,7 @@ const following10 = [
       followingCount: 2,
       followerCount: 51300,
       heartCount: 1400000,
-      videoCount: 249,
+      videoCount: 250,
       diggCount: 888,
       heart: 1400000,
     },
@@ -3542,13 +3580,12 @@ const following10 = [
       uniqueId: 'aymen.bgh',
       nickname: 'Aymen Bgh',
       avatarThumb:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_100x100.jpeg?x-expires=1661256000&x-signature=i3ZZE8%2BLSuVD6bUAfm4pdmjYSiM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_100x100.jpeg?x-expires=1662022800&x-signature=0NszqsMfY8cYtWskFVod22oTXrY%3D',
       avatarMedium:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_720x720.jpeg?x-expires=1661256000&x-signature=FTYNc8OKqwFR1PG%2FDJJ7ttKoZwM%3D',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_720x720.jpeg?x-expires=1662022800&x-signature=XiITBJyWARSn%2FgjuVkxF1S5JYEo%3D',
       avatarLarger:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_1080x1080.jpeg?x-expires=1661256000&x-signature=F3%2FaUOnVhULbNNHi4mC%2BSyq4jKw%3D',
-      signature:
-        'افكار و شروحات لتصوير والتعديل بالهاتف 📸📱\n🇩🇿\nلطلب تيشيرت بتصميم خاص👇',
+        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/e4554b26fc7983fde1ad5391417c7538~c5_1080x1080.jpeg?x-expires=1662022800&x-signature=WaJyeF2acOnjU1vu%2B1iJ5%2FS%2BiL4%3D',
+      signature: 'افكار و شروحات لتصوير والتعديل بالهاتف 📸📱\n🇩🇿',
       verified: false,
       secUid:
         'MS4wLjABAAAA3C2hn3nQ7AxGNMORyTkeuCK-zJn-ILvzNoAGdznGCiFlULk62BL9qd5gfGp0R4u-',
@@ -3567,10 +3604,10 @@ const following10 = [
     stats: {
       followingCount: 125,
       followerCount: 1700000,
-      heartCount: 17600000,
-      videoCount: 252,
-      diggCount: 6986,
-      heart: 17600000,
+      heartCount: 17700000,
+      videoCount: 256,
+      diggCount: 7019,
+      heart: 17700000,
     },
   },
   {
@@ -3579,11 +3616,11 @@ const following10 = [
       uniqueId: 'evon.dev',
       nickname: 'evon.dev',
       avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1661256000&x-signature=zCIJQiGizedpJaicGThY7iN6BKo%3D',
+        'https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1662022800&x-signature=guNplGb1mqAx94ellSyd%2BPnD0cU%3D',
       avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1661256000&x-signature=bOoYFfO0l2tMPUfuEdFLjc9ROm0%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1662022800&x-signature=IQ4IabvFKDKzgmIEMXLdaW8LbHc%3D',
       avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1661256000&x-signature=jdPcikgSKqHhI9%2BiC1DpoMYwuCs%3D',
+        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/f7d1af728f990606c8dccaf101610c67.jpeg?x-expires=1662022800&x-signature=zXJVmev5uLUuBkc6rS00xVgr5rw%3D',
       signature: 'Khoá học Frontend chất lượng dành cho anh em IT 👇',
       verified: false,
       secUid:
@@ -3602,83 +3639,11 @@ const following10 = [
     },
     stats: {
       followingCount: 28,
-      followerCount: 27900,
-      heartCount: 268800,
-      videoCount: 131,
+      followerCount: 28000,
+      heartCount: 270300,
+      videoCount: 132,
       diggCount: 11,
-      heart: 268800,
-    },
-  },
-  {
-    user: {
-      id: '6824887722337010689',
-      uniqueId: '_____mr.b_____',
-      nickname: 'Mr.B',
-      avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/668761d2481606a8ecda66b6da594f5e.jpeg?x-expires=1661256000&x-signature=sTJ1V60gTDYC2aaadoOJY1HLERA%3D',
-      avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/668761d2481606a8ecda66b6da594f5e.jpeg?x-expires=1661256000&x-signature=lIBEPFy%2FoEqz%2B4mrMKo6%2Bb3VYY4%3D',
-      avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/668761d2481606a8ecda66b6da594f5e.jpeg?x-expires=1661256000&x-signature=avnBCNqUxA7I5fMZcHBjFnVyE%2B0%3D',
-      signature: 'Cảm ơn bạn ghé xem hồ sơ\n. Follow mình nhé ❤️❤️❤️',
-      verified: false,
-      secUid:
-        'MS4wLjABAAAAd5cQgdnlQpo-vHlx8GnLMRdInPyWts9uoA-enbYJNaNxy-WfvEfaDMF9s2a3mfBX',
-      secret: false,
-      ftc: false,
-      relation: 1,
-      openFavorite: false,
-      commentSetting: 0,
-      duetSetting: 0,
-      stitchSetting: 0,
-      privateAccount: false,
-      isADVirtual: false,
-      ttSeller: false,
-      downloadSetting: 3,
-    },
-    stats: {
-      followingCount: 9238,
-      followerCount: 61500,
-      heartCount: 961100,
-      videoCount: 285,
-      diggCount: 1810,
-      heart: 961100,
-    },
-  },
-  {
-    user: {
-      id: '7019285520006038529',
-      uniqueId: 'learningenglishwithcake',
-      nickname: 'learningenglishwithcake',
-      avatarThumb:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/7358a25a9128ce1150b67f1e2b91fcc9.jpeg?x-expires=1661256000&x-signature=pPjJY6eMMc1fwUWcmjm5FL6jOyc%3D',
-      avatarMedium:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/7358a25a9128ce1150b67f1e2b91fcc9.jpeg?x-expires=1661256000&x-signature=MZShZPY8Hl9wHiAvEUOQhTX4jug%3D',
-      avatarLarger:
-        'https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/7358a25a9128ce1150b67f1e2b91fcc9.jpeg?x-expires=1661256000&x-signature=1XHuh%2F76OXNQoKbAWaEGWV3St%2FI%3D',
-      signature: '',
-      verified: false,
-      secUid:
-        'MS4wLjABAAAAEJmilxF9Pll_fYHszn8PHfSLott-OjPDMEA8tXW-QF67-QZDfdiUrutqYIiEgg55',
-      secret: false,
-      ftc: false,
-      relation: 1,
-      openFavorite: false,
-      commentSetting: 0,
-      duetSetting: 0,
-      stitchSetting: 0,
-      privateAccount: false,
-      isADVirtual: false,
-      ttSeller: false,
-      downloadSetting: 0,
-    },
-    stats: {
-      followingCount: 10,
-      followerCount: 96400,
-      heartCount: 304900,
-      videoCount: 60,
-      diggCount: 48,
-      heart: 304900,
+      heart: 270300,
     },
   },
 ];
