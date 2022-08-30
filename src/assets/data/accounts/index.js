@@ -333,7 +333,7 @@ const fullAccountList = recommends.data.suggestedAccountList.reduce(
   [...followingFullList],
 );
 
-console.log(followingFullList);
+// console.log(followingFullList);
 
 const accounts = {
   followings,
