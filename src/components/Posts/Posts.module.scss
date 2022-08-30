@@ -115,6 +115,8 @@
 
   .tag-music {
     margin-left: 0;
+    display: block;
+    height: unset;
 
     svg {
       transform: translateY(4px);
@@ -350,6 +352,18 @@
   .wrapper {
     width: calc(100vw - 32px - 68px);
   }
+
+  .horizontal.feed-video {
+    width: calc(380px + (100vw - 480px) / 288 * 20);
+  }
+
+  .content {
+    width: 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
   .author-uniqueId {
     display: block;
     text-overflow: ellipsis;
@@ -364,11 +378,26 @@
     overflow: hidden;
     white-space: nowrap;
   }
+
+  .action-icon {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 479px) {
   .avatar {
     display: none;
+  }
+
+  .content {
+    margin-left: 0;
   }
 
   .author {
@@ -381,13 +410,7 @@
     overflow: hidden;
     white-space: nowrap;
   }
-  .content {
-    margin-left: 0;
-    width: 100%;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-  }
+
   .image-responsive {
     display: block;
   }

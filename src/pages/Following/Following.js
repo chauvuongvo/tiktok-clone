@@ -1,18 +1,30 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Following.module.scss';
+import { ContextApp } from '~/App';
 import Portal from '~/components/Portal';
 import accounts from '~/assets/data/accounts';
 import videos from '~/assets/data/videos';
 import { LoadDataIcon } from '~/components/Icons';
 import Posts from '~/components/Posts';
+import UserCard from '~/components/Card/UserCard';
 
 const cx = classNames.bind(styles);
 
 function Following() {
-  const [postList, setPostList] = useState(getPostList(5));
+  const { currentUser } = useContext(ContextApp);
+  const [postList, setPostList] = useState(() => {
+    if (currentUser) return getPostList(5);
+    return getPostList(30);
+  });
   const [loading, setLoading] = useState(false);
   const [atBottom, setBottom] = useState(false);
+
+  useEffect(() => {
+    document.title =
+      'Following - Watch videos from creators you follow | TikTok ';
+  }, []);
+
   function getPostList(count) {
     const result = [];
 
@@ -31,24 +43,27 @@ function Following() {
     }
     return result;
   }
-  console.log(getPostList(5));
+
+  // Effect when login
+  useEffect(() => {
+    if (currentUser) {
+      const handleScrollAtBottomPage = () => {
+        const totalPageHeight = document.body.scrollHeight;
+        const scrollPoint = window.scrollY + window.innerHeight;
+
+        if (scrollPoint >= totalPageHeight) {
+          setBottom(true);
+        }
+      };
+      window.addEventListener('scroll', handleScrollAtBottomPage);
+
+      return () =>
+        window.removeEventListener('scroll', handleScrollAtBottomPage);
+    }
+  }, [currentUser]);
 
   useEffect(() => {
-    const handleScrollAtBottomPage = () => {
-      const totalPageHeight = document.body.scrollHeight;
-      const scrollPoint = window.scrollY + window.innerHeight;
-
-      if (scrollPoint >= totalPageHeight) {
-        setBottom(true);
-      }
-    };
-    window.addEventListener('scroll', handleScrollAtBottomPage);
-
-    return () => window.removeEventListener('scroll', handleScrollAtBottomPage);
-  }, []);
-
-  useEffect(() => {
-    if (atBottom) {
+    if (atBottom && currentUser) {
       setLoading(true);
 
       const timerId = setTimeout(() => {
@@ -59,15 +74,23 @@ function Following() {
 
       return () => clearTimeout(timerId);
     }
-  }, [atBottom]);
+  }, [atBottom, currentUser]);
+
+  // Effect when do not login
 
   return (
-    <div className={cx('wrapper')}>
-      {postList.map((post, index) => (
-        <Posts data={post} key={index} />
-      ))}
+    <div className={cx('wrapper', 'no-login')}>
+      {currentUser ? (
+        postList.map((post, index) => <Posts data={post} key={index} />)
+      ) : (
+        <div className={cx('card-container')}>
+          {postList.map((post, index) => (
+            <UserCard data={post} key={index} />
+          ))}
+        </div>
+      )}
 
-      {loading && <LoadDataIcon />}
+      {loading && currentUser && <LoadDataIcon />}
 
       <Portal containerId={'following'}>
         <button>Following</button>

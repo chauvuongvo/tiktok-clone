@@ -26,6 +26,7 @@ const cx = classNames.bind(styles);
 function Sidebar() {
   const { currentUser } = useContext(ContextApp);
   const { setShowModalLogin } = useContext(ContextDefaultLayout);
+  const isFollowingPage = window.location.pathname === config.routes.following;
   const menuList = [
     {
       icon: <HomeIcon width={32} height={32} />,
@@ -69,6 +70,19 @@ function Sidebar() {
     };
   }, []);
 
+  const renderSuggestAccount = () => {
+    if (!currentUser) {
+      if (isFollowingPage) return null;
+    }
+    return (
+      <SuggestedAccounts
+        data={suggestedAccountList}
+        className={cx('separate')}
+        isSidebar
+      />
+    );
+  };
+
   return (
     <aside className={cx('wrapper')} id="sidebar">
       <div ref={sidebarRef} className={cx('content')}>
@@ -88,11 +102,9 @@ function Sidebar() {
             </Button>
           </div>
         )}
-        <SuggestedAccounts
-          data={suggestedAccountList}
-          className={cx('separate')}
-          isSidebar
-        />
+
+        {renderSuggestAccount()}
+
         {currentUser && (
           <Following
             data={followingList}
