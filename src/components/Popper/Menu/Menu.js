@@ -12,7 +12,8 @@ import Header from './Header';
 const cx = classNames.bind(styles);
 
 function Menu({ children, data, onChange }) {
-  const { currentUser, setCurrentUser } = useContext(ContextApp);
+  const { currentUser, setCurrentUser, removeLocalStorage, keyLoginStorage } =
+    useContext(ContextApp);
 
   const [historyMenu, setHistoryMenu] = useState(
     currentUser
@@ -33,6 +34,7 @@ function Menu({ children, data, onChange }) {
 
       const handleClickItem = () => {
         if (item.isLogout) {
+          removeLocalStorage(keyLoginStorage);
           return setCurrentUser(false);
         }
         if (isParentMenu)

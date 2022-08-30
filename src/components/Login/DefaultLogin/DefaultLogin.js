@@ -1,4 +1,4 @@
-import { useState, createContext, useMemo, useContext } from 'react';
+import { useState, createContext, useMemo, useContext, useEffect } from 'react';
 import classNames from 'classnames/bind';
 
 import { ContextApp } from '~/App';
@@ -84,12 +84,14 @@ function DefaultLogin({ type }) {
     }
   }, [layout]);
 
-  const { setCurrentUser } = useContext(ContextApp);
+  const { setCurrentUser, setLocalStorage, keyLoginStorage } =
+    useContext(ContextApp);
   const { setShowModalLogin } = useContext(ContextDefaultLayout);
   const loginUser = (e) => {
     e.preventDefault();
     setCurrentUser(true);
     setShowModalLogin(false);
+    setLocalStorage(keyLoginStorage, { status: true });
   };
 
   return (

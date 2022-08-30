@@ -4,16 +4,42 @@ import { publicRoutes } from '~/routes';
 import DefaultLayout from '~/layouts';
 
 export const ContextApp = createContext();
+const keyLoginStorage = 'currentUser';
 
 function App() {
-  const [currentUser, setCurrentUser] = useState(false);
+  const [currentUser, setCurrentUser] = useState(() => {
+    const isLogin = getLocalStorage('currentUser');
+    if (isLogin) return isLogin.status;
+    return false;
+  });
   const userInfo = {
     avatar:
       'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f75993e97bd5424690cb3c702fc88b0d~c5_100x100.jpeg?x-expires=1660539600&x-signature=m%2FYxfG6Fl3AFKf3aRKJMRtt2sgA%3D',
     name: 'user-avatar',
     inbox: 10,
   };
-  const valueContext = { currentUser, setCurrentUser, userInfo };
+  const valueContext = {
+    currentUser,
+    setCurrentUser,
+    userInfo,
+    setLocalStorage,
+    getLocalStorage,
+    removeLocalStorage,
+    keyLoginStorage,
+  };
+
+  function setLocalStorage(key, data) {
+    localStorage.setItem(key, JSON.stringify(data));
+  }
+
+  function getLocalStorage(key) {
+    const data = localStorage.getItem(key);
+    return JSON.parse(data);
+  }
+
+  function removeLocalStorage(key) {
+    localStorage.removeItem(key);
+  }
 
   return (
     <ContextApp.Provider value={valueContext}>
