@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Tiktok Clone App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link demo:
 
-## Available Scripts
+## Introduce
 
-In the project directory, you can run:
+Project clone from Tiktok, with main pages: - Home Page - Following Page (when log in and log out) - Accept login with default account use info below.
 
-### `npm start`
+Login with username or email:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- username: chauvuong223068@gmail.com
+- password: chauvuongvo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Login with phone and code:
 
-### `npm test`
+- username: 0389803622
+- default code: 123456
+  Note: You can click Send Code to get a new code and it instead of default code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Library is used in project
 
-### `npm run build`
+- ReactJS
+- Call api with Axios
+- Tippy and Tippy Headless
+- Sass / Scss
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Feature
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Log in / Log out with default account.
+- Validate input login.
+- Save info account into localStorage when log in and Remove it when log out.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Posts are rendered as Tiktok:
 
-### `npm run eject`
+  - Title (includes tag name and tag user) is handled to render in UI.
+  - Posted day is handled depending on current date and created post date.
+  - Only play video in viewport.
+  - Create new control for video in a post.
+  - Handle increase / decrease for new volume bar
+  - Render 5 posts when scroll to bottom page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Use hook useDebounce to search account from api.
+- Use hook useElementOnScreen to play and pause video.
+- Portal technical is used to render Modal into bodyElement or specifically element through id
+- Simple responsive for devices
