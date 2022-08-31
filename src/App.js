@@ -29,7 +29,13 @@ function App() {
   };
 
   function setLocalStorage(key, data) {
-    localStorage.setItem(key, JSON.stringify(data));
+    const existData = getLocalStorage(key);
+
+    if (existData === null)
+      return localStorage.setItem(key, JSON.stringify(data));
+
+    const newData = { ...existData, ...data };
+    return localStorage.setItem(key, JSON.stringify(newData));
   }
 
   function getLocalStorage(key) {

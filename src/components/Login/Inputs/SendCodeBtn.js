@@ -1,12 +1,13 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Inputs.module.scss';
-
+import { ContextDefaultLogin } from '../DefaultLogin';
 import { LoadingLoginIcon } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
 
-function SendCodeBtn({ disabled, onGetCode }) {
+function SendCodeBtn({ disabled, onSetCode }) {
+  const { getRandomCode } = useContext(ContextDefaultLogin);
   const [disabledBtn, setDisabledBtn] = useState(disabled);
   const [title, setTitle] = useState('Send code');
   const [startCount, setStartCount] = useState(false);
@@ -31,7 +32,7 @@ function SendCodeBtn({ disabled, onGetCode }) {
         setStartCount(true);
         setCountDown(10);
         setSendLoading(false);
-        onGetCode(Math.floor(Math.random() * 900000 + 100000));
+        onSetCode(getRandomCode());
       }, 2000);
     };
 

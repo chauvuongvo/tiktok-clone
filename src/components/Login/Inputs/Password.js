@@ -12,7 +12,7 @@ import {
 
 const cx = classNames.bind(styles);
 
-function Password({ className, loginEmail = false }) {
+function Password({ className }) {
   const [passwordValue, setPassword] = useState('');
   const [showTip, setShowTip] = useState(false);
   const [error, setError] = useState(false);
@@ -21,15 +21,20 @@ function Password({ className, loginEmail = false }) {
     show: false,
   });
 
-  const { header, setDisabledLogin } = useContext(ContextDefaultLogin);
+  const {
+    header,
+    setDisabledLogin,
+    errorLoginPassword,
+    setErrorLoginPassword,
+  } = useContext(ContextDefaultLogin);
   useEffect(() => {
     if (error) setDisabledLogin(true);
     if (passwordValue.length <= 0) setDisabledLogin(true);
-    if (!error && passwordValue.length > 0 && loginEmail) {
+    if (!error && passwordValue.length > 0) {
       setDisabledLogin(false);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [error, loginEmail, passwordValue]);
+  }, [error, passwordValue]);
 
   const handleSetPassword = (e) => {
     const password = e.target.value;
@@ -46,7 +51,7 @@ function Password({ className, loginEmail = false }) {
 
   const handleFocusWhenReset = () => {
     if (header === 'Reset password') return setShowTip(true);
-
+    if (errorLoginPassword) setErrorLoginPassword(false);
     return setShowTip(false);
   };
 
@@ -58,6 +63,7 @@ function Password({ className, loginEmail = false }) {
             <input
               value={passwordValue}
               type={showPassword.type || 'password'}
+              name="password"
               autoComplete="new-password"
               placeholder="Password"
               onChange={handleSetPassword}
@@ -72,6 +78,11 @@ function Password({ className, loginEmail = false }) {
         </div>
 
         {error && <div className={cx('error')}>Invalid special character</div>}
+        {errorLoginPassword && (
+          <div className={cx('error')}>
+            Incorrect password. Enter password: chauvuongvo
+          </div>
+        )}
       </div>
       {showTip && (
         <>
@@ -90,6 +101,5 @@ function Password({ className, loginEmail = false }) {
 }
 Password.propTypes = {
   className: PropTypes.string,
-  loginEmail: PropTypes.bool,
 };
 export default Password;

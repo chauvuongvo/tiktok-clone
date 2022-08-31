@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Inputs.module.scss';
 
@@ -11,7 +11,8 @@ function Phone({ className }) {
   const [phoneValue, setPhoneValue] = useState('');
   const [errorPhone, setErrorPhone] = useState(false);
 
-  const { setDisabledSendCode } = useContext(ContextDefaultLogin);
+  const { setDisabledSendCode, errorLoginPhone, setErrorLoginPhone } =
+    useContext(ContextDefaultLogin);
 
   const handleValidate = (e) => {
     const phone = e.target.value;
@@ -44,7 +45,10 @@ function Phone({ className }) {
             name="mobile"
             placeholder="Phone number"
             onChange={(e) => setPhoneValue(e.target.value)}
-            onFocus={() => setErrorPhone(false)}
+            onFocus={() => {
+              setErrorPhone(false);
+              setErrorLoginPhone(false);
+            }}
             onBlur={handleValidate}
           />
         </div>
@@ -52,6 +56,12 @@ function Phone({ className }) {
 
       {errorPhone && (
         <div className={cx('error')}>Enter a valid phone number</div>
+      )}
+
+      {errorLoginPhone && (
+        <div className={cx('error')}>
+          Enter phone number to login: 0389803622
+        </div>
       )}
     </div>
   );

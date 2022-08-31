@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useState, useEffect, useMemo, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './Inputs.module.scss';
 
@@ -14,10 +14,15 @@ function Code({ className }) {
   const [errorCode, setErrorCode] = useState(false);
   const [code, setCode] = useState('');
 
-  const { disabledSendCode, setDisabledLogin } =
-    useContext(ContextDefaultLogin);
+  const {
+    disabledSendCode,
+    setDisabledLogin,
+    errorLoginCode,
+    setErrorLoginCode,
+  } = useContext(ContextDefaultLogin);
 
   const handleGetCode = (code) => {
+    alert(`Enter code to login: ${code}`);
     setCode(code);
   };
 
@@ -30,6 +35,13 @@ function Code({ className }) {
     if (isValidateCode) return setErrorCode(true);
 
     return setErrorCode(false);
+  };
+
+  const renderMessageCode = () => {
+    if (errorLoginCode)
+      return 'Verification failed. Please click Resend and try again.';
+
+    if (errorCode) return code ? `Enter code: ${code}` : 'Enter 6-digit code';
   };
 
   useEffect(() => {
@@ -50,7 +62,7 @@ function Code({ className }) {
       <div className={cx('body', 'body-code')}>
         <div
           className={
-            errorCode
+            errorCode || errorLoginCode
               ? cx('input-container', 'error-styles')
               : cx('input-container')
           }
@@ -60,22 +72,23 @@ function Code({ className }) {
             type="text"
             placeholder="Enter 6-digit code"
             onChange={(e) => setCodeValue(e.target.value)}
-            onFocus={() => setErrorCode(false)}
+            onFocus={() => {
+              setErrorCode(false);
+              setErrorLoginCode(false);
+            }}
             onBlur={handleValidateCode}
+            name="code"
           />
-          {errorCode && (
-            <div className={cx('error-icon')}>
-              <ErrorIcon />
-            </div>
-          )}
+          {errorCode ||
+            (errorLoginCode && (
+              <div className={cx('error-icon')}>
+                <ErrorIcon />
+              </div>
+            ))}
         </div>
-        <SendCodeBtn disabled={disabledSendCode} onGetCode={handleGetCode} />
+        <SendCodeBtn disabled={disabledSendCode} onSetCode={handleGetCode} />
       </div>
-      {errorCode && (
-        <div className={cx('error')}>
-          {code ? `Enter code: ${code}` : 'Enter 6-digit code'}
-        </div>
-      )}
+      <div className={cx('error')}>{renderMessageCode()}</div>
     </div>
   );
 }
