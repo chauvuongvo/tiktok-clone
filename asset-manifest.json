@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/tiktok-clone/static/css/main.a1a8b63e.css",
+    "main.js": "/tiktok-clone/static/js/main.cda1bb6e.js",
+    "static/js/787.4c9d15e8.chunk.js": "/tiktok-clone/static/js/787.4c9d15e8.chunk.js",
+    "static/media/1.mp4": "/tiktok-clone/static/media/1.7e87a7655e559652ab51.mp4",
+    "static/media/2.mp4": "/tiktok-clone/static/media/2.e1c6646c69a71c45c306.mp4",
+    "static/media/5.mp4": "/tiktok-clone/static/media/5.1a582365b1d8d74a9718.mp4",
+    "static/media/4.mp4": "/tiktok-clone/static/media/4.8b6e7f15e7fdf02765f7.mp4",
+    "static/media/3.mp4": "/tiktok-clone/static/media/3.7ffbfc601b75282f3e52.mp4",
+    "static/media/video9.mp4": "/tiktok-clone/static/media/video9.50a0d246766c3a5e1971.mp4",
+    "static/media/video6.mp4": "/tiktok-clone/static/media/video6.e1ef4e58eb5cb1cc6b5c.mp4",
+    "static/media/video7.mp4": "/tiktok-clone/static/media/video7.baffb9c3c4614765aae7.mp4",
+    "static/media/video8.mp4": "/tiktok-clone/static/media/video8.67497a9761305f453d9c.mp4",
+    "static/media/video4.mp4": "/tiktok-clone/static/media/video4.33f3284e88eb5be8ca80.mp4",
+    "static/media/video10.mp4": "/tiktok-clone/static/media/video10.30c5a7f3477b65473ed2.mp4",
+    "static/media/video2.mp4": "/tiktok-clone/static/media/video2.a5ac945aeee528f2f5fa.mp4",
+    "static/media/video1.mp4": "/tiktok-clone/static/media/video1.e53fb767a557ae13d6e0.mp4",
+    "static/media/video5.mp4": "/tiktok-clone/static/media/video5.0d9cc7a5048f74629599.mp4",
+    "static/media/video3.mp4": "/tiktok-clone/static/media/video3.ddd18aef8626b14661f4.mp4",
+    "static/media/sofiapro-bold.woff2": "/tiktok-clone/static/media/sofiapro-bold.1d7186488612ac20891f.woff2",
+    "static/media/Proxima-Nova-Bold.woff": "/tiktok-clone/static/media/Proxima-Nova-Bold.6cd7dcaa6293ecf61e80.woff",
+    "static/media/Proxima-Nova-Regular.woff2": "/tiktok-clone/static/media/Proxima-Nova-Regular.6c83037ae28747e6d774.woff2",
+    "static/media/Proxima-Nova-Semibold.woff2": "/tiktok-clone/static/media/Proxima-Nova-Semibold.c5632e80f6e35c93156f.woff2",
+    "static/media/logo.svg": "/tiktok-clone/static/media/logo.f7f03c74dfa32a335611280f08a8630c.svg",
+    "index.html": "/tiktok-clone/index.html",
+    "main.a1a8b63e.css.map": "/tiktok-clone/static/css/main.a1a8b63e.css.map",
+    "main.cda1bb6e.js.map": "/tiktok-clone/static/js/main.cda1bb6e.js.map",
+    "787.4c9d15e8.chunk.js.map": "/tiktok-clone/static/js/787.4c9d15e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1a8b63e.css",
+    "static/js/main.cda1bb6e.js"
+  ]
+}
