@@ -59,7 +59,14 @@ function Video({ data, className }) {
   );
   useEffect(() => {
     if (isVisible) {
-      videoRef.current.play();
+      const videoPromise = videoRef.current.play();
+      if (videoPromise !== undefined) {
+        videoPromise
+          .then(() => {
+            videoRef.current.play();
+          })
+          .catch((err) => console.log(err));
+      }
       setPlay(true);
     } else {
       videoRef.current.pause();

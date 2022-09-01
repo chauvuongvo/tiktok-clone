@@ -15,7 +15,8 @@ Login with phone and code:
 
 - username: 0389803622
 - default code: 123456
-  Note: You can click Send Code to get a new code and it instead of default code
+
+(Note: You can click Send Code to get a new code and it instead of default code)
 
 ### Library is used in project
 
