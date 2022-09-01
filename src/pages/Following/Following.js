@@ -91,10 +91,6 @@ function Following() {
       )}
 
       {loading && currentUser && <LoadDataIcon />}
-
-      <Portal containerId={'following'}>
-        <button>Following</button>
-      </Portal>
     </div>
   );
 }
