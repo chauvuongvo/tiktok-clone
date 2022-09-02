@@ -17,7 +17,7 @@ function AccountInfo({
   account,
   className,
   children,
-  delay = 500,
+  delay = [],
   post = false,
   offset = [-10, -48],
   placement = 'bottom-start',
@@ -52,6 +52,7 @@ function AccountInfo({
     if (length <= 3) {
       suffix = '';
       index = 0;
+      return count;
     }
     if (length > 3 && length <= 6) {
       suffix = 'K';
@@ -73,7 +74,7 @@ function AccountInfo({
         interactive
         // visible
         appendTo={appendTo}
-        delay={[delay, 0]}
+        delay={delay}
         offset={offset}
         onShow={() => setShowPopper('show-popper')}
         onHide={() => setShowPopper('')}
