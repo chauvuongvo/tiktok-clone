@@ -8,6 +8,7 @@ import SectionWrapper from '~/layouts/components/Sidebar/SectionWrapper';
 import * as services from '~/services';
 
 const cx = classNames.bind(styles);
+const PER_PAGE = 15;
 
 function SuggestedAccounts({
   data: accountList,
@@ -21,19 +22,23 @@ function SuggestedAccounts({
   );
   const [seeAllBtn, setSeeAllBtn] = useState(true);
   const [renderList, setRenderList] = useState([]);
-  const [pages, setPages] = useState({ page: 1, perPage: 5 });
+  const [pages, setPages] = useState({ page: 1, perPage: PER_PAGE });
 
   const suggestRef = useRef();
 
   useEffect(() => {
-    if (pages.page > 5) {
-      return;
-    }
     const fetchApi = async () => {
       const result = await services.suggestAccounts(pages.page, pages.perPage);
       if (renderList.length > 0) setSeeAllBtn(false);
-      setRenderList((prev) => [...prev, ...result]);
-      suggestRef.accountList = [...renderList, ...result];
+      if (renderList.length === 0) {
+        setRenderList(result.slice(0, 5));
+        suggestRef.accountList = [...result];
+        console.log(suggestRef.accountList);
+      } else {
+        setRenderList([...suggestRef.accountList, ...result]);
+        suggestRef.accountList = [...suggestRef.accountList, ...result];
+        console.log(suggestRef.accountList);
+      }
     };
 
     fetchApi();
@@ -54,8 +59,8 @@ function SuggestedAccounts({
   }, []);
 
   const handleLoadAccount = () => {
-    if (suggestRef.accountList.length === 5 && seeAllBtn) {
-      setPages({ page: 2, perPage: 20 });
+    if (suggestRef.accountList.length === PER_PAGE && seeAllBtn) {
+      setPages({ page: 2, perPage: PER_PAGE });
       return;
     }
 
@@ -64,7 +69,7 @@ function SuggestedAccounts({
       setRenderList((prev) => prev.slice(0, 5));
     }
 
-    if (suggestRef.accountList.length > 5 && seeAllBtn) {
+    if (suggestRef.accountList.length > PER_PAGE && seeAllBtn) {
       setRenderList([...suggestRef.accountList]);
       setSeeAllBtn(false);
     }
