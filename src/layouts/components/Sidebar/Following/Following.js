@@ -5,66 +5,58 @@ import AccountItem from '~/components/AccountItem';
 import SectionWrapper from '~/layouts/components/Sidebar/SectionWrapper';
 import styles from './Following.module.scss';
 import { useEffect, useRef, useState } from 'react';
+import * as services from '~/services';
 const cx = classNames.bind(styles);
 
 function Following({ data: followingList, isSidebar = false, className }) {
-  // const followingList = data.slice(0, 3);
-  const length = followingList.length;
-  const [hasList, setHasList] = useState(true);
-  const [listCount, setListCount] = useState(0);
   const [renderList, setRenderList] = useState([]);
+  const [endList, setEndList] = useState(false);
+  const [page, setPage] = useState(1);
 
   const followingRef = useRef();
-  useEffect(() => {
-    // Get full list following from data
-    const followingFullList = followingList.reduce(
-      (result, current) => [...result, ...current.list],
-      [],
-    );
-    followingRef.renderFullList = [...followingFullList];
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const handleSeeMore = () => {
-    // Fake load API
-    if (listCount < length - 1) {
-      setTimeout(() => {
-        setListCount(listCount + 1);
-        if (listCount === length - 2) {
-          setHasList(false);
-        }
-      }, 500);
-    }
-
-    if (listCount === length - 1) {
-      // Handle when loaded full following list but it is hiding
-      // want to show full list following
-      setRenderList([...followingRef.renderFullList]);
-      setHasList(false);
-    }
-  };
-
-  const handleSeeLess = () => {
-    setRenderList([...followingList[0].list]);
-    setHasList(true);
-  };
 
   useEffect(() => {
-    setRenderList([...renderList, ...followingList[listCount].list]);
+    const fetchApi = async () => {
+      const { data, meta } = await services.followingAccounts(page);
+
+      if (page === meta.pagination.total_pages) {
+        followingRef.renderFullList = [...renderList, ...data];
+        followingRef.totalPages = meta.pagination.total_pages;
+        setEndList(true);
+      }
+      setRenderList((prev) => [...prev, ...data]);
+    };
+
+    fetchApi();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [listCount]);
+  }, [page]);
+
+  const handleChangeRenderList = () => {
+    if (page === followingRef.totalPages) {
+      if (endList) {
+        setEndList(false);
+        setRenderList(followingRef.renderFullList.slice(0, 5));
+        return;
+      }
+      setEndList(true);
+      setRenderList(followingRef.renderFullList);
+      return;
+    }
+
+    setPage(page + 1);
+  };
 
   const render = () => {
     return renderList.map((item, index) => {
       const account = {};
-      account.link = item.user.uniqueId;
-      account.uniqueId = item.user.uniqueId;
-      account.avatar = item.user.avatarThumb;
-      account.isVerified = item.user.verified;
-      account.fullName = item.user.nickname;
-      account.follower = +item.stats.followerCount;
-      account.liker = +item.stats.heart;
-      account.isFollowing = true;
+      account.link = `/@${item.nickname}`;
+      account.uniqueId = item.nickname;
+      account.avatar = item.avatar;
+      account.isVerified = item.tick;
+      account.fullName = `${item.first_name} ${item.last_name}`;
+      account.follower = item.followers_count;
+      account.liker = item.likes_count;
+      account.isFollowing = item.is_followed;
 
       return (
         <AccountItem
@@ -88,21 +80,13 @@ function Following({ data: followingList, isSidebar = false, className }) {
       <p className={cx('title', 'response-hidden')}>Following Accounts</p>
 
       {render()}
-      {hasList ? (
-        <div
-          className={cx('see-btn', 'response-hidden')}
-          onClick={handleSeeMore}
-        >
-          See more
-        </div>
-      ) : (
-        <div
-          className={cx('see-btn', 'response-hidden')}
-          onClick={handleSeeLess}
-        >
-          See less
-        </div>
-      )}
+
+      <div
+        className={cx('see-btn', 'response-hidden')}
+        onClick={handleChangeRenderList}
+      >
+        {endList ? 'See less' : 'See more'}
+      </div>
     </SectionWrapper>
   );
 }

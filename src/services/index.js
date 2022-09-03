@@ -1,5 +1,7 @@
 import search from './search';
 import profile from './profile';
 import suggestAccounts from './suggestAccounts';
+import followingAccounts from './followingAccounts';
+import authLogin from './authLogin';
 
-export { search, profile, suggestAccounts };
+export { search, profile, suggestAccounts, followingAccounts, authLogin };

@@ -10,20 +10,17 @@ import Email from '../Email';
 import PhonePassword from '../PhonePassword';
 import ResetWithPhone from '../ResetWithPhone';
 import ResetWithEmail from '../ResetWithEmail';
+import * as services from '~/services';
 
 export const ContextDefaultLogin = createContext();
 
 const cx = classNames.bind(styles);
-const emailUser = 'chauvuong223068@gmail.com';
-const passwordUser = 'chauvuongvo';
-const mobile = '0389803622';
 
 function DefaultLogin({ type }) {
   const [header, setHeader] = useState('Log in');
   const [disabledSendCode, setDisabledSendCode] = useState(true);
   const [disabledLogin, setDisabledLogin] = useState(true);
   const [layout, setLayout] = useState(type);
-  const [codeConfirm, setCodeConfirm] = useState('123456');
   const [errorLoginPassword, setErrorLoginPassword] = useState(false);
   const [errorLoginEmail, setErrorLoginEmail] = useState(false);
   const [errorLoginPhone, setErrorLoginPhone] = useState(false);
@@ -55,7 +52,6 @@ function DefaultLogin({ type }) {
 
   function getRandomCode() {
     const code = Math.floor(Math.random() * 900000 + 100000) + '';
-    setCodeConfirm(code);
     return code;
   }
 
@@ -113,62 +109,28 @@ function DefaultLogin({ type }) {
     useContext(ContextApp);
   const { setShowModalLogin } = useContext(ContextDefaultLayout);
 
-  const loginUser = (e) => {
+  const loginUser = async (e) => {
     e.preventDefault();
-
-    const isValid = validator();
-
-    if (isValid) {
-      setCurrentUser(true);
-      setShowModalLogin(false);
-      setLocalStorage(keyLoginStorage, { status: true });
-      return;
-    }
-  };
-
-  function validator() {
     const form = formRef.current;
     const formData = new FormData(form);
 
-    for (let [key, value] of formData) {
-      switch (key) {
-        case 'email':
-        case 'username': {
-          if (value !== emailUser) {
-            setErrorLoginEmail(true);
-            return false;
-          }
-          break;
-        }
+    const info = {
+      email: formData.get('username'),
+      password: formData.get('password'),
+    };
+    const response = await services.authLogin(info, authError);
 
-        case 'password': {
-          if (value !== passwordUser) {
-            setErrorLoginPassword(true);
-            return false;
-          }
-          break;
-        }
-
-        case 'code': {
-          if (value !== codeConfirm) {
-            setErrorLoginCode(true);
-            return false;
-          }
-          break;
-        }
-
-        case 'mobile':
-        default: {
-          if (value !== mobile) {
-            setErrorLoginPhone(true);
-            return false;
-          }
-        }
-      }
+    if (response.data) {
+      setCurrentUser(true);
+      setShowModalLogin(false);
+      setLocalStorage(keyLoginStorage, { status: true, ...response });
     }
 
-    return true;
-  }
+    function authError() {
+      setErrorLoginEmail(true);
+      setErrorLoginPassword(true);
+    }
+  };
 
   return (
     <ContextDefaultLogin.Provider value={contextTrans}>

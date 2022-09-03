@@ -33,11 +33,9 @@ function SuggestedAccounts({
       if (renderList.length === 0) {
         setRenderList(result.slice(0, 5));
         suggestRef.accountList = [...result];
-        console.log(suggestRef.accountList);
       } else {
         setRenderList([...suggestRef.accountList, ...result]);
         suggestRef.accountList = [...suggestRef.accountList, ...result];
-        console.log(suggestRef.accountList);
       }
     };
 
