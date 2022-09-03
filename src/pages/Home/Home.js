@@ -1,65 +1,59 @@
 import classNames from 'classnames/bind';
 import styles from './Home.module.scss';
-import videos from '~/assets/data/videos';
 import Posts from '~/components/Posts';
-import accounts from '~/assets/data/accounts';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { LoadDataIcon } from '~/components/Icons';
+import * as services from '~/services';
+import { useElementOnScreen } from '~/hooks';
 
 const cx = classNames.bind(styles);
 
 function Home() {
-  const [postList, setPostList] = useState(getPostList(5));
-  const [atBottom, setBottom] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [postList, setPostList] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(1);
 
-  function getPostList(count) {
-    const result = [];
+  const observeRef = useRef();
 
-    for (let i = 0; i < count; i++) {
-      const userId = videos.getRandomUser();
-      const videoRandom = videos.getRandomVideo(userId.userId);
-      const info = accounts.fullAccountList.getAccount(userId.userId);
-      result.push({ ...videoRandom, info });
-    }
-    return result;
+  async function getData(pageSearch) {
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    const result = await services.postVideos('for-you', pageSearch);
+    setPostList((prev) => [...prev, ...result]);
+    setLoading(false);
   }
 
+  async function getMoreData() {
+    setLoading(true);
+    await getData(page + 1);
+    setPage(page + 1);
+  }
+
+  const isVisible = useElementOnScreen({ threshold: 1 }, observeRef);
+
   useEffect(() => {
-    const handleScrollAtBottomPage = () => {
-      const totalPageHeight = document.body.scrollHeight;
-      const scrollPoint = window.scrollY + window.innerHeight;
-
-      if (scrollPoint >= totalPageHeight) {
-        setBottom(true);
-      }
-    };
-    window.addEventListener('scroll', handleScrollAtBottomPage);
-
-    return () => window.removeEventListener('scroll', handleScrollAtBottomPage);
+    getData(page);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    if (atBottom) {
-      setLoading(true);
+    if (!isVisible) return;
+    getMoreData();
 
-      const timerId = setTimeout(() => {
-        setPostList((prev) => [...prev, ...getPostList(5)]);
-        setLoading(false);
-        setBottom(false);
-      }, 1500);
-
-      return () => clearTimeout(timerId);
-    }
-  }, [atBottom]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isVisible]);
 
   return (
     <div className={cx('wrapper')}>
-      {postList.map((user, index) => (
-        <Posts data={user} key={index} />
+      {postList.map((account, index) => (
+        <Posts data={account} key={index} />
       ))}
 
       {loading && <LoadDataIcon />}
+
+      {/* Infinitive Scroll with IntersectionObserver
+          Mounted when postList were rended (postList have item)
+      */}
+      {!loading && postList.length > 0 && <div ref={observeRef}></div>}
     </div>
   );
 }

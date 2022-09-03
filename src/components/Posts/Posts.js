@@ -12,48 +12,37 @@ import Action from './Action';
 
 const cx = classNames.bind(styles);
 
-function Posts({ data: { video, info, userId, id }, className }) {
+function Posts({ data: { user, meta, ...data }, className }) {
   // console.log(info);
-  const postedDay = video.createdDate;
-  const comment = video.title;
-  // const comment =
-  //   'Chị không có#Kotex giới hạn @hoaa đâu, chị là chị ngầu 🤙🏼 #MauLenNao#Kotex #tlinh #Kotex#Kotex';
-  const likeCount = video.likeCount;
-  const commentCount = video.comment.total;
-  const shareCount = video.shareCount;
-  const account = {};
-  if (info.user) {
-    account.uniqueId = info.user.uniqueId;
-    account.avatar = info.user.avatarThumb;
-    account.link = info.user.uniqueId;
-    account.isVerified = info.user.verified;
-    account.fullName = info.user.nickname;
-    account.follower = info.stats.followerCount;
-    account.signature = info.user.signature;
-    account.liker = info.stats.heartCount;
-    account.isFollowing = true;
-  } else {
-    account.link = info.link;
-    account.uniqueId = info.subTitle.slice(1);
-    account.avatar = info.cover;
-    account.isVerified = info.extraInfo.verified;
-    account.fullName = info.title;
-    account.follower = +info.extraInfo.fans;
-    account.liker = +info.extraInfo.likes;
-    account.signature = info.description;
-    account.isFollowing = false;
-  }
+  // const postedDay = video.createdDate;
+  // const comment = video.title;
+  // const likeCount = video.likeCount;
+  // const commentCount = video.comment.total;
+  // const shareCount = video.shareCount;
+  // const account = {};
+  // if (info.user) {
+  //   account.uniqueId = info.user.uniqueId;
+  //   account.avatar = info.user.avatarThumb;
+  //   account.link = info.user.uniqueId;
+  //   account.isVerified = info.user.verified;
+  //   account.fullName = info.user.nickname;
+  //   account.follower = info.stats.followerCount;
+  //   account.signature = info.user.signature;
+  //   account.liker = info.stats.heartCount;
+  //   account.isFollowing = true;
+  // } else {
+  //   account.link = info.link;
+  //   account.uniqueId = info.subTitle.slice(1);
+  //   account.avatar = info.cover;
+  //   account.isVerified = info.extraInfo.verified;
+  //   account.fullName = info.title;
+  //   account.follower = +info.extraInfo.fans;
+  //   account.liker = +info.extraInfo.likes;
+  //   account.signature = info.description;
+  //   account.isFollowing = false;
+  // }
 
   const postRef = useRef();
-
-  const musicName = (function () {
-    const str = video.html;
-
-    const musicHtml = str.match(/<a.+href.+\/music\/.+<\/a>/)[0];
-
-    const musicTitle = musicHtml.replaceAll(/<a.+">|<\/a>/gim, '');
-    return musicTitle.slice(1);
-  })();
 
   // Create a list title and tag for a post from title of video
   const postTitleList = (function () {
@@ -102,7 +91,7 @@ function Posts({ data: { video, info, userId, id }, className }) {
       return result.filter((item) => item !== '');
     };
 
-    const arrNotNearTag = handleNearTag(comment);
+    const arrNotNearTag = handleNearTag(data.description);
     let result = [];
 
     arrNotNearTag.forEach((item) => {
@@ -118,7 +107,7 @@ function Posts({ data: { video, info, userId, id }, className }) {
 
   const postDayRender = (function () {
     const timeZone = '+7:00';
-    const dateStrInput = postedDay + timeZone;
+    const dateStrInput = data.created_at + timeZone;
     const dateInput = new Date(dateStrInput);
 
     const getDiffDay = (createdDay, dateNow = new Date()) => {
@@ -180,7 +169,7 @@ function Posts({ data: { video, info, userId, id }, className }) {
   return (
     <div ref={postRef} className={cx('wrapper', className)}>
       <AccountInfo
-        account={account}
+        account={user}
         post
         className={cx('avatar')}
         placement="bottom-start"
@@ -188,10 +177,10 @@ function Posts({ data: { video, info, userId, id }, className }) {
         offset={[-28, -50]}
         appendTo={() => postRef.current}
       >
-        <Link to={`/@${info.uniqueId}`} className={cx('avatar-link')}>
+        <Link to={`/@${user.nickname}`} className={cx('avatar-link')}>
           <Image
-            src={account.avatar}
-            alt={account.uniqueId}
+            src={user.avatar}
+            alt={user.nickname}
             className={cx('image')}
           />
         </Link>
@@ -200,23 +189,22 @@ function Posts({ data: { video, info, userId, id }, className }) {
       <div className={cx('content')}>
         <Info
           data={{
-            account,
+            user,
             postDayRender,
             postTitleList,
-            comment,
-            musicName,
+            musicName: data.music,
             postRef,
           }}
         />
 
         <div className={cx('video-wrapper')}>
-          <Video data={video} />
+          <Video data={data} meta={meta} />
 
           <Action
             data={{
-              likeCount: handleCountStats(likeCount),
-              commentCount: handleCountStats(commentCount),
-              shareCount: handleCountStats(shareCount),
+              likeCount: handleCountStats(data.likes_count),
+              commentCount: handleCountStats(data.comments_count),
+              shareCount: handleCountStats(data.shares_count),
             }}
           />
         </div>

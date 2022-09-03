@@ -10,7 +10,7 @@ import { FlagIcon, MuteIcon, PauseIcon, PlayIcon, SoundIcon } from '../Icons';
 
 const cx = classNames.bind(styles);
 
-function Video({ data, className }) {
+function Video({ data, meta, className }) {
   const { mutedVideo } = useContext(ContextDefaultLayout);
   const [play, setPlay] = useState(true);
   const [canvasSize, setCanvasSize] = useState({
@@ -23,7 +23,7 @@ function Video({ data, className }) {
   const feedVideoRef = useRef();
   const soundRef = useRef();
 
-  const videoSrc = data.src;
+  const videoSrc = data.file_url;
   const refs = { VIDEO: videoRef.current, SOUND: soundRef.current };
 
   const handlePlay = () => {
@@ -33,19 +33,16 @@ function Video({ data, className }) {
   };
 
   useEffect(() => {
-    setTimeout(() => {
-      const width = videoRef.current.videoWidth;
-      const height = videoRef.current.videoHeight;
+    const width = meta.video.resolution_x;
+    const height = meta.video.resolution_y;
 
-      if (width !== 0 && height !== 0) {
-        if (width > height) {
-          feedVideoRef.current.classList.add(cx('horizontal'));
-          videoRef.current.classList.add(cx('horizontal'));
-        }
+    if (width > height) {
+      feedVideoRef.current.classList.add(cx('horizontal'));
+      videoRef.current.classList.add(cx('horizontal'));
+    }
 
-        setCanvasSize({ width: `${(width * 100) / height}%`, height: '100%' });
-      }
-    }, 1000);
+    setCanvasSize({ width: `${(width * 100) / height}%`, height: '100%' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Handle play video when scroll video on viewport 60%
@@ -84,7 +81,7 @@ function Video({ data, className }) {
             ref={videoRef}
             className={cx('video-basic')}
             src={videoSrc}
-            type="video/mp4"
+            type={meta.mime_type}
             playsInline
             loop
             muted={mutedVideo}
@@ -121,6 +118,7 @@ function Video({ data, className }) {
 
 Video.propTypes = {
   data: PropTypes.object.isRequired,
+  meta: PropTypes.object.isRequired,
   className: PropTypes.string,
 };
 

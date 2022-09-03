@@ -14,10 +14,10 @@ import config from '~/config';
 const cx = classNames.bind(styles);
 
 function Info({
-  data: { account, postDayRender, postTitleList, musicName, postRef },
+  data: { user, postDayRender, postTitleList, musicName, postRef },
   className,
 }) {
-  const [follow, setFollow] = useState(account.isFollowing);
+  const [follow, setFollow] = useState(user.is_followed);
   const isHomePage = window.location.pathname === config.routes.home;
 
   const renderTitle = () => {
@@ -46,26 +46,28 @@ function Info({
   return (
     <div className={cx('info-container', className)}>
       <AccountInfo
-        account={account}
+        account={user}
         appendTo={() => postRef.current}
         post
         offset={[-95, -24]}
         placement="bottom-start"
       >
-        <Link to={`/@${account.uniqueId}`} className={cx('author')}>
+        <Link to={`/@${user.nickname}`} className={cx('author')}>
           <div className={cx('image-responsive')}>
             <Image
-              src={account.avatar}
-              alt={account.uniqueId}
+              src={user.avatar}
+              alt={user.nickname}
               className={cx('image')}
             />
           </div>
           <div className={cx('info-responsive')}>
             <h3 className={cx('author-uniqueId')}>
-              {account.uniqueId}
-              {account.isVerified && <TickIcon className={cx('tick-icon')} />}
+              {user.nickname}
+              {user.tick && <TickIcon className={cx('tick-icon')} />}
             </h3>
-            <h4 className={cx('author-nickname')}>{account.fullName}</h4>
+            <h4
+              className={cx('author-nickname')}
+            >{`${user.first_name} ${user.last_name}`}</h4>
             {!isHomePage && (
               <>
                 <span className={cx('dot')}> . </span>
@@ -89,7 +91,7 @@ function Info({
 
       <h4 className={cx('video-music')}>
         <Tags music className={cx('tag-music')}>
-          {musicName}
+          {musicName || 'No sound'}
         </Tags>
       </h4>
     </div>
