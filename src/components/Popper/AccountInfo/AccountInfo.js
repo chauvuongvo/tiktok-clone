@@ -87,14 +87,17 @@ function AccountInfo({
           >
             <PopperWrapper className={cx('wrapper')}>
               <div className={cx('header')}>
-                <Link className={cx('avatar-link')} to={`/@${account.link}`}>
+                <Link
+                  className={cx('avatar-link')}
+                  to={`/@${account.nickname}`}
+                >
                   <Image
                     src={account.avatar}
-                    alt={account.uniqueId}
+                    alt={account.nickname}
                     className={cx('avatar')}
                   />
                 </Link>
-                {account.isFollowing ? (
+                {account.is_followed ? (
                   <Button className={cx('btn')}>Following</Button>
                 ) : (
                   <Button primary className={cx('btn')}>
@@ -103,9 +106,9 @@ function AccountInfo({
                 )}
               </div>
 
-              <Link className={cx('title')} to={`/@${account.link}`}>
+              <Link className={cx('title')} to={`/@${account.nickname}`}>
                 <span className={cx('nickname')}>{account.uniqueId}</span>
-                {account.isVerified && (
+                {account.is_followed && (
                   <FontAwesomeIcon
                     icon={faCheckCircle}
                     className={cx('icon-check')}
@@ -113,25 +116,23 @@ function AccountInfo({
                 )}
               </Link>
               <div>
-                <Link className={cx('full-name')} to={`/@${account.link}`}>
-                  {account.fullName}
+                <Link className={cx('full-name')} to={`/@${account.nickname}`}>
+                  {`${account.first_name} ${account.last_name}`}
                 </Link>
               </div>
 
               <div className={cx('status')}>
                 <span className={cx('follower-count')}>
-                  {handleCountStats(account.follower)}
+                  {handleCountStats(account.followers_count)}
                 </span>
                 <span className={cx('follower')}>Followers</span>
                 <span className={cx('like-count')}>
-                  {handleCountStats(account.liker)}
+                  {handleCountStats(account.likes_count)}
                 </span>
                 <span className={cx('like')}>Likes</span>
               </div>
 
-              {post && (
-                <div className={cx('signature')}>{account.signature}</div>
-              )}
+              {post && <div className={cx('signature')}>{account.bio}</div>}
             </PopperWrapper>
           </div>
         )}
